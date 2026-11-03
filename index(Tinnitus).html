@@ -526,33 +526,34 @@ ul,ol{ margin:0; }
 }
 
 /* ==========================================================================
-   11. SECTION 6 — FAQ
+   11. SECTION 6 — FOCUSED VISIT QUESTIONS
    ========================================================================== */
-.faq__grid{ display:grid; gap:32px; }
+#faqs.section{ padding-block:56px; }
+#faqs .faq__grid{ display:grid; gap:28px; }
+#faqs .faq__intro h2{ font-weight:500; }
+#faqs .faq__intro p{ color:var(--navy); font-size:1rem; line-height:1.6; margin-top:16px; }
+#faqs .faq__intro a{ text-underline-offset:4px; }
+#faqs .faq__list{ border-top:1px solid #d8c4b6; }
+#faqs .faq__item{ border-bottom:1px solid #d8c4b6; }
+#faqs .faq__h{ font-family:var(--sans); font-size:inherit; margin:0; }
+#faqs .faq__q{ width:100%; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; background:none; border:0; cursor:pointer; font:600 1.0625rem/1.5 var(--sans); color:var(--navy); text-align:left; }
+#faqs .faq__q:hover{ color:var(--brown); }
+#faqs .faq__icon{ flex:none; display:grid; place-items:center; width:32px; height:32px; border-radius:50%; background:var(--brown); color:#fff; }
+#faqs .faq__icon svg{ width:20px; height:20px; }
+#faqs .faq__q[aria-expanded="true"] .faq__toggle-v{ display:none; }
+#faqs .faq__a{ padding:20px 22px; margin:0 0 18px; border-radius:6px; background:var(--cream); color:var(--navy); font-size:1rem; line-height:1.65; }
+#faqs .faq__a p{ margin:0; }
 @media (min-width:1024px){
-  .faq__grid{ grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr); gap:72px; align-items:start; }
-  .faq__intro{ position:sticky; top:calc(var(--header-h) + 32px); }
+ #faqs .faq__grid{ grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr); gap:64px; align-items:start; }
+ #faqs .faq__intro{ position:sticky; top:calc(var(--header-h) + 28px); }
 }
-.faq__intro p{ color:var(--muted); margin-top:16px; }
-.faq__list{ border-top:1px solid var(--line-strong); }
-.faq__item{ border-bottom:1px solid var(--line); }
-.faq__h{ font-family:var(--sans); font-size:inherit; margin:0; }
-.faq__q{
-  width:100%; display:flex; justify-content:space-between; align-items:center; gap:20px;
-  padding:22px 0; background:none; border:0; cursor:pointer;
-  font-family:var(--sans); font-size:1.0625rem; font-weight:600; line-height:1.45;
-  color:var(--navy); text-align:left;
+@media (max-width:599px){
+ #faqs.section{ padding-block:40px; }
+ #faqs .faq__intro h2{ font-size:1.75rem; line-height:1.25; }
+ #faqs .faq__intro p{ margin-top:12px; }
+ #faqs .faq__q{ font-size:1rem; gap:16px; padding:18px 0; }
+ #faqs .faq__a{ padding:18px; margin-bottom:16px; }
 }
-.faq__q:hover{ color:var(--blue); }
-.faq__q .faq__icon{
-  flex:none; width:32px; height:32px; border-radius:50%;
-  border:1.5px solid var(--line-strong);
-  display:grid; place-items:center; color:var(--blue);
-  transition:transform .2s ease;
-}
-.faq__q[aria-expanded="true"] .faq__icon{ transform:rotate(45deg); }
-.faq__a{ padding:0 48px 24px 0; color:var(--muted); font-size:1.0625rem; }
-@media (max-width:599px){ .faq__a{ padding-right:0; } }
 
 /* ==========================================================================
    12. SECTION 7 — LOCATION & FINAL CONTACT
@@ -1137,60 +1138,39 @@ body.dialog-open{ overflow:hidden; }
 <section class="section" id="faqs" aria-labelledby="faq-title">
   <div class="container faq__grid">
     <div class="faq__intro">
-      <h2 id="faq-title">Questions about tinnitus and your visit</h2>
-      <p>Straight answers to common questions before you call. Don’t see yours? The Victoria team can help.</p>
+      <h2 id="faq-title">Questions before your visit</h2>
+      <p>Answers to common questions about tinnitus and hearing care. For anything else, call our Victoria team.</p>
       <p><a href="tel:+14092316980"><strong>Call 409-231-6980</strong></a></p>
     </div>
-
     <div class="faq__list">
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">What is tinnitus?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">Can hearing aids help with tinnitus without hearing loss?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
         <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1">
-          <p>Tinnitus is ringing, buzzing, whooshing, hissing or clicking in the ears that isn’t caused by an outside sound. Usually only the person experiencing it can hear it. It can be constant or come and go, and for some people it makes sleep harder.</p>
+          <p>Some hearing aids have tinnitus-masking features that may make unwanted sounds less noticeable, even without hearing loss. Results vary, and suitability needs individual assessment. Ask the Victoria office which options are available.</p>
         </div>
       </div>
-
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">Can hearing aids help with tinnitus if I don’t have hearing loss?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">What can a hearing evaluation tell me?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
         <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
-          <!-- VERIFY: Victoria availability of masking devices -->
-          <p>They may. Some hearing aids can be equipped with tinnitus-masking features that help cover the unwanted noise, and these features may offer relief even when no hearing loss is present. Results vary, and whether a device is a good fit for you depends on your evaluation. Ask the Victoria office which options are available.</p>
+          <p>It checks which sounds you hear and how well you understand speech. Your results, shown on an audiogram, help guide a discussion about whether hearing aids may help. It does not diagnose medical causes of tinnitus.</p>
         </div>
       </div>
-
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">Can tinnitus be temporary?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">Can tinnitus be temporary?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
         <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>
-          <p>Sometimes. Tinnitus can come from one or more causes, and some, such as earwax buildup or an ear infection, may be resolved once the cause is addressed. Other cases are longer lasting. Because the approach depends on the cause, understanding what’s behind your tinnitus comes first.</p>
+          <p>Sometimes. Some cases are temporary; others last longer. The approach depends on the cause, which may include hearing loss, earwax buildup or an ear infection. Discuss medical concerns with your physician.</p>
         </div>
       </div>
-
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">What happens during a hearing evaluation?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">Can I bring a family member?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
         <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden>
-          <p>A Hearing Instrument Specialist performs a variety of tests to understand your hearing and the level at which you can detect and understand speech. Results are plotted on an audiogram. A standard evaluation typically lasts up to an hour, plus time to review your results and ask questions. If hearing aids are recommended, you’ll discuss styles and features together.</p>
+          <p>Yes. Bringing a family member is recommended. A familiar voice and a second set of ears can help when discussing results and options.</p>
         </div>
       </div>
-
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">Who will I see at the Victoria office?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">Is a hearing evaluation the same as seeing a doctor?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
         <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden>
-          <p>Nick Yendrey, M.B.A., is the Hearing Instrument Specialist at our Victoria office. Hearing Instrument Specialists are trained to conduct hearing tests that determine whether hearing aids may help, and to fit hearing aids and assistive listening devices and counsel patients on using them.</p>
-        </div>
-      </div>
-
-      <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">Can I bring someone with me?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
-        <div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>
-          <p>Yes. Bringing a family member to your hearing evaluation is recommended. A familiar voice and a second set of ears can help when you’re discussing results and options.</p>
-        </div>
-      </div>
-
-      <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a7" id="faq-q7">Is a hearing evaluation the same as seeing a doctor?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button></h3>
-        <div class="faq__a" id="faq-a7" role="region" aria-labelledby="faq-q7" hidden>
-          <!-- VERIFY: referral pathway; if Brown refers to ENT/physicians, describe it here -->
-          <p>No. A hearing evaluation focuses on your hearing and on whether hearing devices may help. It isn’t a medical diagnosis. Some causes of tinnitus, such as ear infections, medications, Meniere’s disease or vascular disorders, call for medical care, so talk with your physician if you think your tinnitus may have a medical cause.</p>
+          <p>No. It focuses on your hearing and whether hearing devices may help; it is not a medical diagnosis. Some causes of tinnitus need medical care. Speak with your physician about medical concerns.</p>
         </div>
       </div>
     </div>
