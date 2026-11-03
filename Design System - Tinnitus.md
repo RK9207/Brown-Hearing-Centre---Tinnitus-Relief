@@ -239,3 +239,8 @@ Only the Hero image source URL changes. The 25% larger header logo, straightforw
 ## Step 5 — User-supplied supporting color #784727
 
 The user explicitly added **#784727** as another supporting color. Implemented as `--brown:#784727`, with restrained use on the Hero location line and founding/licensing-strip icons. Brand blue remains the primary action color and navy remains the header/heading color. Brown provides approximately **7.69:1 on white** and **7.09:1 on warm cream #fdf4ed**. No imagery, layout, copy, phone or integration changes accompany this palette addition. This supersedes the original statement that no further supporting color was needed; it does not lock the Hero or authorize redesigning later sections.
+
+
+## Step 5 — Solid-color trust-bar icons
+
+At the user's explicit request, both trust-strip icons now use solid **#784727** silhouettes instead of outline-only strokes: a filled home and a filled award badge with a white check for internal contrast. Changes are scoped to the two inline SVGs inside `.brand-hero__proof`; shared icon symbols, other icons, wording, layout and integrations are unchanged. This implements the requested filled appearance without changing supporting-color values or making a new clinical claim. Hero/header remains awaiting result approval, not locked.
