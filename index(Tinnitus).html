@@ -962,6 +962,21 @@ body.dialog-open{ overflow:hidden; }
  .site-header .header-actions .header-mobile-only{ width:132px; min-height:44px; padding:8px; font-size:.8125rem; white-space:normal; }
 }
 
+
+/* User-approved brown outlines on light content boxes across the page.
+   This changes decorative borders only; action controls retain their colors. */
+:root{ --box-border:var(--brown); }
+#help .care-evaluation,
+#faqs .faq__a,
+#victoria-map-block .map-card,
+.dialog{ border:1px solid var(--box-border); }
+#next-steps .step,
+#reviews .review-card,
+#victoria-map-block{ border-color:var(--box-border); }
+@media (min-width:600px){
+ .brand-hero__panel{ border:1px solid var(--box-border); }
+}
+
 </style>
 <link
   href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css"
