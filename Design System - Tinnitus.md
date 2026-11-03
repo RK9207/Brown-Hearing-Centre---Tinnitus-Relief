@@ -294,3 +294,8 @@ Footer uses the brand navy #051c3b background with solid white identity, address
 ## Approved reusable brown box-border rule (2026-11-04)
 
 Use a thin1px border in brand brown #784727 (token --box-border:var(--brown)) to define light content boxes where appropriate: evaluation panel, visit/review cards, expanded FAQ answers, map/address card and appointment dialog. The contained desktop/tablet Hero panel may use the same outline; omit it from the full-width mobile Hero. Preserve blue/white action-button borders, solid navy section treatments and unframed photography. Do not wrap transparent inline rating summaries simply to add a border. This decorative rule is explicitly user-authorized across previously locked sections; copy, order, dimensions and integrations otherwise remain approved as before. No-grey-text-on-colored-backgrounds rule still applies.
+
+
+## Approved responsive audit refinements (2026-11-04)
+
+User approved targeted whole-page polish. Below900px, stack the provider introduction above the centered portrait and caption, then biography; retain the desktop photo-left/introduction-right layout at900px and up. Keep the name beneath the photo and the smaller mobile/tablet caption hierarchy. At600–1023px use a two-by-two visit-card grid with aligned heading rows and connectors only between adjacent cards in each row; below600px retain the vertical sequence, at1024px and up retain four columns. Preserve thin brown borders,12px portrait corners, navy text on cream, white text on navy, and footer logo-left/contact-center/links-right desktop alignment. Trim the duplicate early service CTA to improve scroll rhythm without removing unique clinical/preparation information. Responsive checks passed at320/390/600/768/900/1024/1440px.
