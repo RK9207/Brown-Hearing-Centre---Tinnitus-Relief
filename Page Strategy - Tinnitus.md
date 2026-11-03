@@ -358,3 +358,8 @@ Validation: rendered1440/1024/390/320px with no horizontal overflow and successf
 User requested a more compact section with better space use. Moved numbered badges beside step headings on desktop, reduced badge size to36px, panel padding/gaps and overall section spacing, and tightened the navy CTA band. Kept16px body text, all current copy, equal-height desktop panels, mobile stacking, connectors, dark navy text on cream and white text on navy. No locked section or contact route changed. Section4 remains pending result approval.
 
 Measured same local render widths: desktop1440 section854.06→688.66px (about19% shorter); mobile390 section1539.84→1403.84px (about9% shorter). Verified1440/1024/390/320px without horizontal overflow and with working appointment-dialog open/Escape dismissal. Desktop1440/mobile390 screenshots inspected. No publishing or merge.
+
+
+### Section 4 step-heading size (2026-11-03)
+
+At the user’s request, increased the four panel headings from18px to20px on desktop and mobile. Compact panel spacing and16px body copy remain. Section4 remains pending approval. Responsive overflow/dialog checks at1440/1024/390/320px passed; updated desktop rendering inspected.
