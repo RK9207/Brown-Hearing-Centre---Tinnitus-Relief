@@ -41,6 +41,7 @@
   --blue:#10639d;          /* Brand blue — primary actions, links, accents */
   --blue-dark:#0c4f7e;     /* Functional hover state of brand blue */
   --navy:#051c3b;          /* Brand navy — headings, body text */
+  --brown:#784727;         /* User-supplied supporting warm brown */
   --cream:#fdf4ed;         /* Warm cream — warm surfaces */
   --white:#ffffff;
   --muted:#3a4a5f;         /* Secondary text on white/cream (>7:1) */
@@ -625,7 +626,7 @@ body.dialog-open{ overflow:hidden; }
 .brand-hero__image{ display:block; width:100%; height:100%; object-fit:cover; object-position:50% 25%; }
 .brand-hero__inner{ display:flex; align-items:center; min-height:604px; padding-block:44px; }
 .brand-hero__panel{ width:min(100%,610px); padding:34px 36px 32px; background:var(--cream); border-radius:3px; }
-.brand-hero__place{ display:flex; align-items:center; gap:8px; margin:0 0 18px; color:var(--blue); font:600 .9375rem/1.5 var(--sans); }
+.brand-hero__place{ display:flex; align-items:center; gap:8px; margin:0 0 18px; color:var(--brown); font:600 .9375rem/1.5 var(--sans); }
 .brand-hero__place .icon{ width:18px; height:18px; }
 .brand-hero h1{ color:var(--navy); font-size:clamp(2.5rem,1.7rem + 2.05vw,3.25rem); font-weight:500; line-height:1.16; letter-spacing:-.018em; text-wrap:balance; max-width:17ch; }
 .brand-hero__lead{ margin:22px 0 0; color:var(--muted); font:400 1.125rem/1.65 var(--sans); max-width:49ch; }
@@ -643,7 +644,7 @@ body.dialog-open{ overflow:hidden; }
 .brand-hero__proof-inner{ display:flex; justify-content:space-between; flex-wrap:wrap; align-items:center; gap:16px 32px; padding-block:22px; }
 .brand-hero__proof p{ display:flex; align-items:center; gap:11px; margin:0; color:var(--muted); font-size:.9375rem; line-height:1.5; }
 .brand-hero__proof strong{ color:var(--navy); font-weight:600; }
-.brand-hero__proof .icon{ color:var(--blue); width:21px; height:21px; }
+.brand-hero__proof .icon{ color:var(--brown); width:21px; height:21px; }
 @media (min-width:1200px){ .site-header .nav{ display:block; } }
 @media (min-width:1024px) and (max-width:1199px){
  :root{ --header-h:128px; }
