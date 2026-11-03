@@ -259,3 +259,8 @@ At the user's explicit request, the header navigation gap is increased from **18
 ## Step 5 — Section 2 editorial implementation (2026-11-03)
 
 Section 2 uses scoped #help styles: a short left-aligned introduction, a cream evaluation panel beside a quieter white masking-feature explanation with a brown top rule, and compact support and medical-scope notes. Filled brown icon tiles use #784727 with white glyphs. Existing Lora headings, Open Sans body text, blue call action and navy appointment text remain. The two columns stack below 900px, with reduced panel padding and full-width call action on narrow screens. No new photograph or global component change was introduced. Rendered at 1440, 1024, 390 and 320px without horizontal overflow; desktop/mobile screenshots inspected. Hero, header and trust-strip design remain locked. Section 2 awaits result approval.
+
+
+### Section 2 width refinement (2026-11-03)
+
+At the user’s request, removed the section introduction wrapper’s 760px maximum width, the headline’s 680px maximum width, and the supporting introduction’s 720px maximum width. Both now use the full existing content container. Other section styles, copy, and the locked Hero/header are unchanged. Section 2 remains pending result approval.
