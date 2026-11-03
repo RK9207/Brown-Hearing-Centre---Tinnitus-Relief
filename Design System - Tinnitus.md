@@ -289,3 +289,8 @@ Explicit user instruction: “remember this rule okay, no grey text on colored b
 ## Approved footer color and responsive component (2026-11-04)
 
 Footer uses the brand navy #051c3b background with solid white identity, address, phone, legal and link text; cream is reserved for link hover. This follows the persistent no-grey-text-on-colored-backgrounds rule. Original white logo uses its native500:184 ratio at200px desktop/180px mobile. Desktop has three aligned groups; below900px use centered groups and wrapping horizontal links with44px tap targets. White focus outlines remain visible on navy. Copyright is separated by a subtle decorative rule and must remain clear of the existing mobile sticky Call bar. Footer content/link destinations and GHL copyright fields remain intact. This supersedes earlier unchanged-footer notes; result review is pending.
+
+
+## Approved reusable brown box-border rule (2026-11-04)
+
+Use a thin1px border in brand brown #784727 (token --box-border:var(--brown)) to define light content boxes where appropriate: evaluation panel, visit/review cards, expanded FAQ answers, map/address card and appointment dialog. The contained desktop/tablet Hero panel may use the same outline; omit it from the full-width mobile Hero. Preserve blue/white action-button borders, solid navy section treatments and unframed photography. Do not wrap transparent inline rating summaries simply to add a border. This decorative rule is explicitly user-authorized across previously locked sections; copy, order, dimensions and integrations otherwise remain approved as before. No-grey-text-on-colored-backgrounds rule still applies.
