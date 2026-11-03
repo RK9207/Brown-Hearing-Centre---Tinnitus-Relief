@@ -483,3 +483,8 @@ Checked1440/1024/390/320px: desktop heading aligns with biography and precedes i
 ### Footer desktop column spacing refinement (2026-11-04)
 
 User requested less space between footer columns. Replaced the expanding middle1fr desktop track with content-sized tracks and centered the three-column group; reduced column gap40→32px. Logo, contact details and privacy/site links now sit together rather than spreading across the full container. Mobile centered stacking, colors, link destinations, copyright fields and other sections are unchanged. Rechecked1440/1024/390/320px for overflow, white text, visible focus and copyright/sticky-call clearance; inspected updated desktop render. Footer remains pending approval.
+
+
+### Footer left/center/right alignment (2026-11-04)
+
+User clarified the desired desktop footer alignment: logo left, contact column centered, links right. Replaced the centered content-sized group with a balanced three-column grid using equal side tracks and a wider middle track,24px gaps, left-aligned logo, centered contact text and right-aligned links. Mobile remains centered and unchanged. This supersedes the previous centered-group desktop treatment. Responsive footer checks passed at1440/1024/390/320px; inspected desktop render. Footer remains pending result approval.
