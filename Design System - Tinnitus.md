@@ -269,3 +269,8 @@ At the user’s request, removed the section introduction wrapper’s 760px maxi
 ### Section 2 icon and heading alignment (2026-11-03)
 
 At the user’s request, the evaluation and masking-feature icons now sit beside their subsection headings in a flex row. Icons retain their 40px filled brown tiles; heading text wraps naturally beside them on narrow screens. Body text stays below each heading row. No other section changed; result approval remains pending.
+
+
+### Section 2 final copy and hierarchy refinements (2026-11-03)
+
+User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
