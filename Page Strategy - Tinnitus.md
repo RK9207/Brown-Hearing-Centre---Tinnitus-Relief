@@ -265,3 +265,8 @@ The user approved the retained headline, “How hearing care may help with tinni
 A short definition leads to a prominent cream hearing-evaluation panel and a quieter explanation of tinnitus-masking hearing-aid features. Compact follow-up and medical-scope notes replace the repetitive comparison rows and long causes list. Symptom pills are removed. Detailed causes may be considered during the later FAQ review; the FAQ code has not changed. Call remains primary and appointment request secondary. Victoria-specific masking-feature availability remains unconfirmed, so the copy asks visitors to confirm options with the office. No new image is required.
 
 Validation: the document renders at 1440, 1024, 390 and 320 pixels without horizontal overflow; the section’s appointment trigger opens the existing dialog and Escape closes it at each width. Desktop and mobile section screenshots were inspected. Changes are restricted to section 2 markup and its scoped CSS; all other markup and styles are preserved. Local rendering cannot verify externally blocked clinic imagery; no imagery was changed in this section. No production publishing or merge occurred.
+
+
+### Section 2 width refinement (2026-11-03)
+
+At the user’s request, removed the section introduction wrapper’s 760px maximum width, the headline’s 680px maximum width, and the supporting introduction’s 720px maximum width. Both now use the full existing content container. Other section styles, copy, and the locked Hero/header are unchanged. Section 2 remains pending result approval.
