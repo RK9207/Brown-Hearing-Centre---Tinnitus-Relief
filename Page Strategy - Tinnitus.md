@@ -226,3 +226,10 @@ The user explicitly requested removal of the bottom-right illustrative-image lab
 The desktop header uses aligned logo/navigation/contact zones, consistent link spacing and tap targets, a clear call action and quieter appointment request. Intermediate widths use a second navigation row; mobile retains logo and Book Appointment. Anchor offsets follow measured sticky-header height. Contact routes, form, later section content and Hero composition remain unchanged. Caption requirements in earlier notes are superseded by this explicit user instruction. Hero/header remains awaiting review, not locked.
 
 Validation for this header revision: browser checks at 320, 390, 768, 1024, 1100, 1200, 1280, 1440 and 1920 CSS pixels found no header overlap, out-of-viewport controls, broken in-page targets or JavaScript errors. Caption absence and retained image URL/alt were verified. Header appointment controls opened/closed the dialog. Reduced-motion anchor checks confirmed Location lands 16px below the measured header at 1440 and 1100 widths. Desktop/mobile header screenshots were inspected; remote image/logo appearance remains unverified locally.
+
+
+## Step 5 — Header logo enlarged by 25%
+
+At the user's explicit request, the header logo's responsive dimensions are increased by 25%: desktop 200×68 → 250×85; intermediate 180×60 → 225×75; tablet 160×52 → 200×65; narrow-screen slot width/height scaled from the prior clamp and 48px height to a 1.25× clamp and 60px height. The logo aspect ratio, source and footer remain unchanged. Header grid reserves the larger width; the mobile appointment button retains a 44px minimum tap height with a compact responsive treatment.
+
+Layout checks at 320, 390, 768, 1024, 1100, 1200, 1280, 1440 and 1920 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. Logo slot geometry was checked by exposing the styled image box because the remote asset remains blocked locally; the actual artwork is not claimed visually verified. No Hero, navigation-label, form or later-section change is made. Hero/header remains awaiting result approval, not locked.
