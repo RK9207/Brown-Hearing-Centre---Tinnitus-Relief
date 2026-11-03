@@ -193,3 +193,8 @@ At the user's explicit request, the Hero badge now reads **4.9/5 · 50+ Google r
 ## Step 5 — Current section 2 content (2026-11-03)
 
 User-approved headline: “How hearing care may help with tinnitus.” The rebuilt section explains tinnitus briefly, gives hearing evaluation the strongest emphasis, and describes masking features as a potential option with individual suitability and variable results. Visitors are asked to confirm options with Victoria; local availability is not claimed. Fitting, adjustments and follow-up are conditional on choosing hearing aids. A compact medical-scope note distinguishes a hearing evaluation from medical diagnosis. Call is primary; the secondary action requests an appointment. Repeated comparison labels, symptom pills and the long causes list were removed from this section only. No FAQ, Hero, contact route, claim or section order was changed. Section 2 awaits result approval.
+
+
+### Section 2 final copy and hierarchy refinements (2026-11-03)
+
+User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
