@@ -244,3 +244,8 @@ The user explicitly added **#784727** as another supporting color. Implemented a
 ## Step 5 — Solid-color trust-bar icons
 
 At the user's explicit request, both trust-strip icons now use solid **#784727** silhouettes instead of outline-only strokes: a filled home and a filled award badge with a white check for internal contrast. Changes are scoped to the two inline SVGs inside `.brand-hero__proof`; shared icon symbols, other icons, wording, layout and integrations are unchanged. This implements the requested filled appearance without changing supporting-color values or making a new clinical claim. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — Larger filled trust-bar icons
+
+At the user's request, the two solid warm-brown trust-strip icons are increased from **21×21px to 32×32px**. This changes only `.brand-hero__proof .icon` dimensions. Their filled SVG artwork, #784727 color, accompanying text and other page styles/content remain unchanged. The sizing rule applies on desktop and mobile; no other icons are enlarged. Hero/header remains awaiting result approval, not locked.
