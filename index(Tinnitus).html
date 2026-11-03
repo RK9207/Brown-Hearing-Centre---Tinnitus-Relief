@@ -364,48 +364,46 @@ ul,ol{ margin:0; }
 .brand-hero__panel,#help .care-evaluation,#provider{ --muted:var(--navy); }
 
 /* ==========================================================================
-   9. SECTION 4 — WHAT HAPPENS NEXT
+   9. SECTION 4 — WHAT TO EXPECT
    ========================================================================== */
-.steps{ list-style:none; padding:0; margin-top:44px; display:grid; }
-.step{ position:relative; padding:0 0 32px 64px; counter-increment:step; }
-.steps{ counter-reset:step; }
-.step::before{
-  content:counter(step);
-  position:absolute; left:0; top:0;
-  width:44px; height:44px; border-radius:50%;
-  background:var(--navy); color:#fff;
-  font-family:var(--serif); font-weight:600; font-size:1.25rem;
-  display:grid; place-items:center;
-}
-.step::after{
-  content:""; position:absolute;
-  left:21px; top:52px; bottom:8px; width:2px;
-  background:var(--line-strong);
-}
-.step:last-child{ padding-bottom:0; }
-.step:last-child::after{ display:none; }
-.step h3{ font-size:1.25rem; margin-bottom:8px; padding-top:8px; }
-.step p{ color:var(--muted); font-size:1.0625rem; }
+#next-steps.section{ padding-block:72px; }
+#next-steps .section-head{ max-width:none; }
+#next-steps .section-head h2{ font-weight:500; }
+#next-steps .section-head p{ margin-top:18px; }
+#next-steps .steps{ list-style:none; padding:0; margin-top:36px; display:grid; counter-reset:step; }
+#next-steps .step{ position:relative; padding:0 0 30px 62px; counter-increment:step; }
+#next-steps .step::before{ content:counter(step); position:absolute; left:0; top:0; width:42px; height:42px; border-radius:50%; background:var(--navy); color:#fff; font:500 1.25rem/1 var(--serif); display:grid; place-items:center; }
+#next-steps .step::after{ content:""; position:absolute; left:20px; top:50px; bottom:8px; width:2px; background:var(--line-strong); }
+#next-steps .step:last-child{ padding-bottom:0; }
+#next-steps .step:last-child::after{ display:none; }
+#next-steps .step h3{ font-size:1.25rem; font-weight:500; line-height:1.3; margin-bottom:10px; padding-top:7px; }
+#next-steps .step p{ color:var(--muted); font-size:1rem; line-height:1.6; }
+#next-steps .steps-footnote{ margin-top:28px; color:var(--muted); font-size:1rem; line-height:1.6; }
+#next-steps .cta-band{ --muted:var(--navy); margin-top:32px; background:var(--cream); border-radius:4px; padding:28px; display:grid; gap:20px; }
+#next-steps .cta-band h3{ font-size:1.35rem; font-weight:500; }
+#next-steps .cta-band p{ color:var(--navy); margin-top:8px; font-size:1rem; line-height:1.6; }
+#next-steps .cta-band .actions{ gap:12px 24px; align-items:center; }
+#next-steps .steps-request{ min-height:48px; padding:10px 0; border:0; background:none; color:var(--navy); text-decoration:underline; text-underline-offset:5px; font:600 1rem/1.5 var(--sans); cursor:pointer; }
+#next-steps .steps-request:hover{ color:var(--blue); }
 @media (min-width:1024px){
-  .steps{ grid-template-columns:repeat(4, minmax(0,1fr)); gap:36px; }
-  .step{ padding:68px 0 0; }
-  .step::after{ left:56px; right:-28px; top:21px; bottom:auto; width:auto; height:2px; }
-  .step h3{ padding-top:0; }
+ #next-steps .steps{ grid-template-columns:repeat(4,minmax(0,1fr)); gap:36px; }
+ #next-steps .step{ padding:64px 0 0; }
+ #next-steps .step::after{ left:54px; right:-26px; top:20px; bottom:auto; width:auto; height:2px; }
+ #next-steps .step h3{ padding-top:0; }
+ #next-steps .cta-band{ grid-template-columns:minmax(0,1fr) auto; align-items:center; padding:28px 32px; gap:28px; }
 }
-.steps-footnote{ margin-top:32px; color:var(--muted); font-size:1rem; }
-
-.cta-band{
-  margin-top:40px;
-  background:var(--cream);
-  border-radius:var(--radius-lg);
-  padding:28px 24px;
-  display:grid; gap:20px;
+@media (max-width:599px){
+ #next-steps.section{ padding-block:48px; }
+ #next-steps .section-head h2{ font-size:1.75rem; line-height:1.25; }
+ #next-steps .section-head p{ font-size:1rem; line-height:1.6; margin-top:16px; }
+ #next-steps .steps{ margin-top:28px; }
+ #next-steps .step{ padding-left:56px; }
+ #next-steps .step h3{ font-size:1.125rem; line-height:1.4; }
+ #next-steps .cta-band{ padding:24px; }
+ #next-steps .cta-band h3{ font-size:1.25rem; }
+ #next-steps .cta-band .actions{ display:grid; gap:4px; }
+ #next-steps .cta-band .actions>*{ width:100%; }
 }
-@media (min-width:900px){
-  .cta-band{ grid-template-columns:minmax(0,1fr) auto; align-items:center; padding:32px 40px; gap:32px; }
-}
-.cta-band h3{ font-size:1.35rem; }
-.cta-band p{ color:var(--muted); margin-top:6px; font-size:1rem; }
 
 /* ==========================================================================
    10. SECTION 5 — GOOGLE REVIEWS
@@ -974,43 +972,36 @@ body.dialog-open{ overflow:hidden; }
 <section class="section" id="next-steps" aria-labelledby="steps-title">
   <div class="container">
     <div class="section-head">
-      <h2 id="steps-title">What happens when you contact us</h2>
-      <p>Here’s how a first visit usually unfolds, so you know what to expect before you call.</p>
+      <h2 id="steps-title">What to expect when you visit</h2>
+      <p>From your first call to discussing your results, here’s how to get started.</p>
     </div>
-
     <ol class="steps">
       <li class="step">
-        <h3>Call or request an appointment</h3>
-        <p>Call 409-231-6980 or send an appointment request online. Let the team know you’re hearing ringing or other sounds in your ears.</p>
+        <h3>Contact the Victoria office</h3>
+        <p>Call or request an appointment online. Tell the team about the ringing, buzzing or other sounds you’re hearing.</p>
       </li>
       <li class="step">
-        <h3>Have your hearing evaluated</h3>
-        <p>Your Hearing Instrument Specialist runs a series of hearing tests. A standard hearing evaluation typically takes up to an hour, plus time to review results and answer your questions. Bringing a family member is recommended.</p>
+        <h3>Have your hearing checked</h3>
+        <p>Your Hearing Instrument Specialist checks your hearing. The evaluation typically takes up to an hour, plus time to discuss results and ask questions. Bringing a family member is recommended.</p>
       </li>
       <li class="step">
-        <!-- VERIFY: masking-feature devices offered at Victoria -->
-        <h3>Talk through your results and options</h3>
-        <p>You’ll see your results on an audiogram and discuss what they mean. If hearing aids may help, including models with tinnitus-masking features, you’ll talk through styles and features suited to your hearing, lifestyle and budget.</p>
+        <h3>Understand your options</h3>
+        <p>Discuss what your results mean and whether hearing aids may help. Ask which options are available at Victoria, including any tinnitus-masking features, and how they fit your needs and budget.</p>
       </li>
       <li class="step">
-        <h3>Fitting and ongoing care</h3>
-        <p>If you choose hearing aids, they’re tested and adjusted for your fit. Regular check-ins follow for cleaning, maintenance and follow-up care.</p>
+        <h3>Fitting and follow-up</h3>
+        <p>If you choose hearing aids, they’re fitted and adjusted for you, with follow-up for cleaning, maintenance and ongoing support.</p>
       </li>
     </ol>
-
-    <p class="steps-footnote">Every recommendation depends on your evaluation results and your individual needs.</p>
-
+    <p class="steps-footnote">Recommendations depend on your hearing results and individual needs.</p>
     <div class="cta-band">
       <div>
         <h3>Ready to take the first step?</h3>
-        <p>Call the Victoria office or send a request, and mention the ringing in your ears.</p>
+        <p>Talk with the Victoria team about your hearing concerns.</p>
       </div>
-      <div class="actions actions--stack-mobile">
-        <a class="btn btn--call" href="tel:+14092316980">
-          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          Call 409-231-6980
-        </a>
-        <button type="button" class="btn btn--outline" data-open-appointment>Request an Appointment</button>
+      <div class="actions">
+        <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
+        <button type="button" class="steps-request" data-open-appointment>Request an Appointment</button>
       </div>
     </div>
   </div>
