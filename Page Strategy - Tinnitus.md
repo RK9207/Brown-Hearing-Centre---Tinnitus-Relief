@@ -325,3 +325,8 @@ User requested the photo before the provider name/details and smaller mobile typ
 ### Approved darker text on colored surfaces (2026-11-03)
 
 User explicitly requested darker grey text on colored backgrounds in the current provider section and earlier sections. Applied brand navy #051c3b to formerly muted text on the cream Hero panel, cream hearing-evaluation panel and cream provider section via scoped secondary-text tokens. This is an authorized color-only exception to the Hero/section2 locks; their layout, typography, copy and order remain locked. White-background secondary text, brown accents, buttons and later sections are unchanged. Provider section still awaits result approval.
+
+
+## Persistent user design rule — no grey text on colored backgrounds (2026-11-03)
+
+Explicit user instruction: “remember this rule okay, no grey text on colored bg.” Apply throughout the landing page and all subsequent section work. Use dark brand navy on light colored surfaces; use white or cream on dark colored surfaces. Preserve approved brown accents where readable. Do not use muted grey for body, supporting or secondary text on colored backgrounds. White surfaces may retain the established secondary-text treatment. This rule guides future work; it does not authorize unrelated changes to locked sections.
