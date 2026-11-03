@@ -264,3 +264,8 @@ Section 2 uses scoped #help styles: a short left-aligned introduction, a cream e
 ### Section 2 width refinement (2026-11-03)
 
 At the user’s request, removed the section introduction wrapper’s 760px maximum width, the headline’s 680px maximum width, and the supporting introduction’s 720px maximum width. Both now use the full existing content container. Other section styles, copy, and the locked Hero/header are unchanged. Section 2 remains pending result approval.
+
+
+### Section 2 icon and heading alignment (2026-11-03)
+
+At the user’s request, the evaluation and masking-feature icons now sit beside their subsection headings in a flex row. Icons retain their 40px filled brown tiles; heading text wraps naturally beside them on narrow screens. Body text stays below each heading row. No other section changed; result approval remains pending.
