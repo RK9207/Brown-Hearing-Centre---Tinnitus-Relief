@@ -17,10 +17,11 @@ Numerical layout values here are practical design guidance within the approved d
 \|---\|---\|---\|  
 \| Brand blue \| \`\#10639d\` \| Primary actions, links, restrained accents \|  
 \| Brand navy \| \`\#051c3b\` \| Headings and important/body text \|  
-\| Warm cream \| \`\#fdf4ed\` \| Warm surfaces and narrative transitions \|  
+\| Warm cream \| \`\#fdf4ed\` \| Warm surfaces and narrative transitions \|
+\| Supporting warm brown \| \`\#784727\` \| Restrained location text and trust-icon accents \|  
 \| Functional white \| \`\#ffffff\` \| Reading surfaces, labels/icons on blue \|
 
-Blue/navy/cream are brief supplied; white is a functional neutral. No additional brand color is needed. Validate muted text, borders, error and focus states before use.
+Blue/navy/cream are brief supplied; white is a functional neutral. Supporting warm brown #784727 was subsequently supplied and approved by the user. Validate muted text, borders, error and focus states before use.
 
 Approved contrast correction: \*\*white text/icon on the blue mobile Call control\*\*. Navy-on-blue is approximately \*\*2.67:1\*\*; white-on-blue approximately \*\*6.38:1\*\*. This records the correction included in the approved integrated proposal.
 
@@ -233,3 +234,8 @@ The user explicitly requested this replacement for IMG-HERO-01:
 https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
 
 Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
+
+
+## Step 5 — User-supplied supporting color #784727
+
+The user explicitly added **#784727** as another supporting color. Implemented as `--brown:#784727`, with restrained use on the Hero location line and founding/licensing-strip icons. Brand blue remains the primary action color and navy remains the header/heading color. Brown provides approximately **7.69:1 on white** and **7.09:1 on warm cream #fdf4ed**. No imagery, layout, copy, phone or integration changes accompany this palette addition. This supersedes the original statement that no further supporting color was needed; it does not lock the Hero or authorize redesigning later sections.
