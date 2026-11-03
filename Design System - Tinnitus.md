@@ -206,3 +206,8 @@ The generated image is a 1920×800 WebP, 94,436 bytes, embedded for single-file 
 At 1024–1199px the desktop navigation uses an additional row to preserve legibility. Header anchoring offset is adjusted for that range. Checks at seven widths show no observed overflow. The external logo remains in the code; local screenshots show the text fallback because that resource failed locally. The original logo is not recolored, regenerated or replaced with a fabricated mark.
 
 This is an implementation awaiting user review. Do not treat these section-specific refinements as approval to redesign later sections or lock the Hero.
+
+
+## Step 5 — Active Hero image source
+
+The user supplied https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp and requested its insertion. IMG-HERO-01 now loads this hosted WebP instead of the embedded family image. The previous 94 KB/1920×800 embedded-asset description is superseded; this supplied asset's file weight and natural dimensions are unverified. The 1920×800 HTML layout hints, full-width desktop treatment, separated mobile image area, eager loading and approved object-position rules are retained. No source-image alteration is made. The host returns 403 to local inspection, so crop/appearance needs GHL-rendered verification. Hero is not locked.
