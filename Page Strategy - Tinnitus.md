@@ -310,3 +310,8 @@ Rendering note: the supplied URL downloaded successfully, but the browser proxy 
 User authorized the recommended final refinements. Nick’s name and role now precede his photo in the mobile reading order, followed by the shorter bio. Desktop retains the portrait on the left and identity/bio on the right; a single identity block avoids duplicate content. The heritage heading is now “Founded in Victoria in 1962,” with the third-generation detail retained in the paragraph. Service checks are filled brown circles with white ticks, scoped to this section. The supplied portrait URL, native ratio, CTA hierarchy and all locked work are preserved. Section 3 remains pending result approval.
 
 Verification: checked desktop1440/tablet1024/mobile390 and320 layouts, including name/photo/bio order, absence of horizontal overflow, and appointment-dialog open/Escape dismissal. Desktop/mobile screenshots were inspected using the exact downloaded supplied image locally; the HTML retains its remote URL. No publishing or merge.
+
+
+### Section 3 mobile centering (2026-11-03)
+
+User requested centered mobile alignment for the section headline, supporting introduction, portrait, provider name and role. Applied only below 600px. Bio, services, history and actions retain their current treatment; desktop and locked sections are unchanged. Responsive order/overflow and appointment-dialog checks passed at 1440,1024,390 and320px. Section 3 remains pending result approval.
