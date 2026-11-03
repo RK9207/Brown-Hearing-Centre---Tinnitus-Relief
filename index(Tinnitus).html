@@ -324,7 +324,7 @@ ul,ol{ margin:0; }
 #provider .section-head p{ margin-top:18px; }
 #provider .provider__grid{ display:grid; grid-template-columns:300px minmax(0,1fr); gap:56px; align-items:start; margin-top:36px; }
 #provider .provider__photo{ margin:0; }
-#provider .provider__photo .img-ph{ --ratio:3 / 4; width:100%; border-radius:4px; }
+#provider .provider__photo img{ display:block; width:100%; height:auto; aspect-ratio:3 / 4; object-fit:cover; object-position:center; border-radius:4px; }
 #provider .provider__bio h3{ font-size:1.75rem; font-weight:500; }
 #provider .provider__bio .provider__role{ color:var(--brown); font-weight:600; margin:8px 0 18px; }
 #provider .provider__bio p{ color:var(--muted); }
@@ -926,13 +926,7 @@ body.dialog-open{ overflow:hidden; }
     </div>
     <div class="provider__grid">
       <figure class="provider__photo">
-        <!-- IMG-PROVIDER-01: genuine Nick Yendrey portrait required. Source staff page blocks retrieval. Never substitute a generated person. -->
-        <div class="img-ph" data-img-id="IMG-PROVIDER-01">
-          <svg aria-hidden="true"><use href="#i-image"/></svg>
-          <span class="img-ph__id">Nick Yendrey</span>
-          <span class="img-ph__desc">Genuine provider portrait to be supplied.</span>
-          <span class="img-ph__ratio">3:4 portrait</span>
-        </div>
+        <img src="https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg" alt="Nick Yendrey, Hearing Instrument Specialist at the Victoria office" width="600" height="800" loading="lazy" decoding="async">
       </figure>
       <div class="provider__bio">
         <h3>Nick Yendrey, M.B.A.</h3>
