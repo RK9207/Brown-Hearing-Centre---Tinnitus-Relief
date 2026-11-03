@@ -320,3 +320,8 @@ User requested centered mobile alignment for the section headline, supporting in
 ### Section 3 revised mobile hierarchy (2026-11-03)
 
 User requested the photo before the provider name/details and smaller mobile typography. Mobile now reads section introduction → centered portrait → centered name/role → left-aligned bio and supporting details. DOM photo/identity order matches this sequence; desktop grid positions are preserved. Mobile sizes: section heading28px, name20px, role15px, introduction/body/service text16px, heritage heading16px, licensing14px. Mobile grid gap20px. Existing centering, image ratio, CTAs and locked sections remain unchanged. Checked ordering, overflow and appointment-dialog behavior at1440/1024/390/320px; inspected updated390px render using the exact downloaded portrait. Section3 remains pending approval.
+
+
+### Approved darker text on colored surfaces (2026-11-03)
+
+User explicitly requested darker grey text on colored backgrounds in the current provider section and earlier sections. Applied brand navy #051c3b to formerly muted text on the cream Hero panel, cream hearing-evaluation panel and cream provider section via scoped secondary-text tokens. This is an authorized color-only exception to the Hero/section2 locks; their layout, typography, copy and order remain locked. White-background secondary text, brown accents, buttons and later sections are unchanged. Provider section still awaits result approval.
