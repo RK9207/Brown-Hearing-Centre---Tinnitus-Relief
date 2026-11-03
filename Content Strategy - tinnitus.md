@@ -162,3 +162,14 @@ The user approved and the first-section implementation now uses:
 This supersedes earlier illustrative Hero wording, not the overall service claims boundary. Specific Victoria tinnitus-masking availability remains unconfirmed; the Hero no longer implies it. All later section copy is unchanged. User approval of the rendered result is pending.
 
 S25 now supports the Google rating/count and six selected reviewers; earlier missing-review statements are historical. These are patient-experience reviews, not tinnitus outcome evidence. `KEYWORD_RESEARCH - Tinnitus.md` is now available; actual campaign keywords/ad copy remain [NOT PROVIDED].
+
+
+## Step 5 — Current Hero presentation after website references
+
+The user rejected the original split-column result, canceled the provider-led direction and approved a photographic Hero aligned to supplied Brown website screenshots. Earlier visual notes are superseded by this entry.
+
+H1 remains **Tinnitus help in Victoria, Texas**. Supporting copy remains **Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.**
+
+Maintain dominant **Call 409-231-6980**, quieter **Request an Appointment** and required mobile header **Book Appointment**, all using the existing destinations. Hero review evidence remains **4.9/5 · 52 Google reviews** (S25). The separate supporting strip preserves founding-in-Victoria/1962, family ownership across three generations and company-level state licensing.
+
+The family photograph is illustrative, not evidence of clinical improvement, actual patients or clinic identity. Its caption is **Illustrative family scene**. No claim, offer, price, medical service, outcome or provider credential is added from the visual references. Later sections are unchanged. Result approval and locking remain pending.
