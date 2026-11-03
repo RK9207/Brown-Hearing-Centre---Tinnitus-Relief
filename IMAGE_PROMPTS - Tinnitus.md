@@ -591,3 +591,18 @@ None is decorative when filled with real imagery. Heritage and clinic become lar
 **Actual crop:** portrait 4:5 desktop; 4:3 mobile, object-position 50% 40%. The mobile crop prioritizes face/shoulders; the tea/hands need not remain visible. Caption: “Illustrative image”. Alt: “Illustrative image of a woman seated beside a sunlit window at home.”
 
 The three original creative options remain as alternatives; this record identifies the production image actually implemented. Hero image is implemented, not user-locked. The previous note claiming no separate keyword file exists is superseded: `KEYWORD_RESEARCH - Tinnitus.md` is available and remains AI-derived/unvalidated. S25 screenshots now document the review figures referenced above.
+
+
+## Step 5 — IMG-HERO-01 replaced after website-reference approval
+
+**Current approval:** after rejecting the first split-column result and canceling the provider-led exploration, the user approved a full-width family-conversation photograph aligned with supplied Brown website screenshots. The earlier woman-with-tea asset is superseded for the active Hero; its original file is retained. Provider portrait sourcing is no longer required for this Hero.
+
+**Production asset:** `/workspace/generated_images/exec-20accb34-0294-486f-8c5f-85cabb517b03.png`, original 1942×809, retained unchanged. Delivery derivative: 1920×800 WebP, 94,436 bytes, embedded in `index(Tinnitus).html`. Placeholder ID IMG-HERO-01 is preserved. Other image IDs and later sections are unchanged.
+
+**Production direction:** panoramic 2.4:1 editorial home photograph. Quiet neutral interior on the left provides room for the cream content panel; an older silver-haired woman and a younger adult woman converse on the right. Natural window light, restrained cream/blue clothing, realistic skin texture, relaxed expressions. No ear-touching, whispering into an ear, devices, clinicians, medical setting, logos, signage or outcome implication. These are illustrative people, not Brown patients, staff or facilities.
+
+**Composition:** desktop image fills a 604px stage behind the opaque reading panel; object-position 50% 25% protects faces at wide viewports. Mobile separates photograph from the text and uses a 220–240px-high crop with object-position 90% 48%, preserving the conversation. Both views were inspected.
+
+**Caption:** Illustrative family scene. **Alt:** Illustrative family scene of two women talking together at home.
+
+No image asserts symptom relief or a treatment result. The original Step 4B options remain historical alternatives; this entry identifies the active implemented asset. No new image slot is added. The Hero remains awaiting review, not locked.
