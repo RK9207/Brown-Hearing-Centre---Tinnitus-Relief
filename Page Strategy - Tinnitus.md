@@ -450,3 +450,12 @@ User requested a dark-blue footer and authorized remaining refinements. Footer n
 Preserved phone409-231-6980, original logo/homepage source, address, privacy/site destinations and exact copyright merge-field text. Shared mobile sticky Call behavior is unchanged. Outside-footer markup/styles/scripts and all locked sections are byte-preserved. No new image or placeholder.
 
 Validation: inspected current footer desktop/mobile using exact downloaded logo before editing; inspected rebuilt1440/390 renders. At1440/1024/390/320px verified navy background, solid white text, expected logo sizing, no horizontal overflow, visible keyboard focus for footer links and mobile copyright clearance above the sticky Call bar. Local renders retain unresolved GHL merge fields; server-side values remain a GHL check. Footer is implemented pending explicit result approval, not locked. After footer approval, proceed to whole-page creative/technical review and QA handoff; no automatic publication. No merge or production deployment.
+
+
+## Approved cross-page decorative box borders (2026-11-04)
+
+User explicitly requested brown borders on boxes wherever visually appropriate. This authorizes a border-only exception to existing section locks. Added a shared --box-border token using brand brown #784727 and1px borders on the hearing-evaluation cream panel, FAQ answer panels, OAP address card and appointment dialog. Unified visit panels, review cards and OAP map-frame borders to the same brown. Added a border to the contained Hero reading panel only from600px upward; full-width mobile Hero remains unframed. Blue/white action controls, solid navy CTA/contact/footer surfaces, photos and transparent rating summary remain unchanged.
+
+All body markup, text, links, image sources, embeds, scripts and map configuration are byte-preserved; only the new decorative CSS block is added. Section locks otherwise remain in force. Footer remains pending result approval; this request does not lock the footer or approve the final page.
+
+Verification: checked1440/1024/390/320px for computed1px #784727 borders, no horizontal overflow, correct mobile Hero exemption and appointment-dialog open/Escape dismissal. Inspected desktop Hero using the exact downloaded supplied photograph and mobile visit-card border treatment. Browser map-data limitation remains unchanged; no live tracking/form-submission claim. No publishing or merge.
