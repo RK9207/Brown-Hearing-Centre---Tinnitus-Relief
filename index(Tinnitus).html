@@ -475,6 +475,44 @@ ul,ol{ margin:0; }
 .reviews__foot{ margin-top:32px; display:flex; flex-wrap:wrap; gap:16px 28px; align-items:center; }
 .reviews__foot .muted{ color:var(--muted); font-size:1rem; }
 
+
+/* Approved compact review treatment; shared Hero badge and star styles are preserved. */
+#reviews.section{ padding-block:56px; }
+#reviews{ --muted:var(--navy); }
+#reviews .reviews__head{ gap:24px; }
+#reviews .section-head{ max-width:none; }
+#reviews .section-head h2{ font-weight:500; }
+#reviews .section-head p{ margin-top:14px; font-size:1rem; line-height:1.6; }
+#reviews .rating-summary{ padding:16px 20px; gap:16px; border-radius:6px; }
+#reviews .rating-summary__score{ font-size:2.5rem; font-weight:500; white-space:nowrap; }
+#reviews .rating-summary__scale{ font:400 1.125rem/1 var(--sans); margin-left:2px; }
+#reviews .rating-summary__meta{ font-size:.9375rem; gap:8px; }
+#reviews .stars--lg svg{ width:20px; height:20px; }
+#reviews .review-grid{ margin-top:28px; gap:18px; }
+#reviews .review-card{ padding:22px; gap:14px; border-radius:6px; }
+#reviews .review-card__stars{ line-height:1; }
+#reviews .review-card__text{ font-size:1rem; line-height:1.65; }
+#reviews .review-card__foot{ gap:10px; padding-top:14px; }
+#reviews .avatar{ width:36px; height:36px; color:var(--brown); background:var(--cream); }
+#reviews .review-card__who span{ color:var(--navy); }
+#reviews .reviews__foot{ margin-top:26px; gap:12px 24px; }
+#reviews .reviews__foot .muted{ color:var(--navy); }
+#reviews .reviews__foot .muted a{ color:var(--navy); text-underline-offset:4px; }
+@media (min-width:900px){
+ #reviews .reviews__head{ grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:32px; }
+}
+@media (max-width:599px){
+ #reviews.section{ padding-block:40px; }
+ #reviews .reviews__head{ gap:20px; }
+ #reviews .section-head h2{ font-size:1.75rem; line-height:1.25; }
+ #reviews .section-head p{ margin-top:12px; }
+ #reviews .rating-summary{ justify-self:start; }
+ #reviews .review-grid{ margin-top:24px; gap:16px; }
+ #reviews .review-card{ padding:20px; }
+ #reviews .reviews__foot{ display:grid; gap:16px; }
+ #reviews .reviews__foot .btn{ white-space:normal; text-align:center; }
+}
+
 /* ==========================================================================
    11. SECTION 6 — FAQ
    ========================================================================== */
@@ -1022,17 +1060,17 @@ body.dialog-open{ overflow:hidden; }
   <div class="container">
     <div class="reviews__head">
       <div class="section-head">
-        <h2 id="reviews-title">What Victoria patients say about their visits</h2>
-        <p>Google reviews from patients at our Victoria office on N. Navarro St.</p>
+        <h2 id="reviews-title">What Victoria patients are saying</h2>
+        <p>Patient experiences at our Victoria office on N. Navarro St.</p>
       </div>
       <div class="rating-summary">
         <!-- S25, captured Nov 3, 2026. Must match hero badge. Refresh on launch day. -->
-        <span class="rating-summary__score">4.9</span>
+        <span class="rating-summary__score">4.9<span class="rating-summary__scale">/5</span></span>
         <span class="rating-summary__meta">
           <span class="stars stars--lg" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:98%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span>
-          <span>Average Google rating<br>from 52 reviews</span>
+          <span>50+ Google reviews</span>
         </span>
-        <span class="visually-hidden">Rated 4.9 out of 5 on Google from 52 reviews.</span>
+        <span class="visually-hidden">Rated 4.9 out of 5 on Google from more than 50 reviews.</span>
       </div>
     </div>
 
@@ -1044,73 +1082,61 @@ body.dialog-open{ overflow:hidden; }
     <ul class="review-grid">
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>Nick was very polite and helpful. He made sure I was comfortable in the waiting room while he finished with his other patient.<br>He took his time with me during my visit. He made sure all my questions were answered and that I understood everything that was happening.<br>I would recommend Brown Hearing Centers.<br>Thank you Nick for your help.</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>… He took his time with me during my visit. He made sure all my questions were answered and that I understood everything that was happening. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">MK</span>
             <span class="review-card__who"><cite>Mike Keigley</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>Was very pleased with Nick and testing he did on my wife during her visit. He explained everything very thorough and worked with her on how to use the hearing aids. She was very pleased with how everything went. Thank you Nick for answering all our questions and help you gave us.</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>… He explained everything very thorough and worked with her on how to use the hearing aids. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">C</span>
             <span class="review-card__who"><cite>Clay</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>I had a very good experience. Nicholas answered all my questions. He made sure I could put the hearing aids on and operate them. He’s a very pleasant person to talk to. I highly recommend him.</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>I had a very good experience. Nicholas answered all my questions. He made sure I could put the hearing aids on and operate them. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">JF</span>
             <span class="review-card__who"><cite>James Frenzel</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>Took my 93yr old mother in who was very skeptical and hesitant about going … Mr. Nick was so patient with her and so very thorough. He explained everything to us. …</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>… Mr. Nick was so patient with her and so very thorough. He explained everything to us. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">SE</span>
             <span class="review-card__who"><cite>Sylvia Espinoza</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>So very helpful with getting me started with my first time hearing aids. Nick Yendrey was kind, friendly, very knowledgeable &amp; helpful. Very pleasant helping me to get my new hearing aides on &amp; working &amp; even connected to my phone.</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>… Nick Yendrey was kind, friendly, very knowledgeable &amp; helpful. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">PH</span>
             <span class="review-card__who"><cite>Pam Herrmann</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
       <li>
         <figure class="review-card">
-          <blockquote class="review-card__text">
-            <p>Every time I have visited with Brown Hearing center personnel I have received the most professional care from very friendly and knowledgeable staff. Today was no exception Nick took great care of me. I highly recommend them and their hearing aids solutions.</p>
-          </blockquote>
+          <div class="review-card__stars"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></div>
+          <blockquote class="review-card__text"><p>Every time I have visited with Brown Hearing center personnel I have received the most professional care from very friendly and knowledgeable staff. …</p></blockquote>
           <figcaption class="review-card__foot">
             <span class="avatar" aria-hidden="true">RM</span>
             <span class="review-card__who"><cite>Ron Martin</cite><span>Google review</span></span>
-            <span style="margin-left:auto"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span class="visually-hidden">5 out of 5 stars</span></span>
           </figcaption>
         </figure>
       </li>
@@ -1122,7 +1148,7 @@ body.dialog-open{ overflow:hidden; }
          Not rendered in this draft. -->
 
     <div class="reviews__foot">
-      <a class="btn btn--outline" href="https://www.google.com/search?q=brown+hearing+centers+victoria+tx&amp;rlz=1C1CHBD_enIN1092IN1158&amp;oq=br&amp;gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MggIAhBFGCcYOzIGCAMQRRg7MgoIBBAAGLEDGIAEMgoIBRAAGLEDGIAEMg0IBhAAGIMBGLEDGIAEMgoIBxAAGLEDGIAEMhAICBAAGLEDGIAEGIoFGI0GMgoICRAAGLEDGIAE0gEJMjM3NGowajE1qAIIsAIB8QWIVncQZCBePQ&amp;sourceid=chrome&amp;source=chrome.rb&amp;ie=UTF-8#lrd=0x864267d4e652ab67:0x3103d1a3a7112a8c,1,,,," target="_blank" rel="noopener">
+      <a class="btn btn--call" href="https://www.google.com/search?q=brown+hearing+centers+victoria+tx&amp;rlz=1C1CHBD_enIN1092IN1158&amp;oq=br&amp;gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MggIAhBFGCcYOzIGCAMQRRg7MgoIBBAAGLEDGIAEMgoIBRAAGLEDGIAEMg0IBhAAGIMBGLEDGIAEMgoIBxAAGLEDGIAEMhAICBAAGLEDGIAEGIoFGI0GMgoICRAAGLEDGIAE0gEJMjM3NGowajE1qAIIsAIB8QWIVncQZCBePQ&amp;sourceid=chrome&amp;source=chrome.rb&amp;ie=UTF-8#lrd=0x864267d4e652ab67:0x3103d1a3a7112a8c,1,,,," target="_blank" rel="noopener">
         <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
         See All Our Google Reviews<span class="visually-hidden"> (opens in a new tab)</span>
       </a>
