@@ -173,3 +173,25 @@ Visual arc: warm human opening → quiet service explanation → accountable loc
 This is the approved starting order. Step 5 may recommend sequencing, removals, additions or rebuilding after inspecting the actual draft. Explain consequential changes and obtain approval before implementation; do not silently override the strategy.
 
 These documents record the approved direction with factual dependencies open. Builder selection remains a separate user decision. Do not begin implementation, publication or Step 4 automatically.  
+
+
+
+## Step 5 — Approved Hero implementation; awaiting result review
+
+The user explicitly approved Direction A (warm human opening), headline Option 1, the proposed supporting copy, and the image approach on November 3, 2026. Approval permits this Hero/header implementation; it does not lock the result or authorize rebuilding another section.
+
+- H1: **Tinnitus help in Victoria, Texas**.
+- Supporting copy: **Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.**
+- Call/request routes, appointment embed, all six subsequent sections, footer, review content and section order are preserved.
+- Header retains the original supplied logo on a compact navy background. A readable text identity fallback appears only if the remote logo fails; the actual remote mark could not load in the local preview.
+- Hero proof is compact: 4.9/5 from 52 Google reviews (S25), Victoria origins in 1962, company-level HIS licensing. No treatment availability or outcome claim is added.
+- IMG-HERO-01 is now an AI-generated illustrative home/lifestyle photograph, visibly captioned “Illustrative image”; it is not an actual Brown patient, provider, facility or result. The optimized 960×1200 WebP is approximately 134 KB and is embedded in the single-file HTML for GHL portability.
+- Transition remains Hero → Relevant hearing-care help. No section moves, additions, removals or mergers are implemented.
+
+**Section status:** Hero/header implemented, awaiting user review. **Locked final sequence:** none. **Remaining sections:** Relevant help, Provider/local credibility, Next steps, Google Reviews, FAQs, Location/final contact. Header changes support this Hero; footer and other supporting components are unchanged.
+
+**Evidence update:** S25 is six user-supplied Google screenshots showing the correct Victoria address, 4.9/5 from 52 reviews and all six selected reviewers. Exact review quote fidelity remains a review-section check; figures need refreshing before launch. Step 2B is now available as `KEYWORD_RESEARCH - Tinnitus.md`; actual ads/keywords remain [NOT PROVIDED] and AI candidates remain unvalidated.
+
+**Preview evidence:** Chromium inspected the actual updated HTML via document content at 320, 390, 1024 and 1440 CSS-pixel widths. Desktop/mobile screenshots were inspected at 1440 and 390. No horizontal document overflow or page JavaScript errors were observed. Hero image loaded; request dialog opened, focused its close control, hid the sticky call action and closed with Escape; FAQ toggling worked. These checks do not verify live GHL submission, tracking, phone routing or production integration. Local navigation was unavailable; external logo requests failed, so screenshots show the fallback identity.
+
+No implementation or visual check marks the section locked. Ask the user to approve, adjust or choose an alternative before advancing to another section.
