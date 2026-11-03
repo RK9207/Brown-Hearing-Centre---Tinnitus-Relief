@@ -488,3 +488,14 @@ User requested less space between footer columns. Replaced the expanding middle1
 ### Footer left/center/right alignment (2026-11-04)
 
 User clarified the desired desktop footer alignment: logo left, contact column centered, links right. Replaced the centered content-sized group with a balanced three-column grid using equal side tracks and a wider middle track,24px gaps, left-aligned logo, centered contact text and right-aligned links. Mobile remains centered and unchanged. This supersedes the previous centered-group desktop treatment. Responsive footer checks passed at1440/1024/390/320px; inspected desktop render. Footer remains pending result approval.
+
+
+### Approved whole-page audit refinements (2026-11-04)
+
+User approved the whole-page audit recommendations with “okay, make the changes accordingly.” This authorizes targeted refinements across previously locked sections; section order is unchanged. Provider stacks headline/support → portrait/caption → biography below900px; visit cards use two columns at600–1023px, retaining four columns on desktop and vertical cards on phones. Removed the repeated standalone fitting/support note and CTA pair from #help; those roles remain covered by provider/process copy and subsequent CTAs. Mobile header says “Request Appointment.” Footer left/center/right desktop alignment, brown borders, portrait frame and no-grey-on-colored-background rule are preserved.
+
+Map assets now load once when the contact block approaches within300px of the viewport, with an asynchronous older-browser fallback and useful directions links on failure. Supplied map configuration and tracking calls are preserved. Core appointment/FAQ handlers run before the supplied form embed script; iframe/dialog markup is unchanged.
+
+Verification: desktop/tablet/mobile renders inspected, seven widths320–1440px checked without overflow. Appointment controls work before map assets load; all visible request triggers, Escape dismissal, review expansion and FAQ keyboard controls passed at six widths. Deferred loading, one-time initialization attempt and failed-asset fallback checked. Live map tiles/analytics and form delivery remain for GHL/internal QA; no lead submitted. Victoria-specific tinnitus options remain unconfirmed, so availability qualifications stay. Actual ad keywords/copy remain [NOT PROVIDED]. Footer and final page-level result await review; no merge/publication or automatic QA approval.
+
+Controlled integration check: the exact downloaded MapLibre/OAP SDKs initialized one map and marker, retained the supplied coordinates/proxy, and emitted load/zoom events using a test-only local background style. This validates initialization/event wiring, not live basemap transport or analytics delivery.
