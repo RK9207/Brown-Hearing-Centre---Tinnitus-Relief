@@ -249,3 +249,8 @@ At the user's explicit request, both trust-strip icons now use solid **#784727**
 ## Step 5 — Larger filled trust-bar icons
 
 At the user's request, the two solid warm-brown trust-strip icons are increased from **21×21px to 32×32px**. This changes only `.brand-hero__proof .icon` dimensions. Their filled SVG artwork, #784727 color, accompanying text and other page styles/content remain unchanged. The sizing rule applies on desktop and mobile; no other icons are enlarged. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — More navigation whitespace
+
+At the user's explicit request, the header navigation gap is increased from **18px to 28px** in the desktop row and from **26px to 32px** in the intermediate-width second row. Labels, logo dimensions, contact controls, Hero and all other content remain unchanged. Layout checks at 1024, 1200, 1280 and 1440 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. This spacing refinement does not lock the section.
