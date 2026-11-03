@@ -173,3 +173,8 @@ H1 remains **Tinnitus help in Victoria, Texas**. Supporting copy remains **Ringi
 Maintain dominant **Call 409-231-6980**, quieter **Request an Appointment** and required mobile header **Book Appointment**, all using the existing destinations. Hero review evidence remains **4.9/5 · 52 Google reviews** (S25). The separate supporting strip preserves founding-in-Victoria/1962, family ownership across three generations and company-level state licensing.
 
 The family photograph is illustrative, not evidence of clinical improvement, actual patients or clinic identity. Its caption is **Illustrative family scene**. No claim, offer, price, medical service, outcome or provider credential is added from the visual references. Later sections are unchanged. Result approval and locking remain pending.
+
+
+## Step 5 — Supplied Hero asset update
+
+At the user's explicit request, IMG-HERO-01 now uses https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp. Caption: “Illustrative image”; alt: “Illustrative lifestyle photograph.” The image could not be inspected because its host returned 403; no particular person, action or clinical result is asserted. Approved H1, supporting copy, CTA wording and all later copy are unchanged. Hero result approval remains pending.
