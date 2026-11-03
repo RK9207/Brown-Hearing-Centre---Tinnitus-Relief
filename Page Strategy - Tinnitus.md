@@ -464,3 +464,10 @@ Verification: checked1440/1024/390/320px for computed1px #784727 borders, no hor
 ### User-approved Nick portrait frame (2026-11-04)
 
 User requested a brown border and slightly rounder corners on Nick’s photo, referencing the provider section screenshot. Added a1px brand-brown #784727 border and increased radius4→12px, on desktop and mobile. Portrait source, alt text, native3:4 ratio, responsive sizes and all provider copy/layout remain unchanged. This is an explicit styling-only exception to the provider lock; the earlier rule leaving photos unframed is superseded for Nick’s portrait only.
+
+
+### User-approved provider caption below portrait (2026-11-04)
+
+User requested name/details below the photo. Moved Nick’s name, professional title and Victoria office label into a centered semantic figcaption beneath his portrait at all widths. Desktop keeps biography/services/history/actions to the right; mobile keeps those beneath the photo/caption. Desktop caption name24px/title16px/office14px; mobile name20px/title15px/office14px. Professional title and office use separate lines to avoid an awkward separator wrap. Preserved genuine image/source/alt,3:4 ratio, responsive photo sizes,1px brown border and12px corners. No factual provider detail, CTA, other section or embed changed. This relocation is an explicit user-authorized exception to the provider lock; all other locked aspects remain intact. Footer still awaits result approval.
+
+Validated at1440/1024/390/320px: caption centered below photo, desktop bio alongside/mobile bio below, portrait frame/radius retained and no horizontal overflow. Inspected desktop/mobile renders using the exact downloaded supplied portrait. No publishing or merge.
