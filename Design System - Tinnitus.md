@@ -191,3 +191,18 @@ Direction A is implemented for the first section only, pending user review:
 S25 user screenshots now support the existing 4.9/5 from 52 Google reviews. Keep Hero and review-section figures synchronized and refresh before publication. No generic redesign or new reusable styling is authorized for later sections by this update.
 
 Local preview check: the original remote logo failed to load; the text fallback was visible and the actual supplied mark remains in the source for working environments. External form submission, live tracking, routing and the exact GHL-hosted rendering require later verification. The result is not locked.
+
+
+## Step 5 — Current visual benchmark and approved photographic Hero
+
+The user supplied desktop screenshots of Brown's homepage and products page as the visual quality benchmark, then approved the brand-reference photographic Hero/header direction. This supersedes the first Hero layout; the provider-led exploration is canceled. No navy typography-only Hero was implemented.
+
+Applicable design cues: continuous navy header; prominent original white logo; broad photography; elegant moderate-weight serif headlines; white/cream reading areas; rectangular blue actions; restrained borders/radii; aligned content and purposeful section transitions. Screenshot observations are reference evidence, not measurements of the original site's computed CSS.
+
+Current implementation is scoped to header/Hero: navy header with 200×72px supplied logo area at desktop and content-driven responsive navigation; full-width family scene; 610px-maximum opaque cream panel with 34–36px desktop padding; Lora 500 headline up to 52px, 36px mobile; primary blue call button with 3px corners; subordinate text appointment action; integrated Google badge; founding/licensing strip beneath. Mobile places panel before the 220–240px photo crop and preserves both conversational subjects.
+
+The generated image is a 1920×800 WebP, 94,436 bytes, embedded for single-file GHL portability. It has explicit dimensions, eager/high-priority loading, a descriptive alt and visible illustrative caption. The source is illustrative rather than patient/facility proof. No later section styling is revised by this update.
+
+At 1024–1199px the desktop navigation uses an additional row to preserve legibility. Header anchoring offset is adjusted for that range. Checks at seven widths show no observed overflow. The external logo remains in the code; local screenshots show the text fallback because that resource failed locally. The original logo is not recolored, regenerated or replaced with a fabricated mark.
+
+This is an implementation awaiting user review. Do not treat these section-specific refinements as approval to redesign later sections or lock the Hero.
