@@ -188,3 +188,8 @@ User-requested navigation labels are implemented as Services, About Us, Your Vis
 ## Step 5 — Hero review badge count wording
 
 At the user's explicit request, the Hero badge now reads **4.9/5 · 50+ Google reviews** instead of 52. Its accessible label says “Rated 4.9 out of 5 on Google from more than 50 reviews. Read patient reviews.” S25's screenshot-backed 52-review count supports this rounded wording; the evidence record and detailed review-section count remain unchanged. No new live review check is claimed. Only the Hero badge wording changes; rating, review content, links, layout and other sections are preserved.
+
+
+## Step 5 — Current section 2 content (2026-11-03)
+
+User-approved headline: “How hearing care may help with tinnitus.” The rebuilt section explains tinnitus briefly, gives hearing evaluation the strongest emphasis, and describes masking features as a potential option with individual suitability and variable results. Visitors are asked to confirm options with Victoria; local availability is not claimed. Fitting, adjustments and follow-up are conditional on choosing hearing aids. A compact medical-scope note distinguishes a hearing evaluation from medical diagnosis. Call is primary; the secondary action requests an appointment. Repeated comparison labels, symptom pills and the long causes list were removed from this section only. No FAQ, Hero, contact route, claim or section order was changed. Section 2 awaits result approval.
