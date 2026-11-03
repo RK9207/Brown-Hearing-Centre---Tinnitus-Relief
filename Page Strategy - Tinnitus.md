@@ -303,3 +303,10 @@ Evidence: current desktop/mobile renders inspected before editing, and rebuilt d
 User supplied Nick’s genuine 600×800 JPEG at https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg. Replaced IMG-PROVIDER-01 placeholder with the photograph, descriptive alt text, explicit intrinsic dimensions and lazy loading. Preserve native 3:4 ratio with no crop loss at 300px desktop and 220px mobile. The downloaded asset was inspected. Earlier missing-portrait notes are resolved; section 3 still awaits result approval. Locked sections and other content are unchanged.
 
 Rendering note: the supplied URL downloaded successfully, but the browser proxy blocked its image request. Responsive photo inspection therefore uses the exact downloaded JPEG served to the browser by a local request override; published HTML retains the user’s original URL.
+
+
+### Section 3 approved polish implemented (2026-11-03)
+
+User authorized the recommended final refinements. Nick’s name and role now precede his photo in the mobile reading order, followed by the shorter bio. Desktop retains the portrait on the left and identity/bio on the right; a single identity block avoids duplicate content. The heritage heading is now “Founded in Victoria in 1962,” with the third-generation detail retained in the paragraph. Service checks are filled brown circles with white ticks, scoped to this section. The supplied portrait URL, native ratio, CTA hierarchy and all locked work are preserved. Section 3 remains pending result approval.
+
+Verification: checked desktop1440/tablet1024/mobile390 and320 layouts, including name/photo/bio order, absence of horizontal overflow, and appointment-dialog open/Escape dismissal. Desktop/mobile screenshots were inspected using the exact downloaded supplied image locally; the HTML retains its remote URL. No publishing or merge.
