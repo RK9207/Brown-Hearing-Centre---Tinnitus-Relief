@@ -606,3 +606,12 @@ The three original creative options remain as alternatives; this record identifi
 **Caption:** Illustrative family scene. **Alt:** Illustrative family scene of two women talking together at home.
 
 No image asserts symptom relief or a treatment result. The original Step 4B options remain historical alternatives; this entry identifies the active implemented asset. No new image slot is added. The Hero remains awaiting review, not locked.
+
+
+## Step 5 — IMG-HERO-01: user-supplied production URL (active)
+
+**Explicit user instruction:** insert https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp. This is now the active source in `index(Tinnitus).html`, replacing the embedded family-conversation WebP. Earlier generated assets remain retained as alternatives and are no longer the active source. No new image is generated or modified for this change.
+
+**Role/layout:** retain the approved full-width photographic Hero with opaque cream reading panel on desktop and separate image below content on mobile. Existing 50% 25% desktop / 90% 48% mobile object positions are retained pending review against the supplied asset.
+
+**Evidence limitation:** host returned HTTP 403 to download and web inspection. Subject matter, exact crop, source dimensions and file weight are not claimed verified. The existing 1920×800 attributes reserve the approved layout ratio; they do not establish the source image's actual dimensions. Caption: “Illustrative image”. Neutral alt: “Illustrative lifestyle photograph.” Inspect the real GHL desktop/mobile rendering to refine these if needed. Source insertion is approved; rendered result is not yet locked.
