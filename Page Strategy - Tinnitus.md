@@ -280,3 +280,10 @@ At the user’s request, the evaluation and masking-feature icons now sit beside
 ### Section 2 final copy and hierarchy refinements (2026-11-03)
 
 User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
+
+
+## Step 5 — Section 2 approved and locked (2026-11-03)
+
+The user explicitly approved the final section: “yes, i like this section. Please lock this and move to next section.” Section 2, “How hearing care may help with tinnitus,” is now LOCKED, including its final copy, full-width introduction, inline icon/headings, evaluation emphasis, compact medical note and actions. HTML blob at approval: 0a76c3cd642b70abbc61f5eca94f0a4dcf3328cb. Do not change without explicit user authorization.
+
+Last locked: hearing-care explanation. Proposed successor: existing #provider local-practice credibility section. Why here: visitors now understand the role of hearing care and next need confidence in the Victoria practice. Preserve the approved order and avoid reverting to the rejected provider-led overall direction. Visual bridge: move from the white educational section into a warm cream local-practice section with genuine imagery, if available. Next action: inspect current desktop/mobile renders before proposing changes. No section 3 implementation is approved yet.
