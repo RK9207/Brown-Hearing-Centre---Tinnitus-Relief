@@ -478,3 +478,8 @@ Validated at1440/1024/390/320px: caption centered below photo, desktop bio along
 User requested shifting the provider headline/subheadline to the right. Moved the existing heading block into the provider grid, above the biography in the right desktop column. Portrait and centered name/title/office caption remain left. At mobile widths the centered headline/support remain above the photo, preserving its deliberate two-line headline and photo→caption→bio sequence. Copy, image frame, colors, actions and all other sections are unchanged. This is an explicit layout-only exception to the provider lock.
 
 Checked1440/1024/390/320px: desktop heading aligns with biography and precedes it, mobile heading precedes photo, caption remains centered beneath portrait, brown1px frame/12px radius retained, no horizontal overflow. Inspected desktop/mobile renders using supplied portrait. Footer remains pending result approval; no publication/merge.
+
+
+### Footer desktop column spacing refinement (2026-11-04)
+
+User requested less space between footer columns. Replaced the expanding middle1fr desktop track with content-sized tracks and centered the three-column group; reduced column gap40→32px. Logo, contact details and privacy/site links now sit together rather than spreading across the full container. Mobile centered stacking, colors, link destinations, copyright fields and other sections are unchanged. Rechecked1440/1024/390/320px for overflow, white text, visible focus and copyright/sticky-call clearance; inspected updated desktop render. Footer remains pending approval.
