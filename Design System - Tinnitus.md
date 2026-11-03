@@ -284,3 +284,8 @@ User explicitly requested darker grey text on colored backgrounds in the current
 ## Persistent user design rule — no grey text on colored backgrounds (2026-11-03)
 
 Explicit user instruction: “remember this rule okay, no grey text on colored bg.” Apply throughout the landing page and all subsequent section work. Use dark brand navy on light colored surfaces; use white or cream on dark colored surfaces. Preserve approved brown accents where readable. Do not use muted grey for body, supporting or secondary text on colored backgrounds. White surfaces may retain the established secondary-text treatment. This rule guides future work; it does not authorize unrelated changes to locked sections.
+
+
+## Approved footer color and responsive component (2026-11-04)
+
+Footer uses the brand navy #051c3b background with solid white identity, address, phone, legal and link text; cream is reserved for link hover. This follows the persistent no-grey-text-on-colored-backgrounds rule. Original white logo uses its native500:184 ratio at200px desktop/180px mobile. Desktop has three aligned groups; below900px use centered groups and wrapping horizontal links with44px tap targets. White focus outlines remain visible on navy. Copyright is separated by a subtle decorative rule and must remain clear of the existing mobile sticky Call bar. Footer content/link destinations and GHL copyright fields remain intact. This supersedes earlier unchanged-footer notes; result review is pending.
