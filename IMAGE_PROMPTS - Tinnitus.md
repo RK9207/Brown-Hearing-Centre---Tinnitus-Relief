@@ -575,3 +575,19 @@ None is decorative when filled with real imagery. Heritage and clinic become lar
 | IMG-CLINIC-01 | 7. Location contact panel | Wayfinding: recognize the entrance | **Real clinic/GBP photo** | None preferable; fallback Option 3 — "South Texas afternoon"; never Option 2 | 16:9 | **REAL CLINIC / GBP IMAGE PREFERRED** — none supplied yet | Recommend removing the block if no real photo; daylight shot for contrast on navy; confirm "Heritage Mark" entrance |
 
 **Totals:** 4 placeholders, 12 AI prompts. Real photography is preferred for 3 of 4 placeholders.
+
+
+
+## Step 5 update — IMG-HERO-01 implemented, awaiting review
+
+**Approval:** user approved Direction A with illustrative lifestyle imagery on November 3, 2026. Only IMG-HERO-01 is changed. Other image IDs and recommendations remain pending their own section reviews.
+
+**Actual asset:** generated original `/workspace/generated_images/exec-3f5d5db0-87ca-4443-bdee-93dcd7dea254.png`, retained unchanged. Delivery derivative: 960×1200 WebP, approximately 134 KB, embedded as a data URL in `index(Tinnitus).html` for standalone/GHL portability. No AI figure is attributed to Brown or to a treatment outcome.
+
+**Generated direction:** one composed woman around age 60, denim-blue blouse, seated with tea beside a sunlit window in an ordinary cream/wood home. Warm natural light, restrained saturation and editorial realism. No medical equipment, branded device, signage, clinic, provider identity or cure/result implication.
+
+**Full production prompt:** Generate a photorealistic editorial lifestyle photograph for a warm, trustworthy tinnitus information landing page. One composed adult woman around age 60, natural unretouched skin, wearing a muted denim-blue blouse, seated beside a sunlit window in an ordinary welcoming home. She pauses thoughtfully with a cup of tea resting on the table, calm and attentive, looking gently toward the left of the frame. She is noticing her surroundings, not in pain, no hand pressed to ear, no distressed expression, no claims of a treatment result. Warm cream walls, honey-colored wood, softly blurred green foliage outside. Soft natural window light from camera left, subtle film grain, restrained saturation, realistic documentary photography, 50mm lens feel. Waist-up medium portrait, vertical 4:5 composition. Keep the face, shoulders and hands together in the central 60 percent of image height so it also crops cleanly to a horizontal 4:3 mobile view. Subject slightly right of center. No text, logos, borders, watermarks, signage, medical equipment, hearing aids, clinic, uniforms, or doctors. This is clearly illustrative everyday lifestyle imagery, not an actual Brown Hearing Centers patient, staff member, or premises.
+
+**Actual crop:** portrait 4:5 desktop; 4:3 mobile, object-position 50% 40%. The mobile crop prioritizes face/shoulders; the tea/hands need not remain visible. Caption: “Illustrative image”. Alt: “Illustrative image of a woman seated beside a sunlit window at home.”
+
+The three original creative options remain as alternatives; this record identifies the production image actually implemented. Hero image is implemented, not user-locked. The previous note claiming no separate keyword file exists is superseded: `KEYWORD_RESEARCH - Tinnitus.md` is available and remains AI-derived/unvalidated. S25 screenshots now document the review figures referenced above.
