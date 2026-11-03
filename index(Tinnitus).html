@@ -717,21 +717,34 @@ ul,ol{ margin:0; }
 
 
 /* ==========================================================================
-   13. FOOTER
+   13. FOOTER — NAVY BRAND CLOSE
    ========================================================================== */
-.site-footer{ border-top:1px solid var(--line); padding-block:44px 32px; font-size:1rem; }
-.footer__grid{ display:grid; gap:28px; }
+.site-footer{ background:var(--navy); color:#fff; border-top:1px solid rgba(255,255,255,.2); padding-block:32px 24px; font-size:1rem; }
+.site-footer a{ color:#fff; text-underline-offset:4px; }
+.site-footer a:hover{ color:var(--cream); }
+.site-footer :focus-visible{ outline:3px solid #fff; outline-offset:4px; }
+.site-footer .footer__grid{ display:grid; gap:22px; align-items:center; }
+.site-footer .footer__logo{ display:inline-flex; width:200px; max-width:100%; }
+.site-footer .footer__logo img{ display:block; width:100%; height:auto; }
+.site-footer .footer__contact{ font-style:normal; color:#fff; line-height:1.6; }
+.site-footer .footer__contact strong{ display:block; margin-bottom:4px; }
+.site-footer .footer__address-line{ display:block; }
+.site-footer .footer__contact a{ display:inline-flex; align-items:center; min-height:36px; font-weight:600; }
+.site-footer .footer__links{ list-style:none; padding:0; margin:0; display:grid; gap:4px; }
+.site-footer .footer__links a{ display:inline-flex; align-items:center; min-height:36px; font-weight:600; }
+.site-footer .footer__legal{ margin:24px 0 0; padding-top:18px; border-top:1px solid rgba(255,255,255,.25); font-size:.875rem; line-height:1.6; color:#fff; text-align:center; }
 @media (min-width:900px){
-  .footer__grid{ grid-template-columns:auto minmax(0,1fr) auto; gap:56px; align-items:start; }
+ .site-footer .footer__grid{ grid-template-columns:200px minmax(0,1fr) auto; gap:40px; }
 }
-.footer__logo img{ height:48px; width:auto; }
-.footer__contact{ font-style:normal; color:var(--muted); line-height:1.6; }
-.footer__contact a{ font-weight:600; }
-.footer__links{ list-style:none; padding:0; display:grid; gap:8px; }
-.footer__links a{ font-weight:600; }
-.footer__legal{
-  margin-top:32px; padding-top:20px; border-top:1px solid var(--line);
-  font-size:.875rem; color:var(--muted);
+@media (max-width:899px){
+ .site-footer .footer__grid{ justify-items:center; text-align:center; gap:18px; }
+ .site-footer .footer__logo{ width:180px; }
+ .site-footer .footer__links{ display:flex; justify-content:center; flex-wrap:wrap; gap:4px 24px; }
+ .site-footer .footer__links a,.site-footer .footer__contact a{ min-height:44px; }
+}
+@media (max-width:599px){
+ .site-footer{ padding-block:28px 24px; }
+ .site-footer .footer__legal{ margin-top:20px; padding-top:16px; }
 }
 
 /* ==========================================================================
@@ -1390,17 +1403,20 @@ body.dialog-open{ overflow:hidden; }
   <div class="container">
     <div class="footer__grid">
       <a class="footer__logo" href="https://brownhearingcenters.com/" aria-label="Brown Hearing Centers homepage">
-        <img src="https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae22fde736386d0dc30abff.webp" alt="Brown Hearing Centers" height="48" loading="lazy">
+        <img src="https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae22fde736386d0dc30abff.webp" alt="Brown Hearing Centers" width="500" height="184" loading="lazy">
       </a>
       <address class="footer__contact">
-        <strong style="color:var(--navy)">Brown Hearing Centers, Victoria</strong><br>
-        5606 N Navarro St #200, Victoria, TX 77904<br>
+        <strong>Brown Hearing Centers, Victoria</strong>
+        <span class="footer__address-line">5606 N Navarro St #200</span>
+        <span class="footer__address-line">Victoria, TX 77904</span>
         <a href="tel:+14092316980">409-231-6980</a>
       </address>
-      <ul class="footer__links">
-        <li><a href="https://brownhearingcenters.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
-        <li><a href="https://brownhearingcenters.com/" target="_blank" rel="noopener">Visit Our Website</a></li>
-      </ul>
+      <nav aria-label="Footer links">
+        <ul class="footer__links">
+          <li><a href="https://brownhearingcenters.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="https://brownhearingcenters.com/" target="_blank" rel="noopener">Visit Our Website</a></li>
+        </ul>
+      </nav>
     </div>
     <p class="footer__legal">© {{right_now.year}} {{location.name}} | All rights reserved.</p>
   </div>
