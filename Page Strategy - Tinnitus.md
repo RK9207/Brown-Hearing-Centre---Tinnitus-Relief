@@ -363,3 +363,8 @@ Measured same local render widths: desktop1440 section854.06→688.66px (about19
 ### Section 4 step-heading size (2026-11-03)
 
 At the user’s request, increased the four panel headings from18px to20px on desktop and mobile. Compact panel spacing and16px body copy remain. Section4 remains pending approval. Responsive overflow/dialog checks at1440/1024/390/320px passed; updated desktop rendering inspected.
+
+
+### Section 4 desktop connector alignment (2026-11-03)
+
+User authorized the final connector alignment correction. Desktop connector positions now share the number badge’s vertical center; badge placement remains consistent even when headings wrap. Mobile connectors and existing content/layout are preserved. Checked1440/1024/390/320px for overflow and appointment-dialog behavior; inspected desktop1440 render. Section4 remains pending explicit result approval and is not yet locked. No publishing or merge.
