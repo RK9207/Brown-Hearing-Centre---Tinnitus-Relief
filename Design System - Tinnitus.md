@@ -218,3 +218,10 @@ The user supplied https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6
 At the user's explicit request, header presentation is refined with a stable 200px logo zone, centered six-link navigation, consistent spacing, 44px-minimum navigation interaction height, a filled call action and quieter text-style appointment action. Navigation labels: Services, About Us, Your Visit, Reviews, FAQs, Location. At 1024–1199px navigation occupies its own aligned row; below 1024px the compact logo/Book Appointment treatment remains. A ResizeObserver synchronizes anchor offsets to actual sticky-header height, with a resize fallback.
 
 The bottom-right Hero figure caption and its CSS are removed; accessible alt text, exact supplied image URL, Hero layout and existing crop rules are preserved. This supersedes earlier visible-caption requirements. Later section markup/style and contact destinations are unchanged. Rendering of externally hosted image/logo remains limited by local 403 responses; GHL appearance still needs review. No section is locked.
+
+
+## Step 5 — Header logo enlarged by 25%
+
+At the user's explicit request, the header logo's responsive dimensions are increased by 25%: desktop 200×68 → 250×85; intermediate 180×60 → 225×75; tablet 160×52 → 200×65; narrow-screen slot width/height scaled from the prior clamp and 48px height to a 1.25× clamp and 60px height. The logo aspect ratio, source and footer remain unchanged. Header grid reserves the larger width; the mobile appointment button retains a 44px minimum tap height with a compact responsive treatment.
+
+Layout checks at 320, 390, 768, 1024, 1100, 1200, 1280, 1440 and 1920 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. Logo slot geometry was checked by exposing the styled image box because the remote asset remains blocked locally; the actual artwork is not claimed visually verified. No Hero, navigation-label, form or later-section change is made. Hero/header remains awaiting result approval, not locked.
