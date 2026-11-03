@@ -351,3 +351,10 @@ Changes are confined to section4 markup and its scoped styles. Locked Hero, hear
 User explicitly approved the connected-panel direction. Four cream panels now form a connected horizontal sequence on desktop and a vertical sequence below1024px. Brown #784727 badges use leading-zero step numbers; desktop panels stretch to equal height with consistent heading space. All panel text is dark navy. The closing CTA band is navy with white text, a prominent white Call button and an underlined white appointment request. Preserved the current headline, support copy, all four step descriptions, preparation details, individual-needs note, contact routes and dialog trigger. No image or section-order change. Existing locked sections are untouched.
 
 Validation: rendered1440/1024/390/320px with no horizontal overflow and successful appointment-dialog open/Escape close; inspected desktop1440 and mobile390 screenshots. Section4 remains pending user result approval and is not locked. No publishing or merge.
+
+
+### Section 4 compact spacing refinement (2026-11-03)
+
+User requested a more compact section with better space use. Moved numbered badges beside step headings on desktop, reduced badge size to36px, panel padding/gaps and overall section spacing, and tightened the navy CTA band. Kept16px body text, all current copy, equal-height desktop panels, mobile stacking, connectors, dark navy text on cream and white text on navy. No locked section or contact route changed. Section4 remains pending result approval.
+
+Measured same local render widths: desktop1440 section854.06→688.66px (about19% shorter); mobile390 section1539.84→1403.84px (about9% shorter). Verified1440/1024/390/320px without horizontal overflow and with working appointment-dialog open/Escape dismissal. Desktop1440/mobile390 screenshots inspected. No publishing or merge.
