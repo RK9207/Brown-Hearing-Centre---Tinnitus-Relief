@@ -146,3 +146,19 @@ Invite contact with the Victoria office about tinnitus concerns. Pair phone/requ
 Trace factual statements to the brief or research. Verify exact wording before quoting. Keep missing Step 2B research, actual ads, local capabilities, routing, reviews, local imagery and practical service details conspicuously marked until resolved. No public placeholder or invented substitute.
 
 Preserve approved section order and claims boundaries. Step 5 changes require explanation and approval. Builder selection is separate; do not begin implementation automatically.  
+
+
+
+## Step 5 — Approved Hero copy update
+
+The user approved and the first-section implementation now uses:
+
+- **H1:** Tinnitus help in Victoria, Texas
+- **Supporting copy:** Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.
+- **Actions:** Call 409-231-6980; Request an Appointment. Required mobile header label remains Book Appointment, opening the same request dialog.
+- **Proof:** 4.9/5 · 52 Google reviews, supported by S25 user screenshots; compact founding/licensing statements.
+- **Image caption:** Illustrative image.
+
+This supersedes earlier illustrative Hero wording, not the overall service claims boundary. Specific Victoria tinnitus-masking availability remains unconfirmed; the Hero no longer implies it. All later section copy is unchanged. User approval of the rendered result is pending.
+
+S25 now supports the Google rating/count and six selected reviewers; earlier missing-review statements are historical. These are patient-experience reviews, not tinnitus outcome evidence. `KEYWORD_RESEARCH - Tinnitus.md` is now available; actual campaign keywords/ad copy remain [NOT PROVIDED].
