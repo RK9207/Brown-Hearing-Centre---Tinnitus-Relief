@@ -459,3 +459,8 @@ User explicitly requested brown borders on boxes wherever visually appropriate. 
 All body markup, text, links, image sources, embeds, scripts and map configuration are byte-preserved; only the new decorative CSS block is added. Section locks otherwise remain in force. Footer remains pending result approval; this request does not lock the footer or approve the final page.
 
 Verification: checked1440/1024/390/320px for computed1px #784727 borders, no horizontal overflow, correct mobile Hero exemption and appointment-dialog open/Escape dismissal. Inspected desktop Hero using the exact downloaded supplied photograph and mobile visit-card border treatment. Browser map-data limitation remains unchanged; no live tracking/form-submission claim. No publishing or merge.
+
+
+### User-approved Nick portrait frame (2026-11-04)
+
+User requested a brown border and slightly rounder corners on Nick’s photo, referencing the provider section screenshot. Added a1px brand-brown #784727 border and increased radius4→12px, on desktop and mobile. Portrait source, alt text, native3:4 ratio, responsive sizes and all provider copy/layout remain unchanged. This is an explicit styling-only exception to the provider lock; the earlier rule leaving photos unframed is superseded for Nick’s portrait only.
