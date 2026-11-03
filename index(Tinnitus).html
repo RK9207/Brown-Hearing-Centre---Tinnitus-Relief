@@ -347,6 +347,7 @@ ul,ol{ margin:0; }
  #provider.section{ padding-block:48px; }
  #provider .provider__grid{ grid-template-columns:minmax(0,1fr); grid-template-areas:"photo" "identity" "bio"; gap:20px; margin-top:28px; }
  #provider .section-head h2{ font-size:1.75rem; line-height:1.25; }
+ #provider .provider__title-location{ display:block; }
  #provider .section-head p{ font-size:1rem; line-height:1.6; margin-top:16px; }
  #provider .provider__identity .provider__role{ font-size:.9375rem; line-height:1.5; margin:6px 0 0; }
  #provider .provider__bio p{ font-size:1rem; line-height:1.6; }
@@ -932,7 +933,7 @@ body.dialog-open{ overflow:hidden; }
 <section class="section bg-cream provider" id="provider" aria-labelledby="provider-title">
   <div class="container">
     <div class="section-head">
-      <h2 id="provider-title">Hearing care with roots in Victoria</h2>
+      <h2 id="provider-title">Hearing care with <span class="provider__title-location">roots in Victoria</span></h2>
       <p>Get to know your local specialist and the family-owned practice behind your care.</p>
     </div>
     <div class="provider__grid">
