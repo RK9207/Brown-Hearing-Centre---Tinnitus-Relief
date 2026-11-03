@@ -368,3 +368,10 @@ At the user’s request, increased the four panel headings from18px to20px on de
 ### Section 4 desktop connector alignment (2026-11-03)
 
 User authorized the final connector alignment correction. Desktop connector positions now share the number badge’s vertical center; badge placement remains consistent even when headings wrap. Mobile connectors and existing content/layout are preserved. Checked1440/1024/390/320px for overflow and appointment-dialog behavior; inspected desktop1440 render. Section4 remains pending explicit result approval and is not yet locked. No publishing or merge.
+
+
+## Step 5 — Section 4 approved and LOCKED (2026-11-03)
+
+User explicitly approved: “Okay, lets move to the next section, i approve this section.” The visit process #next-steps is now APPROVED AND LOCKED, including headline, compact connected cream panels,20px headings, brown badges with centered connectors, dark navy panel text, preparation details, availability-qualified wording and navy call-first CTA band. Approved HTML blob: b8860d4b3d2a4cd2e53373f4c9e9b9505bdf72fc. No edits without explicit user authorization.
+
+Locked final sequence: Hero/header/trust strip → hearing-care explanation → provider/local roots → visit process. Proposed successor: existing Google reviews #reviews. Why here: after understanding the visit, the visitor needs independent evidence of patient experience. Visual bridge: white process section closes with navy CTA, followed by a cream proof section with white review cards, then white FAQs. Approved order unchanged. Next action: inspect current desktop/mobile reviews renders before recommending a direction. No reviews implementation is authorized yet. Remaining original sections: reviews, FAQs, location/contact and footer. No added/deferred sections.
