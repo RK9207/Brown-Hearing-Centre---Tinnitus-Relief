@@ -241,3 +241,18 @@ The user explicitly requested this replacement for IMG-HERO-01:
 https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
 
 Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
+
+
+## CURRENT STEP 5 STATE — Hero/header approved and LOCKED
+
+The user explicitly stated “Okay, i approve this section, lets move to the next one” on November 3, 2026, after the call-first CTA discussion. Lock the current Hero, header and local trust strip as rendered by `index(Tinnitus).html` blob `6223351f8ad97c2df03b5f58a12f6ceea94004a5`. This includes the latest supplied image, removed caption, 25% larger header logo, straightforward navigation with increased spacing, #784727 accents, filled 32px trust icons and “4.9/5 · 50+ Google reviews” Hero badge. Source screenshot evidence still records the exact count of 52.
+
+**CTA decision:** retain Call as primary; Request an Appointment is the visible alternative. Mobile keeps the appointment action in its header and sticky Call at the bottom. Review completed appointments/qualified leads when campaign evidence becomes available; no performance advantage is claimed measured.
+
+**Locked final sequence:** 1. Hero/header/local trust strip. Later changes require explanation and explicit approval. Visual/copy approval is not confirmation of clinical service availability or live integration QA.
+
+**Remaining original sections:** Relevant hearing-care help (#help), Provider/local credibility, Next steps, Google Reviews, FAQs, Location/final contact. No approved removals, additions, mergers or deferrals.
+
+**Selected next existing section:** “How hearing care may help with tinnitus” (#help), directly below the locked Hero/trust strip. This answers what potential hearing-care help means before introducing the local provider. The visual bridge is from the Hero's photographic emphasis and compact proof into a quieter, readable explanation using the approved serif typography and warm palette. This retains the approved order and needs no structural reordering.
+
+**Checkpoint:** obtain and inspect full current desktop/mobile renderings of #help before individual analysis. No section-2 code edits or redesign are authorized by the instruction to move next; present a recommendation and obtain implementation approval first. Earlier statements that no section is locked are historical and superseded by this entry.
