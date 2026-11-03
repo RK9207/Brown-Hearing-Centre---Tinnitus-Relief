@@ -178,3 +178,8 @@ The family photograph is illustrative, not evidence of clinical improvement, act
 ## Step 5 — Supplied Hero asset update
 
 At the user's explicit request, IMG-HERO-01 now uses https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp. Caption: “Illustrative image”; alt: “Illustrative lifestyle photograph.” The image could not be inspected because its host returned 403; no particular person, action or clinical result is asserted. Approved H1, supporting copy, CTA wording and all later copy are unchanged. Hero result approval remains pending.
+
+
+## Step 5 — Header wording and visible caption update
+
+User-requested navigation labels are implemented as Services, About Us, Your Visit, Reviews, FAQs and Location, pointing to the existing relevant sections. The visible “Illustrative image” caption is removed at the user's explicit request. Neutral image alt text and source provenance remain; no actual patient identity or treatment result is implied. H1, supporting copy, phone, booking/request labels and all later copy remain unchanged. Earlier visible-caption instructions are superseded.
