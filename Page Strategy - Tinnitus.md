@@ -210,3 +210,10 @@ This entry supersedes the earlier Hero visual implementation notes. The approved
 **Evidence:** current document rendered at 320, 390, 768, 1024, 1280, 1440 and 1920 CSS-pixel widths. No horizontal document/control overflow, broken in-page anchors or JavaScript errors were observed. Appointment dialog opened, focused Close, hid sticky Call, closed with Escape and restored trigger focus. Desktop and mobile screenshots inspected. Source comparison confirmed all six later sections and preserved integrations are byte-for-byte unchanged.
 
 **Limits:** browser checks use document content, not live GHL navigation/submission. The original remote logo still fails in the local preview, where a readable fallback is displayed; the supplied logo remains in the source. Routing, live tracking, real GHL form submission and Victoria tinnitus capabilities remain unverified. The PR is for review; no merge, live update or publication is authorized by this work.
+
+
+## Step 5 — User-supplied Hero image inserted
+
+The user explicitly instructed insertion of https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp for IMG-HERO-01. This replaces the embedded family-conversation image only; the approved Hero composition, text, actions, section order and all later sections are retained. Caption is now “Illustrative image”; neutral alt text is “Illustrative lifestyle photograph.” Earlier references to an embedded 94 KB Hero asset are historical and superseded by this hosted URL.
+
+The image host returned HTTP 403 to both download and web inspection tools. The exact image subject, natural dimensions, file size and final desktop/mobile crop are therefore unverified. Existing 2.4:1 layout dimensions/crop rules are retained as layout hints, not verified source dimensions. Request GHL-rendered evidence for crop review. Hero remains awaiting result review, not locked. No live deployment is performed.
