@@ -195,3 +195,18 @@ The user explicitly approved Direction A (warm human opening), headline Option 1
 **Preview evidence:** Chromium inspected the actual updated HTML via document content at 320, 390, 1024 and 1440 CSS-pixel widths. Desktop/mobile screenshots were inspected at 1440 and 390. No horizontal document overflow or page JavaScript errors were observed. Hero image loaded; request dialog opened, focused its close control, hid the sticky call action and closed with Escape; FAQ toggling worked. These checks do not verify live GHL submission, tracking, phone routing or production integration. Local navigation was unavailable; external logo requests failed, so screenshots show the fallback identity.
 
 No implementation or visual check marks the section locked. Ask the user to approve, adjust or choose an alternative before advancing to another section.
+
+
+## Step 5 — Brand-reference photographic revision (current direction)
+
+**Decision record, November 3, 2026:** The user rejected the first lifestyle split-column result. The subsequent provider-led exploration was explicitly canceled before it was committed to the PR. The navy typography-only proposal was not approved. The user then supplied screenshots of Brown's website and approved the replacement recommendation: a continuous navy header, prominent supplied white logo, full-width family-conversation photograph, opaque cream reading panel, clear call priority, verified review badge and supporting local proof strip.
+
+This entry supersedes the earlier Hero visual implementation notes. The approved H1 and supporting copy are retained verbatim. No provider portrait is required by this direction, and the earlier portrait-URL request is no longer relevant.
+
+**Implemented:** Hero/header only. Desktop uses a full-width illustrative background and a cream panel aligned to the page content grid; mobile places readable content before a separately cropped photograph. The founding/licensing strip bridges into the existing hearing-care explanation. Call and appointment destinations, later six sections, footer, dialog/form, mobile sticky Call and section order are unchanged.
+
+**Running tracker:** Hero/header rebuilt and awaiting user review; no locked sections. No approved additions, removals, moves or mergers. Remaining existing sections: Relevant help, Provider/local credibility, Next steps, Google Reviews, FAQs, Location/final contact. Supporting components remain subject to their relevant reviews. Direction approval is not result approval or a lock.
+
+**Evidence:** current document rendered at 320, 390, 768, 1024, 1280, 1440 and 1920 CSS-pixel widths. No horizontal document/control overflow, broken in-page anchors or JavaScript errors were observed. Appointment dialog opened, focused Close, hid sticky Call, closed with Escape and restored trigger focus. Desktop and mobile screenshots inspected. Source comparison confirmed all six later sections and preserved integrations are byte-for-byte unchanged.
+
+**Limits:** browser checks use document content, not live GHL navigation/submission. The original remote logo still fails in the local preview, where a readable fallback is displayed; the supplied logo remains in the source. Routing, live tracking, real GHL form submission and Victoria tinnitus capabilities remain unverified. The PR is for review; no merge, live update or publication is authorized by this work.
