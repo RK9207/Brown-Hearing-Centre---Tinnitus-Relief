@@ -322,11 +322,13 @@ ul,ol{ margin:0; }
 #provider .section-head{ max-width:none; }
 #provider .section-head h2{ font-weight:500; }
 #provider .section-head p{ margin-top:18px; }
-#provider .provider__grid{ display:grid; grid-template-columns:300px minmax(0,1fr); gap:56px; align-items:start; margin-top:36px; }
-#provider .provider__photo{ margin:0; }
+#provider .provider__grid{ display:grid; grid-template-columns:300px minmax(0,1fr); grid-template-areas:"photo identity" "photo bio"; column-gap:56px; row-gap:0; align-items:start; margin-top:36px; }
+#provider .provider__identity{ grid-area:identity; }
+#provider .provider__bio{ grid-area:bio; }
+#provider .provider__photo{ grid-area:photo; margin:0; }
 #provider .provider__photo img{ display:block; width:100%; height:auto; aspect-ratio:3 / 4; object-fit:cover; object-position:center; border-radius:4px; }
-#provider .provider__bio h3{ font-size:1.75rem; font-weight:500; }
-#provider .provider__bio .provider__role{ color:var(--brown); font-weight:600; margin:8px 0 18px; }
+#provider .provider__identity h3{ font-size:1.75rem; font-weight:500; }
+#provider .provider__identity .provider__role{ color:var(--brown); font-weight:600; margin:8px 0 18px; }
 #provider .provider__bio p{ color:var(--muted); }
 #provider .provider__services{ list-style:none; display:grid; gap:12px; padding:0; margin:22px 0; }
 #provider .provider__services li{ display:flex; gap:12px; align-items:flex-start; color:var(--muted); font-size:1rem; line-height:1.6; }
@@ -339,13 +341,14 @@ ul,ol{ margin:0; }
 #provider .provider__request{ min-height:48px; padding:10px 0; border:0; background:none; color:var(--navy); text-decoration:underline; text-underline-offset:5px; font:600 1rem/1.5 var(--sans); cursor:pointer; }
 #provider .provider__request:hover{ color:var(--blue); }
 @media (max-width:899px){
- #provider .provider__grid{ grid-template-columns:220px minmax(0,1fr); gap:32px; }
+ #provider .provider__grid{ grid-template-columns:220px minmax(0,1fr); column-gap:32px; }
 }
 @media (max-width:599px){
  #provider.section{ padding-block:48px; }
- #provider .provider__grid{ grid-template-columns:minmax(0,1fr); gap:26px; margin-top:28px; }
+ #provider .provider__grid{ grid-template-columns:minmax(0,1fr); grid-template-areas:"identity" "photo" "bio"; gap:24px; margin-top:28px; }
+ #provider .provider__identity .provider__role{ margin-bottom:0; }
  #provider .provider__photo{ width:220px; max-width:100%; }
- #provider .provider__bio h3{ font-size:1.5rem; }
+ #provider .provider__identity h3{ font-size:1.5rem; }
  #provider .provider__roots h3{ font-size:1.0625rem; }
  #provider .actions{ display:grid; gap:4px; }
  #provider .actions>*{ width:100%; }
@@ -925,21 +928,23 @@ body.dialog-open{ overflow:hidden; }
       <p>Get to know your local specialist and the family-owned practice behind your care.</p>
     </div>
     <div class="provider__grid">
+      <div class="provider__identity">
+        <h3>Nick Yendrey, M.B.A.</h3>
+        <p class="provider__role">Hearing Instrument Specialist · Victoria office</p>
+      </div>
       <figure class="provider__photo">
         <img src="https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg" alt="Nick Yendrey, Hearing Instrument Specialist at the Victoria office" width="600" height="800" loading="lazy" decoding="async">
       </figure>
       <div class="provider__bio">
-        <h3>Nick Yendrey, M.B.A.</h3>
-        <p class="provider__role">Hearing Instrument Specialist · Victoria office</p>
-        <p>Nick serves the Victoria community with a focus on personalized hearing solutions. His role is to help you understand your hearing and discuss hearing-aid options suited to your needs.</p>
+        <p>Nick serves the Victoria community with a focus on personalized hearing solutions and helping people understand their hearing-aid options.</p>
         <ul class="provider__services">
-          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Hearing tests and guidance on whether hearing aids may help</li>
-          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Hearing-aid fitting and help using your devices</li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing tests and guidance on whether hearing aids may help</li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing-aid fitting and help using your devices</li>
         </ul>
         <p class="provider__license">Brown Hearing Centers’ Hearing Instrument Specialists are state licensed.</p>
         <div class="provider__roots">
-          <h3>A Victoria beginning. Three generations of service.</h3>
-          <p>Lee Brown opened the company’s first office in Victoria in 1962. Today, Brown Hearing Centers remains family owned and operated, with a commitment to one-on-one care and ongoing support.</p>
+          <h3>Founded in Victoria in 1962</h3>
+          <p>Lee Brown opened the company’s first office in Victoria in 1962. Today, Brown Hearing Centers remains family owned and operated, now in its third generation, with a commitment to one-on-one care and ongoing support.</p>
         </div>
         <div class="actions">
           <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
