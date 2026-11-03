@@ -389,7 +389,8 @@ ul,ol{ margin:0; }
 @media (min-width:1024px){
  #next-steps .steps{ grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; align-items:stretch; }
  #next-steps .step{ padding:20px 18px; }
- #next-steps .step::after{ left:100%; top:38px; width:17px; height:1px; }
+ #next-steps .step::before{ align-self:start; margin-top:calc(1.6875rem - 18px); }
+ #next-steps .step::after{ left:100%; top:calc(20px + 1.6875rem); width:17px; height:1px; transform:translateY(-50%); }
  #next-steps .step h3{ min-height:2.7em; display:flex; align-items:center; line-height:1.35; }
  #next-steps .cta-band{ grid-template-columns:minmax(0,1fr) auto; align-items:center; padding:24px 28px; gap:24px; }
 }
