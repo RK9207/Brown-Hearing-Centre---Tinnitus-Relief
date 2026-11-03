@@ -620,3 +620,11 @@ No image asserts symptom relief or a treatment result. The original Step 4B opti
 ## Step 5 — IMG-HERO-01 visible caption removed by request
 
 The user explicitly requested removal of the bottom-right “Illustrative image” label. The figure caption and its styling are removed; neutral descriptive alt text remains. The active source is unchanged: https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp . This supersedes previous instructions requiring a visible caption. Source/illustrative provenance remains documented here; removal does not reclassify the image as an actual patient or clinical result. No image generation, asset modification, crop or image-slot change is made.
+
+
+## Step 5 — Latest user-supplied Hero image
+
+The user explicitly requested this replacement for IMG-HERO-01:
+https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
+
+Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
