@@ -644,3 +644,8 @@ Evidence: current desktop/mobile renders inspected before editing, and rebuilt d
 User supplied Nick’s genuine 600×800 JPEG at https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg. Replaced IMG-PROVIDER-01 placeholder with the photograph, descriptive alt text, explicit intrinsic dimensions and lazy loading. Preserve native 3:4 ratio with no crop loss at 300px desktop and 220px mobile. The downloaded asset was inspected. Earlier missing-portrait notes are resolved; section 3 still awaits result approval. Locked sections and other content are unchanged.
 
 Rendering note: the supplied URL downloaded successfully, but the browser proxy blocked its image request. Responsive photo inspection therefore uses the exact downloaded JPEG served to the browser by a local request override; published HTML retains the user’s original URL.
+
+
+## Step 5 — IMG-CLINIC-01 retired from active layout (2026-11-04)
+
+User approved removing the optional Victoria entrance-photo placeholder as part of the compact contact section. IMG-CLINIC-01 is no longer rendered. Its historical prompt options remain archival and must not reactivate the slot without new approval. The contact section now uses the supplied OAP interactive map; no new AI image or image placeholder is required. Genuine clinic imagery may be considered only if later supplied and approved. Hero and Nick portrait remain unchanged.
