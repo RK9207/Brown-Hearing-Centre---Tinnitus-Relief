@@ -278,6 +278,9 @@ ul,ol{ margin:0; }
 #help .care-grid .care-benefit{ color:var(--navy); margin-top:22px; padding-top:20px; border-top:1px solid rgba(120,71,39,.22); }
 #help .care-options{ border-top:2px solid var(--brown); padding:28px 0 0; }
 #help .care-options .care-icon{ margin-bottom:20px; }
+#help .care-subhead{ display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+#help .care-grid .care-subhead .care-icon{ flex:none; margin:0; }
+#help .care-grid .care-subhead h3{ min-width:0; margin:0; }
 #help .care-grid .care-availability{ margin-top:20px; color:var(--brown); font-size:.9375rem; font-weight:600; }
 #help .care-support{ display:flex; gap:18px; align-items:flex-start; margin-top:32px; padding:26px 0; border-bottom:1px solid var(--line); }
 #help .care-support .care-icon{ width:32px; height:32px; flex:none; margin:2px 0 0; }
@@ -886,14 +889,18 @@ body.dialog-open{ overflow:hidden; }
     </div>
     <div class="care-grid">
       <article class="care-evaluation">
-        <span class="care-icon" aria-hidden="true"><svg><use href="#i-ear"/></svg></span>
-        <h3>Understand your hearing</h3>
+        <div class="care-subhead">
+          <span class="care-icon" aria-hidden="true"><svg><use href="#i-ear"/></svg></span>
+          <h3>Understand your hearing</h3>
+        </div>
         <p>A Hearing Instrument Specialist checks which sounds you hear and how well you understand speech. Your results are shown on a chart called an audiogram and explained to you.</p>
         <p class="care-benefit">A clearer picture of your hearing helps you make an informed decision about what to discuss next.</p>
       </article>
       <article class="care-options">
-        <span class="care-icon" aria-hidden="true"><svg><use href="#i-wave"/></svg></span>
-        <h3>Where hearing aids may fit</h3>
+        <div class="care-subhead">
+          <span class="care-icon" aria-hidden="true"><svg><use href="#i-wave"/></svg></span>
+          <h3>Where hearing aids may fit</h3>
+        </div>
         <p>Some hearing aids have tinnitus-masking features designed to help cover unwanted noise. These features may help some people even without hearing loss.</p>
         <p>Making the sound less noticeable may bring relief during everyday activities. Results vary, and suitability needs individual assessment.</p>
         <!-- General educational information (S3). Victoria-specific availability is not confirmed. -->
