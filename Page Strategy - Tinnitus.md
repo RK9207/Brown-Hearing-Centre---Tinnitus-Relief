@@ -296,3 +296,10 @@ User approved a provider-focused layout with “Hearing care with roots in Victo
 Imagery: IMG-PROVIDER-01 remains a genuine-person-only slot, 3:4, 300px wide desktop and 220px mobile. The official staff page returned HTTP 403; the full portrait URL could not be retrieved or verified. A clearly marked draft placeholder remains and must be replaced with Nick’s genuine image. IMG-HERITAGE-01 is retired from the active layout; historical prompt options remain archival only. No generated or stock person substitutes for Nick.
 
 Evidence: current desktop/mobile renders inspected before editing, and rebuilt desktop1440/mobile390 renders inspected afterward without horizontal overflow. The new cream section follows the quiet white educational section. Changes are confined to section 3 markup and its style block; approved section order, other sections, contact routes and embeds remain intact. Portrait appearance and crop await the real asset. No publishing or merge.
+
+
+### Nick portrait supplied and inserted (2026-11-03)
+
+User supplied Nick’s genuine 600×800 JPEG at https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg. Replaced IMG-PROVIDER-01 placeholder with the photograph, descriptive alt text, explicit intrinsic dimensions and lazy loading. Preserve native 3:4 ratio with no crop loss at 300px desktop and 220px mobile. The downloaded asset was inspected. Earlier missing-portrait notes are resolved; section 3 still awaits result approval. Locked sections and other content are unchanged.
+
+Rendering note: the supplied URL downloaded successfully, but the browser proxy blocked its image request. Responsive photo inspection therefore uses the exact downloaded JPEG served to the browser by a local request override; published HTML retains the user’s original URL.
