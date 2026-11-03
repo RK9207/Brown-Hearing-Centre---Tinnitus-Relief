@@ -198,3 +198,12 @@ User-approved headline: “How hearing care may help with tinnitus.” The rebui
 ### Section 2 final copy and hierarchy refinements (2026-11-03)
 
 User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
+
+
+## Step 5 — Provider-focused section implementation (2026-11-03)
+
+User approved a provider-focused layout with “Hearing care with roots in Victoria.” The existing #provider section remains immediately after locked #help. Nick’s introduction is shortened, his verified Hearing Instrument Specialist role is prominent, and two concise service bullets replace the training checklist. Business degrees are no longer repeated in the body; M.B.A. remains in his name. The family-owned practice’s Victoria founding in 1962 and three-generation history are consolidated into an integrated supporting note; the separate archival block is removed. Call remains primary, appointment request secondary. Section 3 is implemented pending user review; it is not locked. Hero/header/trust strip and section 2 remain locked and unchanged.
+
+Imagery: IMG-PROVIDER-01 remains a genuine-person-only slot, 3:4, 300px wide desktop and 220px mobile. The official staff page returned HTTP 403; the full portrait URL could not be retrieved or verified. A clearly marked draft placeholder remains and must be replaced with Nick’s genuine image. IMG-HERITAGE-01 is retired from the active layout; historical prompt options remain archival only. No generated or stock person substitutes for Nick.
+
+Evidence: current desktop/mobile renders inspected before editing, and rebuilt desktop1440/mobile390 renders inspected afterward without horizontal overflow. The new cream section follows the quiet white educational section. Changes are confined to section 3 markup and its style block; approved section order, other sections, contact routes and embeds remain intact. Portrait appearance and crop await the real asset. No publishing or merge.
