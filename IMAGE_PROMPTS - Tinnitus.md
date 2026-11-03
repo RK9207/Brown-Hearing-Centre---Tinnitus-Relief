@@ -615,3 +615,8 @@ No image asserts symptom relief or a treatment result. The original Step 4B opti
 **Role/layout:** retain the approved full-width photographic Hero with opaque cream reading panel on desktop and separate image below content on mobile. Existing 50% 25% desktop / 90% 48% mobile object positions are retained pending review against the supplied asset.
 
 **Evidence limitation:** host returned HTTP 403 to download and web inspection. Subject matter, exact crop, source dimensions and file weight are not claimed verified. The existing 1920×800 attributes reserve the approved layout ratio; they do not establish the source image's actual dimensions. Caption: “Illustrative image”. Neutral alt: “Illustrative lifestyle photograph.” Inspect the real GHL desktop/mobile rendering to refine these if needed. Source insertion is approved; rendered result is not yet locked.
+
+
+## Step 5 — IMG-HERO-01 visible caption removed by request
+
+The user explicitly requested removal of the bottom-right “Illustrative image” label. The figure caption and its styling are removed; neutral descriptive alt text remains. The active source is unchanged: https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp . This supersedes previous instructions requiring a visible caption. Source/illustrative provenance remains documented here; removal does not reclassify the image as an actual patient or clinical result. No image generation, asset modification, crop or image-slot change is made.
