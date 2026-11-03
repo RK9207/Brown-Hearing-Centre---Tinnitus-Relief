@@ -471,3 +471,10 @@ User requested a brown border and slightly rounder corners on Nick’s photo, re
 User requested name/details below the photo. Moved Nick’s name, professional title and Victoria office label into a centered semantic figcaption beneath his portrait at all widths. Desktop keeps biography/services/history/actions to the right; mobile keeps those beneath the photo/caption. Desktop caption name24px/title16px/office14px; mobile name20px/title15px/office14px. Professional title and office use separate lines to avoid an awkward separator wrap. Preserved genuine image/source/alt,3:4 ratio, responsive photo sizes,1px brown border and12px corners. No factual provider detail, CTA, other section or embed changed. This relocation is an explicit user-authorized exception to the provider lock; all other locked aspects remain intact. Footer still awaits result approval.
 
 Validated at1440/1024/390/320px: caption centered below photo, desktop bio alongside/mobile bio below, portrait frame/radius retained and no horizontal overflow. Inspected desktop/mobile renders using the exact downloaded supplied portrait. No publishing or merge.
+
+
+### User-approved provider heading in right column (2026-11-04)
+
+User requested shifting the provider headline/subheadline to the right. Moved the existing heading block into the provider grid, above the biography in the right desktop column. Portrait and centered name/title/office caption remain left. At mobile widths the centered headline/support remain above the photo, preserving its deliberate two-line headline and photo→caption→bio sequence. Copy, image frame, colors, actions and all other sections are unchanged. This is an explicit layout-only exception to the provider lock.
+
+Checked1440/1024/390/320px: desktop heading aligns with biography and precedes it, mobile heading precedes photo, caption remains centered beneath portrait, brown1px frame/12px radius retained, no horizontal overflow. Inspected desktop/mobile renders using supplied portrait. Footer remains pending result approval; no publication/merge.
