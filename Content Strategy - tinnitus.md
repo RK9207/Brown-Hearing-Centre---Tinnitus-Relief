@@ -183,3 +183,8 @@ At the user's explicit request, IMG-HERO-01 now uses https://assets.cdn.filesafe
 ## Step 5 — Header wording and visible caption update
 
 User-requested navigation labels are implemented as Services, About Us, Your Visit, Reviews, FAQs and Location, pointing to the existing relevant sections. The visible “Illustrative image” caption is removed at the user's explicit request. Neutral image alt text and source provenance remain; no actual patient identity or treatment result is implied. H1, supporting copy, phone, booking/request labels and all later copy remain unchanged. Earlier visible-caption instructions are superseded.
+
+
+## Step 5 — Hero review badge count wording
+
+At the user's explicit request, the Hero badge now reads **4.9/5 · 50+ Google reviews** instead of 52. Its accessible label says “Rated 4.9 out of 5 on Google from more than 50 reviews. Read patient reviews.” S25's screenshot-backed 52-review count supports this rounded wording; the evidence record and detailed review-section count remain unchanged. No new live review check is claimed. Only the Hero badge wording changes; rating, review content, links, layout and other sections are preserved.
