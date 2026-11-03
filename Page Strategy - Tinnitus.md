@@ -256,3 +256,12 @@ The user explicitly stated “Okay, i approve this section, lets move to the nex
 **Selected next existing section:** “How hearing care may help with tinnitus” (#help), directly below the locked Hero/trust strip. This answers what potential hearing-care help means before introducing the local provider. The visual bridge is from the Hero's photographic emphasis and compact proof into a quieter, readable explanation using the approved serif typography and warm palette. This retains the approved order and needs no structural reordering.
 
 **Checkpoint:** obtain and inspect full current desktop/mobile renderings of #help before individual analysis. No section-2 code edits or redesign are authorized by the instruction to move next; present a recommendation and obtain implementation approval first. Earlier statements that no section is locked are historical and superseded by this entry.
+
+
+## Step 5 — Section 2 implementation, pending result review (2026-11-03)
+
+The user approved the retained headline, “How hearing care may help with tinnitus,” and the recommended editorial layout. Section 2 is implemented and awaits explicit result approval; it is not locked. The Hero, header and trust strip remain locked. Section order is unchanged.
+
+A short definition leads to a prominent cream hearing-evaluation panel and a quieter explanation of tinnitus-masking hearing-aid features. Compact follow-up and medical-scope notes replace the repetitive comparison rows and long causes list. Symptom pills are removed. Detailed causes may be considered during the later FAQ review; the FAQ code has not changed. Call remains primary and appointment request secondary. Victoria-specific masking-feature availability remains unconfirmed, so the copy asks visitors to confirm options with the office. No new image is required.
+
+Validation: the document renders at 1440, 1024, 390 and 320 pixels without horizontal overflow; the section’s appointment trigger opens the existing dialog and Escape closes it at each width. Desktop and mobile section screenshots were inspected. Changes are restricted to section 2 markup and its scoped CSS; all other markup and styles are preserved. Local rendering cannot verify externally blocked clinic imagery; no imagery was changed in this section. No production publishing or merge occurred.
