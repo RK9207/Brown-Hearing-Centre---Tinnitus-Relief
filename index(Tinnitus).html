@@ -556,43 +556,164 @@ ul,ol{ margin:0; }
 }
 
 /* ==========================================================================
-   12. SECTION 7 — LOCATION & FINAL CONTACT
+   12. SECTION 7 — COMPACT CONTACT & OAP MAP
    ========================================================================== */
-.location__grid{ display:grid; gap:24px; }
+#location.section{ padding-block:56px; }
+#location .location__grid{ display:grid; gap:24px; align-items:stretch; }
+#location .contact-panel{ background:var(--navy); color:#fff; border-radius:8px; padding:32px; display:flex; flex-direction:column; gap:24px; }
+#location .contact-panel h2{ color:#fff; font-weight:500; }
+#location .contact-panel p{ color:#fff; margin-top:14px; font-size:1rem; line-height:1.6; }
+#location .contact-list{ list-style:none; padding:0; margin:0; }
+#location .contact-list li{ display:flex; gap:12px; align-items:flex-start; line-height:1.6; color:#fff; }
+#location .contact-list .icon{ color:#fff; flex:none; margin-top:3px; }
+#location .contact-list address{ font-style:normal; }
+#location .contact-panel .actions{ margin-top:auto; gap:8px 24px; align-items:center; }
+#location .location__request{ min-height:48px; padding:10px 0; border:0; background:none; color:#fff; font:600 1rem/1.5 var(--sans); text-decoration:underline; text-underline-offset:4px; cursor:pointer; }
+#location .location__request:hover{ color:var(--cream); }
+#location .location__map{ min-width:0; }
 @media (min-width:1024px){
-  .location__grid{ grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:40px; align-items:stretch; }
+ #location .location__grid{ grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:32px; }
 }
-.contact-panel{
-  background:var(--navy); color:#fff;
-  border-radius:var(--radius-lg);
-  padding:32px 24px;
-  display:flex; flex-direction:column; gap:24px;
+@media (max-width:599px){
+ #location.section{ padding-block:40px; }
+ #location .contact-panel{ padding:24px; gap:22px; }
+ #location .contact-panel h2{ font-size:1.75rem; line-height:1.25; }
+ #location .contact-panel .actions{ display:grid; gap:4px; }
+ #location .contact-panel .actions>*{ width:100%; }
 }
-@media (min-width:768px){ .contact-panel{ padding:44px 40px; } }
-.contact-panel h2{ color:#fff; }
-.contact-panel p{ color:rgba(255,255,255,.88); }
-.contact-list{ list-style:none; padding:0; display:grid; gap:16px; }
-.contact-list li{ display:flex; gap:12px; align-items:flex-start; line-height:1.5; }
-.contact-list .icon{ color:#fff; opacity:.9; margin-top:3px; }
-.contact-list a{ color:#fff; font-weight:600; }
-.contact-list small{ display:block; color:rgba(255,255,255,.75); font-size:.875rem; }
-.contact-panel .actions{ margin-top:auto; }
-@media (max-width:599px){ .contact-panel .actions .btn{ width:100%; } }
+/* User-supplied OAP map UI; height adapted to the approved compact layout. */
 
-.location__map{ display:flex; flex-direction:column; gap:16px; }
-.map-wrap{
-  position:relative; width:100%;
-  aspect-ratio:4 / 3;
-  border-radius:var(--radius-lg); overflow:hidden;
-  border:1px solid var(--line);
-  background:var(--ph-b);
-}
-@media (min-width:1024px){ .map-wrap{ flex:1; aspect-ratio:auto; min-height:380px; } }
-.map-wrap iframe{
-  position:absolute; inset:0;
-  width:100% !important; height:100% !important; border:0;
-}
-.location__clinic .img-ph{ --ratio:16 / 9; border-color:rgba(255,255,255,.25); }
+  #victoria-map-block {
+    position: relative;
+    width: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #051c3b;
+  }
+
+  #victoria-map-block,
+  #victoria-map-block * {
+    box-sizing: border-box;
+  }
+
+  #location-victoria-map {
+    width: 100%;
+    height: 420px;
+  }
+
+  #victoria-map-block .map-card {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    max-width: calc(100% - 24px);
+    background: #fff;
+    padding: 12px 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  #victoria-map-block .map-card p {
+    margin: 0 0 8px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #victoria-map-block .location-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 6px 0;
+    color: #12639a;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  #victoria-map-block .map-directions {
+    position: absolute;
+    left: 12px;
+    bottom: 32px;
+    z-index: 2;
+    max-width: calc(100% - 76px);
+  }
+
+  #victoria-map-block .directions-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 52px;
+    padding: 12px 26px;
+    border: 2px solid #12639a;
+    border-radius: 8px;
+    background: #12639a;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #victoria-map-block .directions-button:hover {
+    background: #051c3b;
+    border-color: #051c3b;
+    color: #fff;
+  }
+
+  #victoria-map-block .directions-button svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  #victoria-map-block a:focus-visible {
+    outline: 3px solid #051c3b;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px #fff;
+  }
+
+  #victoria-map-block .maplibregl-popup-content {
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  #victoria-map-block .maplibregl-popup-close-button {
+    padding: 4px 8px;
+    color: #000;
+    font-size: 18px;
+  }
+
+  #victoria-map-block .maplibregl-popup-close-button:hover {
+    color: #000;
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 600px) {
+    #location-victoria-map {
+      height: 380px;
+    }
+
+    #victoria-map-block .map-card {
+      top: 8px;
+      left: 8px;
+      right: 8px;
+      max-width: calc(100% - 16px);
+      padding: 10px 12px;
+    }
+
+    #victoria-map-block .map-card p,
+    #victoria-map-block .location-link {
+      font-size: 14px;
+    }
+  }
+
+#victoria-map-block{ border:1px solid #d8c4b6; border-radius:8px; overflow:hidden; background:var(--cream); }
+#victoria-map-block .map-card{ z-index:2; }
+#victoria-map-block .map-status{ position:absolute; left:12px; bottom:96px; z-index:2; max-width:calc(100% - 24px); margin:0; padding:10px 12px; background:#fff; color:var(--navy); border-radius:4px; font-size:.875rem; line-height:1.5; }
+
 
 /* ==========================================================================
    13. FOOTER
@@ -828,6 +949,10 @@ body.dialog-open{ overflow:hidden; }
 }
 
 </style>
+<link
+  href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css"
+  rel="stylesheet"
+>
 </head>
 
 <body>
@@ -1187,58 +1312,69 @@ body.dialog-open{ overflow:hidden; }
   <div class="container location__grid">
     <div class="contact-panel on-dark">
       <div>
-        <h2 id="location-title">Visit our Victoria office</h2>
-        <p style="margin-top:14px">Ready to talk about the ringing in your ears? Call or send a request, tell us what you’re hearing, and we’ll help you find a good place to start.</p>
+        <h2 id="location-title">Contact our Victoria office</h2>
+        <p>Talk with our Victoria team about the ringing or other sounds you’re hearing. Call or request an appointment to get started.</p>
       </div>
-
       <ul class="contact-list">
         <li>
           <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-          <span>
-            <strong>Victoria office</strong><br>
-            5606 N Navarro St #200<br>Victoria, TX 77904
-            <!-- VERIFY: "Located Inside Heritage Mark, Inc." wayfinding (S6) before adding -->
-            <!-- [MISSING] Office hours — add once confirmed -->
-          </span>
-        </li>
-        <li>
-          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          <span><a href="tel:+14092316980">409-231-6980</a></span>
+          <address><strong>Victoria office</strong><br>5606 N Navarro St #200<br>Victoria, TX 77904</address>
         </li>
       </ul>
-
-      <!-- IMG-CLINIC-01 (optional): Victoria office exterior / entrance for wayfinding. 16:9 landscape.
-           Real photo ONLY (GBP or client-supplied). Remove this block if no genuine photo is available. -->
-      <figure class="location__clinic">
-        <div class="img-ph" data-img-id="IMG-CLINIC-01">
-          <svg aria-hidden="true"><use href="#i-image"/></svg>
-          <span class="img-ph__id">IMG-CLINIC-01</span>
-          <span class="img-ph__desc">Victoria office entrance. Real photo only; remove if unavailable.</span>
-          <span class="img-ph__ratio">16:9 landscape</span>
-        </div>
-      </figure>
-
       <div class="actions">
-        <a class="btn btn--light" href="tel:+14092316980">
-          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          Call 409-231-6980
-        </a>
-        <button type="button" class="btn btn--ghost-light" data-open-appointment>Request an Appointment</button>
+        <a class="btn btn--light" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
+        <button type="button" class="location__request" data-open-appointment>Request an Appointment</button>
       </div>
     </div>
-
     <div class="location__map">
-      <!-- Supplied Google Maps embed (brief §12). pb= string unmodified; responsiveness via .map-wrap only. -->
-      <div class="map-wrap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3494.707081354659!2d-96.9979563!3d28.8475796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864267d4e652ab67%3A0x3103d1a3a7112a8c!2sBrown%20Hearing%20Centers!5e0!3m2!1sen!2sin!4v1793651440231!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Map of Brown Hearing Centers, 5606 N Navarro St #200, Victoria, TX"></iframe>
-      </div>
-      <!-- VERIFY: directions destination resolves to the Victoria office -->
-      <div>
-        <a class="btn btn--call" href="https://www.google.com/maps/dir/?api=1&amp;destination=Brown+Hearing+Centers%2C+5606+N+Navarro+St+%23200%2C+Victoria%2C+TX+77904" target="_blank" rel="noopener">
-          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-          Get Directions<span class="visually-hidden"> (opens Google Maps in a new tab)</span>
-        </a>
-      </div>
+<div id="victoria-map-block">
+  <div
+    id="location-victoria-map"
+    role="region"
+    aria-label="Map showing Brown Hearing Centers in Victoria"
+  ></div>
+
+  <p class="map-status" role="status">Loading map…</p>
+
+  <div class="map-card">
+    <p>
+      <strong>Brown Hearing Centers</strong><br>
+      5606 N. Navarro Street, Suite 200,<br>
+      Victoria, TX 77904
+    </p>
+
+    <a
+      class="location-link"
+      href="https://www.google.com/maps/place/Brown+Hearing+Centers/@28.8475796,-96.9979563,17z/data=!3m1!4b1!4m6!3m5!1s0x864267d4e652ab67:0x3103d1a3a7112a8c!8m2!3d28.8475796!4d-96.9979563!16s%2Fg%2F11vr9tkh69"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="View Brown Hearing Centers on Google Maps (opens in a new tab)"
+    >Get Location</a>
+  </div>
+
+  <div class="map-directions">
+    <a
+      class="directions-button"
+      href="https://www.google.com/maps/dir/?api=1&amp;destination=5606+N+Navarro+St+Suite+200+Victoria+TX+77904"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Get directions to Brown Hearing Centers (opens in a new tab)"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M3 11l19-9-9 19-2-8-8-2z"></path>
+      </svg>
+      Get Directions
+    </a>
+  </div>
+</div>
     </div>
   </div>
 </section>
@@ -1319,6 +1455,78 @@ body.dialog-open{ overflow:hidden; }
     </div>
   </div>
 </dialog>
+
+<!-- User-approved OAP Maps replacement; preserve SDK/proxy/tracking configuration. -->
+<script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
+<script src="https://cdn.onspireanalytics.com/latest/maps.min.js"></script>
+<script>
+
+  (function () {
+    function initializeVictoriaMap() {
+      var container = document.getElementById("location-victoria-map");
+
+      if (!container || container.dataset.mapInitialized === "true") return;
+
+      var status = document.querySelector("#victoria-map-block .map-status");
+      function showMapUnavailable() {
+        if (status) { status.hidden = false; status.textContent = "Map unavailable. Use Get Location or Get Directions."; }
+      }
+      if (!window.OapMaps || !window.maplibregl) { showMapUnavailable(); return; }
+      try {
+      OapMaps.init({
+        proxyUrl: "https://oap-prod-maps-proxy-rakvtqapla-ue.a.run.app"
+      });
+
+      var center = [-96.99800994417896, 28.847781645088972];
+
+      var map = new maplibregl.Map(
+        Object.assign(
+          OapMaps.mapOptions("location-victoria-map"),
+          {
+            center: center,
+            zoom: 13,
+            cooperativeGestures: true
+          }
+        )
+      );
+
+      container.dataset.mapInitialized = "true";
+
+      map.addControl(
+        new maplibregl.NavigationControl(),
+        "bottom-right"
+      );
+
+      new maplibregl.Marker({ color: "#EA4335" })
+        .setLngLat(center)
+        .setPopup(
+          new maplibregl.Popup({ offset: 25 }).setHTML(
+            "<div><strong>Brown Hearing Centers, Victoria, TX</strong></div>"
+          )
+        )
+        .addTo(map);
+
+      OapMaps.initTracking(map);
+      map.once("load", function () { if (status) status.hidden = true; map.resize(); });
+      map.on("error", function () { if (!map.isStyleLoaded()) showMapUnavailable(); });
+      if (window.ResizeObserver) {
+        new ResizeObserver(function () { map.resize(); }).observe(container);
+      }
+      } catch (error) { showMapUnavailable(); }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener(
+        "DOMContentLoaded",
+        initializeVictoriaMap,
+        { once: true }
+      );
+    } else {
+      initializeVictoriaMap();
+    }
+  })();
+
+</script>
 
 <script src="https://api.onspirepulse.com/js/form_embed.js"></script>
 
