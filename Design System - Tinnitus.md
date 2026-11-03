@@ -254,3 +254,8 @@ At the user's request, the two solid warm-brown trust-strip icons are increased 
 ## Step 5 — More navigation whitespace
 
 At the user's explicit request, the header navigation gap is increased from **18px to 28px** in the desktop row and from **26px to 32px** in the intermediate-width second row. Labels, logo dimensions, contact controls, Hero and all other content remain unchanged. Layout checks at 1024, 1200, 1280 and 1440 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. This spacing refinement does not lock the section.
+
+
+## Step 5 — Section 2 editorial implementation (2026-11-03)
+
+Section 2 uses scoped #help styles: a short left-aligned introduction, a cream evaluation panel beside a quieter white masking-feature explanation with a brown top rule, and compact support and medical-scope notes. Filled brown icon tiles use #784727 with white glyphs. Existing Lora headings, Open Sans body text, blue call action and navy appointment text remain. The two columns stack below 900px, with reduced panel padding and full-width call action on narrow screens. No new photograph or global component change was introduced. Rendered at 1440, 1024, 390 and 320px without horizontal overflow; desktop/mobile screenshots inspected. Hero, header and trust-strip design remain locked. Section 2 awaits result approval.
