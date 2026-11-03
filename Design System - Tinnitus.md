@@ -211,3 +211,10 @@ This is an implementation awaiting user review. Do not treat these section-speci
 ## Step 5 — Active Hero image source
 
 The user supplied https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp and requested its insertion. IMG-HERO-01 now loads this hosted WebP instead of the embedded family image. The previous 94 KB/1920×800 embedded-asset description is superseded; this supplied asset's file weight and natural dimensions are unverified. The 1920×800 HTML layout hints, full-width desktop treatment, separated mobile image area, eager loading and approved object-position rules are retained. No source-image alteration is made. The host returns 403 to local inspection, so crop/appearance needs GHL-rendered verification. Hero is not locked.
+
+
+## Step 5 — Header alignment and navigation refinement
+
+At the user's explicit request, header presentation is refined with a stable 200px logo zone, centered six-link navigation, consistent spacing, 44px-minimum navigation interaction height, a filled call action and quieter text-style appointment action. Navigation labels: Services, About Us, Your Visit, Reviews, FAQs, Location. At 1024–1199px navigation occupies its own aligned row; below 1024px the compact logo/Book Appointment treatment remains. A ResizeObserver synchronizes anchor offsets to actual sticky-header height, with a resize fallback.
+
+The bottom-right Hero figure caption and its CSS are removed; accessible alt text, exact supplied image URL, Hero layout and existing crop rules are preserved. This supersedes earlier visible-caption requirements. Later section markup/style and contact destinations are unchanged. Rendering of externally hosted image/logo remains limited by local 403 responses; GHL appearance still needs review. No section is locked.
