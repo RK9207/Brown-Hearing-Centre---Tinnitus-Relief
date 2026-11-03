@@ -175,3 +175,19 @@ Avoid repetitive cards, identical layouts, irrelevant imagery, excessive density
 Before later publication: populate verified review elements; confirm Victoria claims/call routing; preserve original embeds/links; inspect responsive map/form behavior; check keyboard/focus, zoom, narrow widths and contrast. None of these implementation checks is claimed complete now.
 
 Internal drafts may contain unmistakable missing-evidence notes; public output must not contain unresolved placeholders or invented substitutes. Consequential Step 5 section/narrative changes require explanation and approval. Builder approval remains separate; do not begin Step 4 automatically.  
+
+
+
+## Step 5 — Approved Hero/header visual implementation
+
+Direction A is implemented for the first section only, pending user review:
+
+- Original supplied header logo on a small navy plaque; white-on-navy readable text fallback if that remote asset fails. This does not redesign or recolor the actual mark. Footer logo is unchanged.
+- Shorter responsive headline, concise support, existing primary/outline CTA hierarchy and tighter trust spacing.
+- One 420px-maximum editorial photograph: 4:5 desktop, 4:3 mobile, center/40% vertical mobile crop and explicit dimensions. Generated scene is illustrative, not actual clinic/patient proof; caption remains visible.
+- Optimized WebP embedded in the HTML: approximately 134 KB, 960×1200, eager/high-priority Hero loading. No asset-hosting dependency was introduced.
+- Header and Hero CSS is scoped; later sections are unchanged. On very narrow screens decorative stars may hide, while readable rating/count and accessible full rating remain present.
+
+S25 user screenshots now support the existing 4.9/5 from 52 Google reviews. Keep Hero and review-section figures synchronized and refresh before publication. No generic redesign or new reusable styling is authorized for later sections by this update.
+
+Local preview check: the original remote logo failed to load; the text fallback was visible and the actual supplied mark remains in the source for working environments. External form submission, live tracking, routing and the exact GHL-hosted rendering require later verification. The result is not locked.
