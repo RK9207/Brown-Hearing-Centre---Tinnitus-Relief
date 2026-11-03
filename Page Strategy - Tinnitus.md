@@ -233,3 +233,11 @@ Validation for this header revision: browser checks at 320, 390, 768, 1024, 1100
 At the user's explicit request, the header logo's responsive dimensions are increased by 25%: desktop 200×68 → 250×85; intermediate 180×60 → 225×75; tablet 160×52 → 200×65; narrow-screen slot width/height scaled from the prior clamp and 48px height to a 1.25× clamp and 60px height. The logo aspect ratio, source and footer remain unchanged. Header grid reserves the larger width; the mobile appointment button retains a 44px minimum tap height with a compact responsive treatment.
 
 Layout checks at 320, 390, 768, 1024, 1100, 1200, 1280, 1440 and 1920 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. Logo slot geometry was checked by exposing the styled image box because the remote asset remains blocked locally; the actual artwork is not claimed visually verified. No Hero, navigation-label, form or later-section change is made. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — Latest user-supplied Hero image
+
+The user explicitly requested this replacement for IMG-HERO-01:
+https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
+
+Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
