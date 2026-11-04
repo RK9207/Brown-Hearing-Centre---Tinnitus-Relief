@@ -271,3 +271,10 @@ Verification: inline scripts pass node syntax checks. Existing appointment dialo
 ## Approved whole-page content polish (2026-11-04)
 
 User approved the audit refinements. Remove the duplicate standalone fitting/follow-up note and Call/request row at the end of #help; preserve the evaluation and masking explanation, scope qualifications, and availability question. Fitting/follow-up information remains in the provider and visit sections. Change the compact header action from “Book Appointment” to “Request Appointment” to match the actual request flow. Call remains the approved primary action. No new service claim is added: Victoria-specific tinnitus-masking options still need confirmation. Reviews, FAQ answers and required appointment dialog/embed text remain unchanged.
+
+
+## Approved screenshot/research audit refinements — 2026-11-05
+
+User approved the tinnitus-page audit. Clarified Hero and Nick's role copy without adding tinnitus credentials or local service claims; retained call-first priority and made Hero/contact appointment requests outlined buttons. Shortened process cards and relocated evaluation timing/family-member preparation into the supporting note. Hearing-evaluation FAQ now appears first and open, preserving IDs/answers and interactive behavior. Navigation now says Hearing Care and Our Specialist. Desktop review excerpts flex to align expansion links; original full reviews remain intact and excerpt ellipses remain explicit. Hero panel corners are12px on contained layouts; mobile stays full-width. Replaced unresolved copyright year merge field with visible2026 fallback updated by JavaScript; location-name merge field preserved.
+
+Latest HTML already removes the duplicate service fitting note/CTA that still appeared in supplied preview screenshots; import latest HTML to reconcile preview. No new office hours, free tinnitus consultation offer, or treatment availability is asserted: these require confirmation. Section order, supplied form and map integrations remain intact. Current result awaits user review; no deployment or live conversion verification.
