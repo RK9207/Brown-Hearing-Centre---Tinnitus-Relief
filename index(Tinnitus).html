@@ -983,6 +983,19 @@ body.dialog-open{ overflow:hidden; }
  .brand-hero__panel{ border:1px solid var(--box-border); }
 }
 
+
+/* Approved page audit refinements */
+.brand-hero__actions{row-gap:12px;}
+.brand-hero__actions .btn{border-radius:8px;}
+.brand-hero__request{padding:12px 16px;border:1px solid var(--blue);border-radius:8px;min-height:52px;text-decoration:none;color:var(--blue);}
+.brand-hero__request:hover{background:var(--blue);color:#fff;}
+#location .location__request{padding:12px 16px;border:1px solid #fff;border-radius:8px;min-height:52px;text-decoration:none;}
+#location .location__request:hover{background:#fff;color:var(--navy);}
+@media(min-width:600px){.brand-hero__panel{border-radius:12px;}}
+@media(min-width:1024px){
+ #reviews .review-card__excerpt{flex:1;}
+}
+
 </style>
 
 </head>
@@ -1025,8 +1038,8 @@ body.dialog-open{ overflow:hidden; }
 
     <nav class="nav" aria-label="Page sections">
       <ul>
-        <li><a href="#help">Services</a></li>
-        <li><a href="#provider">About Us</a></li>
+        <li><a href="#help">Hearing Care</a></li>
+        <li><a href="#provider">Our Specialist</a></li>
         <li><a href="#next-steps">Your Visit</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#faqs">FAQs</a></li>
@@ -1058,7 +1071,7 @@ body.dialog-open{ overflow:hidden; }
       <div class="brand-hero__panel">
         <p class="brand-hero__place"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Brown Hearing Centers · Victoria, Texas</p>
         <h1 id="hero-title">Tinnitus help in Victoria, Texas</h1>
-        <p class="brand-hero__lead">Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.</p>
+        <p class="brand-hero__lead">Ringing or buzzing in your ears? A hearing evaluation can help you understand your hearing. Talk with our Victoria team about your concerns and whether hearing-aid options may suit your needs.</p>
         <div class="brand-hero__actions">
           <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
           <button type="button" class="brand-hero__request" data-open-appointment>Request an Appointment<svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
@@ -1143,7 +1156,7 @@ body.dialog-open{ overflow:hidden; }
         </figcaption>
       </figure>
       <div class="provider__bio">
-        <p>Nick serves the Victoria community with a focus on personalized hearing solutions and helping people understand their hearing-aid options.</p>
+        <p>Nick helps you understand your hearing test results and explore hearing-aid options suited to your needs. If you choose hearing aids, he provides fitting and guidance on using your devices.</p>
         <ul class="provider__services">
           <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing tests and guidance on whether hearing aids may help</li>
           <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing-aid fitting and help using your devices</li>
@@ -1182,18 +1195,18 @@ body.dialog-open{ overflow:hidden; }
       </li>
       <li class="step">
         <h3>Have your hearing checked</h3>
-        <p>Your Hearing Instrument Specialist checks your hearing. The evaluation typically takes up to an hour, plus time to discuss results and ask questions. Bringing a family member is recommended.</p>
+        <p>Your Hearing Instrument Specialist checks which sounds you hear and how well you understand speech, then explains your results.</p>
       </li>
       <li class="step">
         <h3>Understand your options</h3>
-        <p>Discuss what your results mean and whether hearing aids may help. Ask which options are available at Victoria, including any tinnitus-masking features, and how they fit your needs and budget.</p>
+        <p>Discuss whether hearing aids may help and which options fit your needs and budget. Ask about tinnitus-masking features available at Victoria.</p>
       </li>
       <li class="step">
         <h3>Fitting and follow-up</h3>
         <p>If you choose hearing aids, they’re fitted and adjusted for you, with follow-up for cleaning, maintenance and ongoing support.</p>
       </li>
     </ol>
-    <p class="steps-footnote">Recommendations depend on your hearing results and individual needs.</p>
+    <p class="steps-footnote">Plan for up to an hour for the evaluation, plus time to discuss results. Bringing a family member is recommended. Recommendations depend on your hearing results and individual needs.</p>
     <div class="cta-band">
       <div>
         <h3>Ready to take the first step?</h3>
@@ -1231,7 +1244,7 @@ body.dialog-open{ overflow:hidden; }
       <li>
         <figure class="review-card">
           <div class="review-card__rating"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span>5 out of 5</span></div>
-          <blockquote class="review-card__text review-card__excerpt"><p>“So very helpful with getting me started with my first time hearing aids. Nick Yendrey was kind, friendly, very knowledgeable &amp; helpful. …”</p></blockquote>
+          <blockquote class="review-card__text review-card__excerpt"><p>“So very helpful with getting me started with my first time hearing aids. Nick Yendrey was kind, friendly, very knowledgeable &amp; helpful …”</p></blockquote>
           <details class="review-expand">
             <summary><span class="review-expand__closed">Read full review</span><span class="review-expand__open">Show excerpt</span><span class="visually-hidden"> by Pam Herrmann</span></summary>
             <blockquote class="review-card__text review-card__full"><p>“So very helpful with getting me started with my first time hearing aids. Nick Yendrey was kind, friendly, very knowledgeable &amp; helpful. Very pleasant helping me to get my new hearing aides on &amp; working &amp; even connected to my phone.”</p></blockquote>
@@ -1242,7 +1255,7 @@ body.dialog-open{ overflow:hidden; }
       <li>
         <figure class="review-card">
           <div class="review-card__rating"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span>5 out of 5</span></div>
-          <blockquote class="review-card__text review-card__excerpt"><p>“… Nicholas answered all my questions. He made sure I could put the hearing aids on and operate them. …”</p></blockquote>
+          <blockquote class="review-card__text review-card__excerpt"><p>“… Nicholas answered all my questions. He made sure I could put the hearing aids on and operate them …”</p></blockquote>
           <details class="review-expand">
             <summary><span class="review-expand__closed">Read full review</span><span class="review-expand__open">Show excerpt</span><span class="visually-hidden"> by James Frenzel</span></summary>
             <blockquote class="review-card__text review-card__full"><p>“I had a very good experience. Nicholas answered all my questions. He made sure I could put the hearing aids on and operate them. He’s a very pleasant person to talk to. I highly recommend him.”</p></blockquote>
@@ -1253,7 +1266,7 @@ body.dialog-open{ overflow:hidden; }
       <li>
         <figure class="review-card">
           <div class="review-card__rating"><span class="stars" aria-hidden="true"><span class="stars__base"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span><span class="stars__fill" style="width:100%"><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg><svg aria-hidden="true"><use href="#i-star-fill"/></svg></span></span><span>5 out of 5</span></div>
-          <blockquote class="review-card__text review-card__excerpt"><p>“… He took his time with me during my visit. He made sure all my questions were answered and that I understood everything that was happening. …”</p></blockquote>
+          <blockquote class="review-card__text review-card__excerpt"><p>“… He took his time with me during my visit. He made sure all my questions were answered and that I understood everything that was happening …”</p></blockquote>
           <details class="review-expand">
             <summary><span class="review-expand__closed">Read full review</span><span class="review-expand__open">Show excerpt</span><span class="visually-hidden"> by Mike Keigley</span></summary>
             <blockquote class="review-card__text review-card__full"><p>“Nick was very polite and helpful. He made sure I was comfortable in the waiting room while he finished with his other patient. He took his time with me during my visit. He made sure all my questions were answered and that I understood everything that was happening. I would recommend Brown Hearing Centers. Thank you Nick for your help.”</p></blockquote>
@@ -1290,15 +1303,15 @@ body.dialog-open{ overflow:hidden; }
     </div>
     <div class="faq__list">
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">Can hearing aids help with tinnitus without hearing loss?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
-        <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1">
-          <p>Some hearing aids have tinnitus-masking features that may make unwanted sounds less noticeable, even without hearing loss. Results vary, and suitability needs individual assessment. Ask the Victoria office which options are available.</p>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="true" aria-controls="faq-a2" id="faq-q2">What can a hearing evaluation tell me?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
+        <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2">
+          <p>It checks which sounds you hear and how well you understand speech. Your results, shown on an audiogram, help guide a discussion about whether hearing aids may help. It does not diagnose medical causes of tinnitus.</p>
         </div>
       </div>
       <div class="faq__item">
-        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">What can a hearing evaluation tell me?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
-        <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
-          <p>It checks which sounds you hear and how well you understand speech. Your results, shown on an audiogram, help guide a discussion about whether hearing aids may help. It does not diagnose medical causes of tinnitus.</p>
+        <h3 class="faq__h"><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">Can hearing aids help with tinnitus without hearing loss?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="faq__toggle-v" d="M12 6v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button></h3>
+        <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden>
+          <p>Some hearing aids have tinnitus-masking features that may make unwanted sounds less noticeable, even without hearing loss. Results vary, and suitability needs individual assessment. Ask the Victoria office which options are available.</p>
         </div>
       </div>
       <div class="faq__item">
@@ -1425,7 +1438,7 @@ body.dialog-open{ overflow:hidden; }
         </ul>
       </nav>
     </div>
-    <p class="footer__legal">© {{right_now.year}} {{location.name}} | All rights reserved.</p>
+    <p class="footer__legal">© <span data-copyright-year>2026</span> {{location.name}} | All rights reserved.</p>
   </div>
 </footer>
 
@@ -1691,6 +1704,9 @@ body.dialog-open{ overflow:hidden; }
 </script>
 
 <script src="https://api.onspirepulse.com/js/form_embed.js"></script>
+<script>
+document.querySelectorAll('[data-copyright-year]').forEach(function(el){el.textContent=new Date().getFullYear();});
+</script>
 </body>
 </html>
 
