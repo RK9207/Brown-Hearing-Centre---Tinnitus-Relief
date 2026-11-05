@@ -1008,6 +1008,10 @@ body.dialog-open{ overflow:hidden; }
  .mobile-explore__menu a:hover{background:rgba(255,255,255,.1);}
  .mobile-explore :focus-visible{outline:2px solid #fff;outline-offset:-4px;}
 }
+
+/* Consistent trailing calendar for appointment actions */
+[data-open-appointment] .icon{width:17px;height:17px;flex-shrink:0;}
+[data-open-appointment]:not(.btn){display:inline-flex;align-items:center;justify-content:center;gap:8px;}
 </style>
 
 </head>
@@ -1065,8 +1069,8 @@ body.dialog-open{ overflow:hidden; }
         <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
         <span>409-231-6980</span>
       </a>
-      <button type="button" class="btn btn--outline btn--sm header-desktop-only" data-open-appointment>Request an Appointment</button>
-      <button type="button" class="btn btn--call btn--sm header-mobile-only" data-open-appointment>Request Appointment</button>
+      <button type="button" class="btn btn--outline btn--sm header-desktop-only" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
+      <button type="button" class="btn btn--call btn--sm header-mobile-only" data-open-appointment><span>Request Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
     </div>
   </div>
   <details class="mobile-explore">
@@ -1191,7 +1195,7 @@ body.dialog-open{ overflow:hidden; }
         </div>
         <div class="actions">
           <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
-          <button type="button" class="provider__request" data-open-appointment>Request an Appointment</button>
+          <button type="button" class="provider__request" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
         </div>
       </div>
     </div>
@@ -1237,7 +1241,7 @@ body.dialog-open{ overflow:hidden; }
       </div>
       <div class="actions">
         <a class="btn btn--light" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
-        <button type="button" class="steps-request" data-open-appointment>Request an Appointment</button>
+        <button type="button" class="steps-request" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
       </div>
     </div>
   </div>
@@ -1303,7 +1307,7 @@ body.dialog-open{ overflow:hidden; }
     </div>
     <div class="reviews__actions">
       <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
-      <button type="button" class="reviews__request" data-open-appointment>Request an Appointment</button>
+      <button type="button" class="reviews__request" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
     </div>
   </div>
 </section>
@@ -1380,7 +1384,7 @@ body.dialog-open{ overflow:hidden; }
       </ul>
       <div class="actions">
         <a class="btn btn--light" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
-        <button type="button" class="location__request" data-open-appointment>Request an Appointment</button>
+        <button type="button" class="location__request" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
       </div>
     </div>
     <div class="location__map">
