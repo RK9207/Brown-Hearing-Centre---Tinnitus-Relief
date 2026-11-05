@@ -795,14 +795,15 @@ body.dialog-open{ overflow:hidden; }
   padding:24px 20px calc(20px + env(safe-area-inset-bottom, 0px));
 }
 @media (min-width:768px){ .dialog__panel{ padding:36px 40px 32px; } }
-.dialog__top{ display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
+.dialog__top{ position:relative; display:flex; justify-content:center; align-items:flex-start; padding-inline:44px; text-align:center; }
+.dialog__top .dialog__close{ position:absolute; top:0; right:0; }
 .dialog__close{
   flex:none; width:44px; height:44px; border-radius:50%;
   border:1.5px solid var(--line-strong); background:#fff; color:var(--navy);
   display:grid; place-items:center; cursor:pointer;
 }
 .dialog__close:hover{ border-color:var(--navy); }
-.dialog__intro{ color:var(--muted); font-size:1rem; margin:12px 0 20px; }
+.dialog__intro{ color:var(--muted); font-size:1rem; margin:12px 0 20px; text-align:center; }
 .dialog__intro a{ font-weight:600; }
 .form-frame{ width:100%; }
 .form-frame iframe{ display:block; width:100%; min-height:794px; } /* supplied data-height: 794 */
