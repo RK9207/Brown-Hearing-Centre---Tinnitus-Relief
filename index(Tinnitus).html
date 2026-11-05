@@ -994,6 +994,20 @@ body.dialog-open{ overflow:hidden; }
  #reviews .review-card__excerpt{flex:1;}
 }
 
+
+/* Mobile section navigation */
+.mobile-explore{display:none;}
+@media(max-width:1023px){
+ .mobile-explore{display:block;position:relative;margin-inline:var(--gutter);border-top:1px solid rgba(255,255,255,.25);}
+ .mobile-explore summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;padding:10px 0;color:#fff;font:700 1rem/1.4 var(--sans);cursor:pointer;list-style:none;}
+ .mobile-explore summary::-webkit-details-marker{display:none;}
+ .mobile-explore summary .icon{width:18px;height:18px;transition:transform .15s;}
+ .mobile-explore[open] summary .icon{transform:rotate(180deg);}
+ .mobile-explore__menu{position:absolute;top:100%;left:calc(-1 * var(--gutter));right:calc(-1 * var(--gutter));max-height:calc(100dvh - var(--header-h) - 16px);overflow-y:auto;overscroll-behavior:contain;background:var(--navy);box-shadow:0 12px 20px rgba(5,28,59,.2);}
+ .mobile-explore__menu a{display:flex;align-items:center;min-height:48px;padding:12px var(--gutter);border-top:1px solid rgba(255,255,255,.18);color:#fff;font-weight:600;text-decoration:none;}
+ .mobile-explore__menu a:hover{background:rgba(255,255,255,.1);}
+ .mobile-explore :focus-visible{outline:2px solid #fff;outline-offset:-4px;}
+}
 </style>
 
 </head>
@@ -1055,6 +1069,17 @@ body.dialog-open{ overflow:hidden; }
       <button type="button" class="btn btn--call btn--sm header-mobile-only" data-open-appointment>Request Appointment</button>
     </div>
   </div>
+  <details class="mobile-explore">
+    <summary>Explore This Page<svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+    <nav class="mobile-explore__menu" aria-label="Explore this page">
+      <a href="#help">Hearing Care</a>
+      <a href="#provider">Our Specialist</a>
+      <a href="#next-steps">Your Visit</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#location">Location</a>
+    </nav>
+  </details>
 </header>
 
 <main id="main">
@@ -1704,6 +1729,16 @@ body.dialog-open{ overflow:hidden; }
 <script src="https://api.onspirepulse.com/js/form_embed.js"></script>
 <script>
 document.querySelectorAll('[data-copyright-year]').forEach(function(el){el.textContent=new Date().getFullYear();});
+</script>
+<script>
+(function(){
+ var menu=document.querySelector('.mobile-explore');
+ if(!menu)return;
+ menu.addEventListener('click',function(e){if(e.target.closest('a'))menu.open=false;});
+ document.addEventListener('click',function(e){if(!menu.contains(e.target))menu.open=false;});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.open){menu.open=false;menu.querySelector('summary').focus();}});
+ window.matchMedia('(min-width:1024px)').addEventListener('change',function(e){if(e.matches)menu.open=false;});
+})();
 </script>
 </body>
 </html>
