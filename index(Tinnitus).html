@@ -1410,7 +1410,7 @@ body.dialog-open{ overflow:hidden; }
       target="_blank"
       rel="noopener noreferrer"
       aria-label="View Brown Hearing Centers on Google Maps (opens in a new tab)"
-    >Get Location</a>
+    >Open in Maps</a>
   </div>
 
   <div class="map-directions">
@@ -1533,7 +1533,7 @@ body.dialog-open{ overflow:hidden; }
     var status = block.querySelector('.map-status');
     if (status) {
       status.hidden = false;
-      status.textContent = 'Map unavailable. Use Get Location or Get Directions.';
+      status.textContent = 'Map unavailable. Use Open in Maps or Get Directions.';
     }
   }
 
@@ -1575,7 +1575,7 @@ body.dialog-open{ overflow:hidden; }
 
       var status = document.querySelector("#victoria-map-block .map-status");
       function showMapUnavailable() {
-        if (status) { status.hidden = false; status.textContent = "Map unavailable. Use Get Location or Get Directions."; }
+        if (status) { status.hidden = false; status.textContent = "Map unavailable. Use Open in Maps or Get Directions."; }
       }
       if (!window.OapMaps || !window.maplibregl) { showMapUnavailable(); return; }
       try {
