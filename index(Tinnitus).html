@@ -1022,6 +1022,32 @@ body.dialog-open{ overflow:hidden; }
  .header-schedule__text>strong{font-size:19px;font-weight:700;}
 }
 .dialog__family{margin:8px 0 0;text-align:center;color:var(--brown);font-size:1rem;line-height:1.5;}
+
+/* Approved mobile scroll reduction */
+.compact-mobile{display:none;}
+@media(max-width:599px){
+ .compact-desktop{display:none!important;}
+ .compact-mobile{display:block;}
+ .section,#provider.section,#next-steps.section,#reviews.section,#faqs.section,#location.section{padding-block:36px;}
+ .section-head p,#provider .section-head p{margin-top:12px;}
+ #help .care-grid{margin-top:24px;gap:24px;}
+ #help .care-evaluation{padding:20px;}
+ #provider .provider__photo{width:240px;max-width:100%;margin-inline:auto;}
+ #provider .provider__photo img{aspect-ratio:4 / 5;object-position:center top;}
+ #provider .provider__grid{gap:20px;}
+ #provider .provider__roots{margin-top:20px;padding-top:16px;}
+ #provider .provider__roots p{margin-top:6px;}
+ #next-steps .steps{margin-top:24px;gap:14px;}
+ #next-steps .step{padding:16px;gap:10px;}
+ #next-steps .cta-band{display:none;}
+ .visit-preparation{margin-top:20px;border-top:1px solid var(--brown);border-bottom:1px solid var(--brown);color:var(--navy);}
+ .visit-preparation summary{padding:14px 0;min-height:48px;cursor:pointer;font-weight:600;}
+ .visit-preparation p{font-size:1rem;line-height:1.6;padding-bottom:16px;}
+ #reviews .review-grid{margin-top:24px;gap:14px;}
+ #reviews .review-card{padding:18px;gap:12px;}
+ #reviews .review-expand{margin-bottom:4px;}
+ #location-victoria-map{height:320px;}
+}
 </style>
 
 </head>
@@ -1200,7 +1226,7 @@ body.dialog-open{ overflow:hidden; }
         <p class="provider__license">Brown Hearing Centers’ Hearing Instrument Specialists are state licensed.</p>
         <div class="provider__roots">
           <h3>Founded in Victoria in 1962</h3>
-          <p>Lee Brown opened the company’s first office in Victoria in 1962. Today, Brown Hearing Centers remains family owned and operated, now in its third generation, with a commitment to one-on-one care and ongoing support.</p>
+          <p class="compact-desktop">Lee Brown opened the company’s first office in Victoria in 1962. Today, Brown Hearing Centers remains family owned and operated, now in its third generation, with a commitment to one-on-one care and ongoing support.</p><p class="compact-mobile">Family owned across three generations.</p>
         </div>
         <div class="actions">
           <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
@@ -1227,22 +1253,26 @@ body.dialog-open{ overflow:hidden; }
     <ol class="steps">
       <li class="step">
         <h3>Contact the Victoria office</h3>
-        <p>Call or request an appointment online. Tell the team about the ringing, buzzing or other sounds you’re hearing.</p>
+        <p><span class="compact-desktop">Call or request an appointment online. Tell the team about the ringing, buzzing or other sounds you’re hearing.</span><span class="compact-mobile">Call or request an appointment. Tell us about the sounds you’re hearing.</span></p>
       </li>
       <li class="step">
         <h3>Have your hearing checked</h3>
-        <p>Your Hearing Instrument Specialist checks which sounds you hear and how well you understand speech, then explains your results.</p>
+        <p><span class="compact-desktop">Your Hearing Instrument Specialist checks which sounds you hear and how well you understand speech, then explains your results.</span><span class="compact-mobile">Your specialist checks your hearing and speech understanding, then explains your results.</span></p>
       </li>
       <li class="step">
         <h3>Understand your options</h3>
-        <p>Discuss whether hearing aids may help and which options fit your needs and budget. Ask about tinnitus-masking features available at Victoria.</p>
+        <p><span class="compact-desktop">Discuss whether hearing aids may help and which options fit your needs and budget. Ask about tinnitus-masking features available at Victoria.</span><span class="compact-mobile">Discuss suitable hearing aids for your needs and budget. Ask which tinnitus-masking options are available.</span></p>
       </li>
       <li class="step">
         <h3>Fitting and follow-up</h3>
-        <p>If you choose hearing aids, they’re fitted and adjusted for you, with follow-up for cleaning, maintenance and ongoing support.</p>
+        <p><span class="compact-desktop">If you choose hearing aids, they’re fitted and adjusted for you, with follow-up for cleaning, maintenance and ongoing support.</span><span class="compact-mobile">If you choose hearing aids, get fitting, adjustments and follow-up support.</span></p>
       </li>
     </ol>
-    <p class="steps-footnote">Plan for up to an hour for the evaluation, plus time to discuss results. Bringing a family member is recommended. Recommendations depend on your hearing results and individual needs.</p>
+    <p class="steps-footnote compact-desktop">Plan for up to an hour for the evaluation, plus time to discuss results. Bringing a family member is recommended. Recommendations depend on your hearing results and individual needs.</p>
+<details class="visit-preparation compact-mobile">
+ <summary>Preparing for your visit</summary>
+ <p>Plan for up to an hour for the evaluation, plus time to discuss results. Bringing a family member is recommended. Recommendations depend on your hearing results and individual needs.</p>
+</details>
     <div class="cta-band">
       <div>
         <h3>Ready to take the first step?</h3>
@@ -1752,6 +1782,13 @@ document.querySelectorAll('[data-copyright-year]').forEach(function(el){el.textC
  document.addEventListener('click',function(e){if(!menu.contains(e.target))menu.open=false;});
  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.open){menu.open=false;menu.querySelector('summary').focus();}});
  window.matchMedia('(min-width:1024px)').addEventListener('change',function(e){if(e.matches)menu.open=false;});
+})();
+</script>
+<script>
+(function(){
+ var mobile=window.matchMedia('(max-width:599px)');
+ function collapseMobileFaqs(){if(!mobile.matches)return;document.querySelectorAll('.faq__q').forEach(function(button){button.setAttribute('aria-expanded','false');var panel=document.getElementById(button.getAttribute('aria-controls'));if(panel)panel.hidden=true;});}
+ collapseMobileFaqs();mobile.addEventListener('change',collapseMobileFaqs);
 })();
 </script>
 </body>
