@@ -649,3 +649,10 @@ Rendering note: the supplied URL downloaded successfully, but the browser proxy 
 ## Step 5 — IMG-CLINIC-01 retired from active layout (2026-11-04)
 
 User approved removing the optional Victoria entrance-photo placeholder as part of the compact contact section. IMG-CLINIC-01 is no longer rendered. Its historical prompt options remain archival and must not reactivate the slot without new approval. The contact section now uses the supplied OAP interactive map; no new AI image or image placeholder is required. Genuine clinic imagery may be considered only if later supplied and approved. Hero and Nick portrait remain unchanged.
+
+
+## Approved team heritage subsection — 2026-11-10
+
+User explicitly requested the reference subsection directly below Nick, supplying desktop/mobile team WebP URLs. Added Three Generations of Personalized Care as a full-width subsection inside #provider after Nick's grid. Consolidated the existing founding/third-generation content into its copy and moved the existing Call409-231-6980/appointment actions into the new block, avoiding duplicated heritage and CTA rows. General company support copy follows supplied reference and existing research; no tinnitus credential/outcome or Victoria assignment for every pictured person is implied. Existing section order retained. Cream panel,1px brown border,16px corners, dark navy body/brown heading; desktop text-left/photo-right; below900px stacked. Responsive picture selects supplied640×457 mobile WebP below600px and1200×857 desktop WebP otherwise; image preserves full group with natural ratio, brown frame and12px corners. Original Nick photo/caption/mobile240px4:5 crop retained. IMG-TEAM-01 is now a supplied authentic company-team asset, not an AI placeholder.
+
+Inspected supplied images and rendered1440/768/390/320px; no horizontal overflow or page errors. Desktop/mobile provider renders inspected. Form, map, phone destination, popup hooks and other sections preserved. Result awaits review; not auto-locked or published.
