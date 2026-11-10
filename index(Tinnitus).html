@@ -1048,6 +1048,23 @@ body.dialog-open{ overflow:hidden; }
  #reviews .review-expand{margin-bottom:4px;}
  #location-victoria-map{height:460px;}
 }
+
+/* Team heritage subsection below Nick's profile */
+#provider .provider-team{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px;margin-top:40px;padding:28px;border:1px solid var(--brown);border-radius:16px;background:var(--cream);color:var(--navy);}
+#provider .provider-team__copy{display:flex;flex-direction:column;align-items:flex-start;min-width:0;}
+#provider .provider-team h3{font-size:1.625rem;line-height:1.3;color:var(--brown);margin:0 0 14px;}
+#provider .provider-team p{font-size:1rem;line-height:1.65;margin:0 0 14px;color:var(--navy);}
+#provider .provider-team .provider-team__caption{color:var(--brown);font-weight:600;}
+#provider .provider-team .actions{margin-top:auto;padding-top:20px;gap:12px;align-items:center;}
+#provider .provider-team__photo{align-self:start;display:block;}
+#provider .provider-team__photo img{display:block;width:100%;height:auto;border:1px solid var(--brown);border-radius:12px;}
+@media(max-width:899px){#provider .provider-team{grid-template-columns:minmax(0,1fr);gap:24px;padding:24px;}}
+@media(max-width:599px){
+ #provider .provider-team{margin-top:28px;padding:20px;gap:20px;}
+ #provider .provider-team h3{font-size:1.4rem;}
+ #provider .provider-team .actions{display:grid;width:100%;gap:12px;padding-top:8px;}
+ #provider .provider-team .actions>*{width:100%;}
+}
 </style>
 
 </head>
@@ -1224,16 +1241,25 @@ body.dialog-open{ overflow:hidden; }
           <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing-aid fitting and help using your devices</li>
         </ul>
         <p class="provider__license">Brown Hearing Centers’ Hearing Instrument Specialists are state licensed.</p>
-        <div class="provider__roots">
-          <h3>Founded in Victoria in 1962</h3>
-          <p>Lee Brown opened the company’s first office in Victoria in 1962. Today, Brown Hearing Centers remains family owned and operated, now in its third generation, with a commitment to one-on-one care and ongoing support.</p>
-        </div>
+      </div>
+    </div>
+
+    <article class="provider-team" aria-labelledby="team-title">
+      <div class="provider-team__copy">
+        <h3 id="team-title">Three Generations of Personalized Care</h3>
+        <p>Brown Hearing Centers began in Victoria in 1962 and remains family owned and operated across three generations. Our team combines hearing-care experience with a commitment to personal attention and lasting patient relationships.</p>
+        <p>From understanding your hearing to choosing and using hearing aids, we’re here to help—with follow-up adjustments, maintenance and cleanings that support you beyond your first visit.</p>
+        <p class="provider-team__caption">The Brown Hearing Centers team.</p>
         <div class="actions">
           <a class="btn btn--call" href="tel:+14092316980"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call 409-231-6980</a>
           <button type="button" class="provider__request" data-open-appointment><span>Request an Appointment</span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></button>
         </div>
       </div>
-    </div>
+      <picture class="provider-team__photo">
+        <source media="(max-width:599px)" srcset="https://files.leadconnectorhq.com/file/6af30c03421749dec79af0a2/hearcare-group-photo-mobile.webp" width="640" height="457">
+        <img src="https://files.leadconnectorhq.com/file/6af30c03421749dec79af0ae/hearcare-group-photo1.webp" width="1200" height="857" alt="The Brown Hearing Centers team together outdoors" loading="lazy" decoding="async">
+      </picture>
+    </article>
   </div>
 </section>
 
