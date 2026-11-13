@@ -17,10 +17,11 @@ Numerical layout values here are practical design guidance within the approved d
 \|---\|---\|---\|  
 \| Brand blue \| \`\#10639d\` \| Primary actions, links, restrained accents \|  
 \| Brand navy \| \`\#051c3b\` \| Headings and important/body text \|  
-\| Warm cream \| \`\#fdf4ed\` \| Warm surfaces and narrative transitions \|  
+\| Warm cream \| \`\#fdf4ed\` \| Warm surfaces and narrative transitions \|
+\| Supporting warm brown \| \`\#784727\` \| Restrained location text and trust-icon accents \|  
 \| Functional white \| \`\#ffffff\` \| Reading surfaces, labels/icons on blue \|
 
-Blue/navy/cream are brief supplied; white is a functional neutral. No additional brand color is needed. Validate muted text, borders, error and focus states before use.
+Blue/navy/cream are brief supplied; white is a functional neutral. Supporting warm brown #784727 was subsequently supplied and approved by the user. Validate muted text, borders, error and focus states before use.
 
 Approved contrast correction: \*\*white text/icon on the blue mobile Call control\*\*. Navy-on-blue is approximately \*\*2.67:1\*\*; white-on-blue approximately \*\*6.38:1\*\*. This records the correction included in the approved integrated proposal.
 
@@ -175,3 +176,152 @@ Avoid repetitive cards, identical layouts, irrelevant imagery, excessive density
 Before later publication: populate verified review elements; confirm Victoria claims/call routing; preserve original embeds/links; inspect responsive map/form behavior; check keyboard/focus, zoom, narrow widths and contrast. None of these implementation checks is claimed complete now.
 
 Internal drafts may contain unmistakable missing-evidence notes; public output must not contain unresolved placeholders or invented substitutes. Consequential Step 5 section/narrative changes require explanation and approval. Builder approval remains separate; do not begin Step 4 automatically.  
+
+
+
+## Step 5 — Approved Hero/header visual implementation
+
+Direction A is implemented for the first section only, pending user review:
+
+- Original supplied header logo on a small navy plaque; white-on-navy readable text fallback if that remote asset fails. This does not redesign or recolor the actual mark. Footer logo is unchanged.
+- Shorter responsive headline, concise support, existing primary/outline CTA hierarchy and tighter trust spacing.
+- One 420px-maximum editorial photograph: 4:5 desktop, 4:3 mobile, center/40% vertical mobile crop and explicit dimensions. Generated scene is illustrative, not actual clinic/patient proof; caption remains visible.
+- Optimized WebP embedded in the HTML: approximately 134 KB, 960×1200, eager/high-priority Hero loading. No asset-hosting dependency was introduced.
+- Header and Hero CSS is scoped; later sections are unchanged. On very narrow screens decorative stars may hide, while readable rating/count and accessible full rating remain present.
+
+S25 user screenshots now support the existing 4.9/5 from 52 Google reviews. Keep Hero and review-section figures synchronized and refresh before publication. No generic redesign or new reusable styling is authorized for later sections by this update.
+
+Local preview check: the original remote logo failed to load; the text fallback was visible and the actual supplied mark remains in the source for working environments. External form submission, live tracking, routing and the exact GHL-hosted rendering require later verification. The result is not locked.
+
+
+## Step 5 — Current visual benchmark and approved photographic Hero
+
+The user supplied desktop screenshots of Brown's homepage and products page as the visual quality benchmark, then approved the brand-reference photographic Hero/header direction. This supersedes the first Hero layout; the provider-led exploration is canceled. No navy typography-only Hero was implemented.
+
+Applicable design cues: continuous navy header; prominent original white logo; broad photography; elegant moderate-weight serif headlines; white/cream reading areas; rectangular blue actions; restrained borders/radii; aligned content and purposeful section transitions. Screenshot observations are reference evidence, not measurements of the original site's computed CSS.
+
+Current implementation is scoped to header/Hero: navy header with 200×72px supplied logo area at desktop and content-driven responsive navigation; full-width family scene; 610px-maximum opaque cream panel with 34–36px desktop padding; Lora 500 headline up to 52px, 36px mobile; primary blue call button with 3px corners; subordinate text appointment action; integrated Google badge; founding/licensing strip beneath. Mobile places panel before the 220–240px photo crop and preserves both conversational subjects.
+
+The generated image is a 1920×800 WebP, 94,436 bytes, embedded for single-file GHL portability. It has explicit dimensions, eager/high-priority loading, a descriptive alt and visible illustrative caption. The source is illustrative rather than patient/facility proof. No later section styling is revised by this update.
+
+At 1024–1199px the desktop navigation uses an additional row to preserve legibility. Header anchoring offset is adjusted for that range. Checks at seven widths show no observed overflow. The external logo remains in the code; local screenshots show the text fallback because that resource failed locally. The original logo is not recolored, regenerated or replaced with a fabricated mark.
+
+This is an implementation awaiting user review. Do not treat these section-specific refinements as approval to redesign later sections or lock the Hero.
+
+
+## Step 5 — Active Hero image source
+
+The user supplied https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp and requested its insertion. IMG-HERO-01 now loads this hosted WebP instead of the embedded family image. The previous 94 KB/1920×800 embedded-asset description is superseded; this supplied asset's file weight and natural dimensions are unverified. The 1920×800 HTML layout hints, full-width desktop treatment, separated mobile image area, eager loading and approved object-position rules are retained. No source-image alteration is made. The host returns 403 to local inspection, so crop/appearance needs GHL-rendered verification. Hero is not locked.
+
+
+## Step 5 — Header alignment and navigation refinement
+
+At the user's explicit request, header presentation is refined with a stable 200px logo zone, centered six-link navigation, consistent spacing, 44px-minimum navigation interaction height, a filled call action and quieter text-style appointment action. Navigation labels: Services, About Us, Your Visit, Reviews, FAQs, Location. At 1024–1199px navigation occupies its own aligned row; below 1024px the compact logo/Book Appointment treatment remains. A ResizeObserver synchronizes anchor offsets to actual sticky-header height, with a resize fallback.
+
+The bottom-right Hero figure caption and its CSS are removed; accessible alt text, exact supplied image URL, Hero layout and existing crop rules are preserved. This supersedes earlier visible-caption requirements. Later section markup/style and contact destinations are unchanged. Rendering of externally hosted image/logo remains limited by local 403 responses; GHL appearance still needs review. No section is locked.
+
+
+## Step 5 — Header logo enlarged by 25%
+
+At the user's explicit request, the header logo's responsive dimensions are increased by 25%: desktop 200×68 → 250×85; intermediate 180×60 → 225×75; tablet 160×52 → 200×65; narrow-screen slot width/height scaled from the prior clamp and 48px height to a 1.25× clamp and 60px height. The logo aspect ratio, source and footer remain unchanged. Header grid reserves the larger width; the mobile appointment button retains a 44px minimum tap height with a compact responsive treatment.
+
+Layout checks at 320, 390, 768, 1024, 1100, 1200, 1280, 1440 and 1920 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. Logo slot geometry was checked by exposing the styled image box because the remote asset remains blocked locally; the actual artwork is not claimed visually verified. No Hero, navigation-label, form or later-section change is made. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — Latest user-supplied Hero image
+
+The user explicitly requested this replacement for IMG-HERO-01:
+https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
+
+Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
+
+
+## Step 5 — User-supplied supporting color #784727
+
+The user explicitly added **#784727** as another supporting color. Implemented as `--brown:#784727`, with restrained use on the Hero location line and founding/licensing-strip icons. Brand blue remains the primary action color and navy remains the header/heading color. Brown provides approximately **7.69:1 on white** and **7.09:1 on warm cream #fdf4ed**. No imagery, layout, copy, phone or integration changes accompany this palette addition. This supersedes the original statement that no further supporting color was needed; it does not lock the Hero or authorize redesigning later sections.
+
+
+## Step 5 — Solid-color trust-bar icons
+
+At the user's explicit request, both trust-strip icons now use solid **#784727** silhouettes instead of outline-only strokes: a filled home and a filled award badge with a white check for internal contrast. Changes are scoped to the two inline SVGs inside `.brand-hero__proof`; shared icon symbols, other icons, wording, layout and integrations are unchanged. This implements the requested filled appearance without changing supporting-color values or making a new clinical claim. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — Larger filled trust-bar icons
+
+At the user's request, the two solid warm-brown trust-strip icons are increased from **21×21px to 32×32px**. This changes only `.brand-hero__proof .icon` dimensions. Their filled SVG artwork, #784727 color, accompanying text and other page styles/content remain unchanged. The sizing rule applies on desktop and mobile; no other icons are enlarged. Hero/header remains awaiting result approval, not locked.
+
+
+## Step 5 — More navigation whitespace
+
+At the user's explicit request, the header navigation gap is increased from **18px to 28px** in the desktop row and from **26px to 32px** in the intermediate-width second row. Labels, logo dimensions, contact controls, Hero and all other content remain unchanged. Layout checks at 1024, 1200, 1280 and 1440 CSS pixels found no header overlap, out-of-viewport controls or JavaScript errors. This spacing refinement does not lock the section.
+
+
+## Step 5 — Section 2 editorial implementation (2026-11-03)
+
+Section 2 uses scoped #help styles: a short left-aligned introduction, a cream evaluation panel beside a quieter white masking-feature explanation with a brown top rule, and compact support and medical-scope notes. Filled brown icon tiles use #784727 with white glyphs. Existing Lora headings, Open Sans body text, blue call action and navy appointment text remain. The two columns stack below 900px, with reduced panel padding and full-width call action on narrow screens. No new photograph or global component change was introduced. Rendered at 1440, 1024, 390 and 320px without horizontal overflow; desktop/mobile screenshots inspected. Hero, header and trust-strip design remain locked. Section 2 awaits result approval.
+
+
+### Section 2 width refinement (2026-11-03)
+
+At the user’s request, removed the section introduction wrapper’s 760px maximum width, the headline’s 680px maximum width, and the supporting introduction’s 720px maximum width. Both now use the full existing content container. Other section styles, copy, and the locked Hero/header are unchanged. Section 2 remains pending result approval.
+
+
+### Section 2 icon and heading alignment (2026-11-03)
+
+At the user’s request, the evaluation and masking-feature icons now sit beside their subsection headings in a flex row. Icons retain their 40px filled brown tiles; heading text wraps naturally beside them on narrow screens. Body text stays below each heading row. No other section changed; result approval remains pending.
+
+
+### Section 2 final copy and hierarchy refinements (2026-11-03)
+
+User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
+
+
+### Approved darker text on colored surfaces (2026-11-03)
+
+User explicitly requested darker grey text on colored backgrounds in the current provider section and earlier sections. Applied brand navy #051c3b to formerly muted text on the cream Hero panel, cream hearing-evaluation panel and cream provider section via scoped secondary-text tokens. This is an authorized color-only exception to the Hero/section2 locks; their layout, typography, copy and order remain locked. White-background secondary text, brown accents, buttons and later sections are unchanged. Provider section still awaits result approval.
+
+
+## Persistent user design rule — no grey text on colored backgrounds (2026-11-03)
+
+Explicit user instruction: “remember this rule okay, no grey text on colored bg.” Apply throughout the landing page and all subsequent section work. Use dark brand navy on light colored surfaces; use white or cream on dark colored surfaces. Preserve approved brown accents where readable. Do not use muted grey for body, supporting or secondary text on colored backgrounds. White surfaces may retain the established secondary-text treatment. This rule guides future work; it does not authorize unrelated changes to locked sections.
+
+
+## Approved footer color and responsive component (2026-11-04)
+
+Footer uses the brand navy #051c3b background with solid white identity, address, phone, legal and link text; cream is reserved for link hover. This follows the persistent no-grey-text-on-colored-backgrounds rule. Original white logo uses its native500:184 ratio at200px desktop/180px mobile. Desktop has three aligned groups; below900px use centered groups and wrapping horizontal links with44px tap targets. White focus outlines remain visible on navy. Copyright is separated by a subtle decorative rule and must remain clear of the existing mobile sticky Call bar. Footer content/link destinations and GHL copyright fields remain intact. This supersedes earlier unchanged-footer notes; result review is pending.
+
+
+## Approved reusable brown box-border rule (2026-11-04)
+
+Use a thin1px border in brand brown #784727 (token --box-border:var(--brown)) to define light content boxes where appropriate: evaluation panel, visit/review cards, expanded FAQ answers, map/address card and appointment dialog. The contained desktop/tablet Hero panel may use the same outline; omit it from the full-width mobile Hero. Preserve blue/white action-button borders, solid navy section treatments and unframed photography. Do not wrap transparent inline rating summaries simply to add a border. This decorative rule is explicitly user-authorized across previously locked sections; copy, order, dimensions and integrations otherwise remain approved as before. No-grey-text-on-colored-backgrounds rule still applies.
+
+
+## Approved responsive audit refinements (2026-11-04)
+
+User approved targeted whole-page polish. Below900px, stack the provider introduction above the centered portrait and caption, then biography; retain the desktop photo-left/introduction-right layout at900px and up. Keep the name beneath the photo and the smaller mobile/tablet caption hierarchy. At600–1023px use a two-by-two visit-card grid with aligned heading rows and connectors only between adjacent cards in each row; below600px retain the vertical sequence, at1024px and up retain four columns. Preserve thin brown borders,12px portrait corners, navy text on cream, white text on navy, and footer logo-left/contact-center/links-right desktop alignment. Trim the duplicate early service CTA to improve scroll rhythm without removing unique clinical/preparation information. Responsive checks passed at320/390/600/768/900/1024/1440px.
+
+
+## Approved screenshot/research audit refinements — 2026-11-05
+
+User approved the tinnitus-page audit. Clarified Hero and Nick's role copy without adding tinnitus credentials or local service claims; retained call-first priority and made Hero/contact appointment requests outlined buttons. Shortened process cards and relocated evaluation timing/family-member preparation into the supporting note. Hearing-evaluation FAQ now appears first and open, preserving IDs/answers and interactive behavior. Navigation now says Hearing Care and Our Specialist. Desktop review excerpts flex to align expansion links; original full reviews remain intact and excerpt ellipses remain explicit. Hero panel corners are12px on contained layouts; mobile stays full-width. Replaced unresolved copyright year merge field with visible2026 fallback updated by JavaScript; location-name merge field preserved.
+
+Latest HTML already removes the duplicate service fitting note/CTA that still appeared in supplied preview screenshots; import latest HTML to reconcile preview. No new office hours, free tinnitus consultation offer, or treatment availability is asserted: these require confirmation. Section order, supplied form and map integrations remain intact. Current result awaits user review; no deployment or live conversion verification.
+
+
+## Mobile Explore This Page menu — 2026-11-05
+
+User requested a navy section-navigation bar matching the hearing-aids-page reference. Below1024px, a44px native details/summary control sits beneath the header identity/actions with a subtle top divider and white label/chevron. Its overlaid navy list links to Hearing Care, Our Specialist, Your Visit, Reviews, FAQs and Location. Links have48px minimum targets; the dropdown scrolls within available viewport space. Native keyboard operation, Escape, outside-click, link-selection and desktop-resize closing are supported. Existing responsive sticky-header height measurement accounts for the new bar. Desktop navigation is unchanged. Render/behavior checks passed at320/390/768/1024/1440px, including anchor clearance and no horizontal overflow. Current result awaits review.
+
+
+## Approved mobile scroll reduction — 2026-11-06
+
+User approved all proposed compact-mobile refinements and requested a narrower Nick portrait. Below600px: section padding36px; portrait240px wide with4:5 top-aligned crop and existing brown frame; founding paragraph condensed while preserving1962/Victoria/third-generation facts; four shorter process descriptions retain conditional device choice and availability qualifications. Timing/family-member/suitability guidance stays in an expandable Preparing for your visit note. Mobile process CTA band hidden; header appointment action, sticky Call and other contact routes retained. Three verified review excerpts/full-review controls retained with tighter cards/gaps. FAQs initially collapsed on mobile with interactive answers preserved. Map320px tall; directions and address retained. Body font remains16px or larger. Desktop content/layout retained via responsive variants.
+
+Measured using supplied images and original font files: at390px page8919→7628px (1291px,14.5% shorter); at320px9701→8310px (1391px,14.3% shorter). Desktop1440px remained5090px. No horizontal overflow or page errors in these renders. Browser cannot verify live map tiles/form submission; no lead submitted. Current result awaits review, no launch/merge.
+
+
+## Approved team heritage subsection — 2026-11-10
+
+User explicitly requested the reference subsection directly below Nick, supplying desktop/mobile team WebP URLs. Added Three Generations of Personalized Care as a full-width subsection inside #provider after Nick's grid. Consolidated the existing founding/third-generation content into its copy and moved the existing Call409-231-6980/appointment actions into the new block, avoiding duplicated heritage and CTA rows. General company support copy follows supplied reference and existing research; no tinnitus credential/outcome or Victoria assignment for every pictured person is implied. Existing section order retained. Cream panel,1px brown border,16px corners, dark navy body/brown heading; desktop text-left/photo-right; below900px stacked. Responsive picture selects supplied640×457 mobile WebP below600px and1200×857 desktop WebP otherwise; image preserves full group with natural ratio, brown frame and12px corners. Original Nick photo/caption/mobile240px4:5 crop retained. IMG-TEAM-01 is now a supplied authentic company-team asset, not an AI placeholder.
+
+Inspected supplied images and rendered1440/768/390/320px; no horizontal overflow or page errors. Desktop/mobile provider renders inspected. Form, map, phone destination, popup hooks and other sections preserved. Result awaits review; not auto-locked or published.

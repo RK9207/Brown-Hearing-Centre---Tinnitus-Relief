@@ -629,3 +629,8 @@ Clearly identify missing information for the subsequent research stage.
 
 ---
 
+
+
+## User-approved map integration replacement (2026-11-04)
+
+The user expressly instructed replacing the Google Maps embed with their supplied OAP Maps snippet (file_000000006a6c82119e3f6f10285bb37b). This overrides the earlier Google iframe/pb-preservation requirement for the location section only. Active dependencies: MapLibre GL4 (unpkg CSS/JS), https://cdn.onspireanalytics.com/latest/maps.min.js, and proxy https://oap-prod-maps-proxy-rakvtqapla-ue.a.run.app. Preserve supplied center[-96.99800994417896,28.847781645088972], zoom13, cooperative gestures, marker, popup, navigation and OapMaps.initTracking. Keep the supplied Google Get Location/Get Directions outgoing links; only the embedded basemap provider changed. Map heights may follow the approved compact responsive design. Existing appointment-form ID1SfnT0UedsfQytp4ZqaI, dialog/embed script, campaign phone409-231-6980, address, legal content and other integrations remain required and unchanged. Runtime map/data/analytics behavior must be confirmed in GHL before launch.

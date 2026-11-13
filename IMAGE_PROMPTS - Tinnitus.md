@@ -575,3 +575,84 @@ None is decorative when filled with real imagery. Heritage and clinic become lar
 | IMG-CLINIC-01 | 7. Location contact panel | Wayfinding: recognize the entrance | **Real clinic/GBP photo** | None preferable; fallback Option 3 — "South Texas afternoon"; never Option 2 | 16:9 | **REAL CLINIC / GBP IMAGE PREFERRED** — none supplied yet | Recommend removing the block if no real photo; daylight shot for contrast on navy; confirm "Heritage Mark" entrance |
 
 **Totals:** 4 placeholders, 12 AI prompts. Real photography is preferred for 3 of 4 placeholders.
+
+
+
+## Step 5 update — IMG-HERO-01 implemented, awaiting review
+
+**Approval:** user approved Direction A with illustrative lifestyle imagery on November 3, 2026. Only IMG-HERO-01 is changed. Other image IDs and recommendations remain pending their own section reviews.
+
+**Actual asset:** generated original `/workspace/generated_images/exec-3f5d5db0-87ca-4443-bdee-93dcd7dea254.png`, retained unchanged. Delivery derivative: 960×1200 WebP, approximately 134 KB, embedded as a data URL in `index(Tinnitus).html` for standalone/GHL portability. No AI figure is attributed to Brown or to a treatment outcome.
+
+**Generated direction:** one composed woman around age 60, denim-blue blouse, seated with tea beside a sunlit window in an ordinary cream/wood home. Warm natural light, restrained saturation and editorial realism. No medical equipment, branded device, signage, clinic, provider identity or cure/result implication.
+
+**Full production prompt:** Generate a photorealistic editorial lifestyle photograph for a warm, trustworthy tinnitus information landing page. One composed adult woman around age 60, natural unretouched skin, wearing a muted denim-blue blouse, seated beside a sunlit window in an ordinary welcoming home. She pauses thoughtfully with a cup of tea resting on the table, calm and attentive, looking gently toward the left of the frame. She is noticing her surroundings, not in pain, no hand pressed to ear, no distressed expression, no claims of a treatment result. Warm cream walls, honey-colored wood, softly blurred green foliage outside. Soft natural window light from camera left, subtle film grain, restrained saturation, realistic documentary photography, 50mm lens feel. Waist-up medium portrait, vertical 4:5 composition. Keep the face, shoulders and hands together in the central 60 percent of image height so it also crops cleanly to a horizontal 4:3 mobile view. Subject slightly right of center. No text, logos, borders, watermarks, signage, medical equipment, hearing aids, clinic, uniforms, or doctors. This is clearly illustrative everyday lifestyle imagery, not an actual Brown Hearing Centers patient, staff member, or premises.
+
+**Actual crop:** portrait 4:5 desktop; 4:3 mobile, object-position 50% 40%. The mobile crop prioritizes face/shoulders; the tea/hands need not remain visible. Caption: “Illustrative image”. Alt: “Illustrative image of a woman seated beside a sunlit window at home.”
+
+The three original creative options remain as alternatives; this record identifies the production image actually implemented. Hero image is implemented, not user-locked. The previous note claiming no separate keyword file exists is superseded: `KEYWORD_RESEARCH - Tinnitus.md` is available and remains AI-derived/unvalidated. S25 screenshots now document the review figures referenced above.
+
+
+## Step 5 — IMG-HERO-01 replaced after website-reference approval
+
+**Current approval:** after rejecting the first split-column result and canceling the provider-led exploration, the user approved a full-width family-conversation photograph aligned with supplied Brown website screenshots. The earlier woman-with-tea asset is superseded for the active Hero; its original file is retained. Provider portrait sourcing is no longer required for this Hero.
+
+**Production asset:** `/workspace/generated_images/exec-20accb34-0294-486f-8c5f-85cabb517b03.png`, original 1942×809, retained unchanged. Delivery derivative: 1920×800 WebP, 94,436 bytes, embedded in `index(Tinnitus).html`. Placeholder ID IMG-HERO-01 is preserved. Other image IDs and later sections are unchanged.
+
+**Production direction:** panoramic 2.4:1 editorial home photograph. Quiet neutral interior on the left provides room for the cream content panel; an older silver-haired woman and a younger adult woman converse on the right. Natural window light, restrained cream/blue clothing, realistic skin texture, relaxed expressions. No ear-touching, whispering into an ear, devices, clinicians, medical setting, logos, signage or outcome implication. These are illustrative people, not Brown patients, staff or facilities.
+
+**Composition:** desktop image fills a 604px stage behind the opaque reading panel; object-position 50% 25% protects faces at wide viewports. Mobile separates photograph from the text and uses a 220–240px-high crop with object-position 90% 48%, preserving the conversation. Both views were inspected.
+
+**Caption:** Illustrative family scene. **Alt:** Illustrative family scene of two women talking together at home.
+
+No image asserts symptom relief or a treatment result. The original Step 4B options remain historical alternatives; this entry identifies the active implemented asset. No new image slot is added. The Hero remains awaiting review, not locked.
+
+
+## Step 5 — IMG-HERO-01: user-supplied production URL (active)
+
+**Explicit user instruction:** insert https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp. This is now the active source in `index(Tinnitus).html`, replacing the embedded family-conversation WebP. Earlier generated assets remain retained as alternatives and are no longer the active source. No new image is generated or modified for this change.
+
+**Role/layout:** retain the approved full-width photographic Hero with opaque cream reading panel on desktop and separate image below content on mobile. Existing 50% 25% desktop / 90% 48% mobile object positions are retained pending review against the supplied asset.
+
+**Evidence limitation:** host returned HTTP 403 to download and web inspection. Subject matter, exact crop, source dimensions and file weight are not claimed verified. The existing 1920×800 attributes reserve the approved layout ratio; they do not establish the source image's actual dimensions. Caption: “Illustrative image”. Neutral alt: “Illustrative lifestyle photograph.” Inspect the real GHL desktop/mobile rendering to refine these if needed. Source insertion is approved; rendered result is not yet locked.
+
+
+## Step 5 — IMG-HERO-01 visible caption removed by request
+
+The user explicitly requested removal of the bottom-right “Illustrative image” label. The figure caption and its styling are removed; neutral descriptive alt text remains. The active source is unchanged: https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp . This supersedes previous instructions requiring a visible caption. Source/illustrative provenance remains documented here; removal does not reclassify the image as an actual patient or clinical result. No image generation, asset modification, crop or image-slot change is made.
+
+
+## Step 5 — Latest user-supplied Hero image
+
+The user explicitly requested this replacement for IMG-HERO-01:
+https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9fd2407cda28d8644f75b.webp
+
+Only the Hero image source URL changes. The 25% larger header logo, straightforward navigation labels, removed visible image caption, image alt text, approved layout/crop rules, copy, actions, form and all later sections are retained. Earlier source URLs are historical alternatives. No image generation or asset alteration is performed. The new asset's actual appearance and crop are not visually verified by this source-only change; rendered Hero approval remains pending and no section is locked.
+
+
+## Step 5 — Provider-focused section implementation (2026-11-03)
+
+User approved a provider-focused layout with “Hearing care with roots in Victoria.” The existing #provider section remains immediately after locked #help. Nick’s introduction is shortened, his verified Hearing Instrument Specialist role is prominent, and two concise service bullets replace the training checklist. Business degrees are no longer repeated in the body; M.B.A. remains in his name. The family-owned practice’s Victoria founding in 1962 and three-generation history are consolidated into an integrated supporting note; the separate archival block is removed. Call remains primary, appointment request secondary. Section 3 is implemented pending user review; it is not locked. Hero/header/trust strip and section 2 remain locked and unchanged.
+
+Imagery: IMG-PROVIDER-01 remains a genuine-person-only slot, 3:4, 300px wide desktop and 220px mobile. The official staff page returned HTTP 403; the full portrait URL could not be retrieved or verified. A clearly marked draft placeholder remains and must be replaced with Nick’s genuine image. IMG-HERITAGE-01 is retired from the active layout; historical prompt options remain archival only. No generated or stock person substitutes for Nick.
+
+Evidence: current desktop/mobile renders inspected before editing, and rebuilt desktop1440/mobile390 renders inspected afterward without horizontal overflow. The new cream section follows the quiet white educational section. Changes are confined to section 3 markup and its style block; approved section order, other sections, contact routes and embeds remain intact. Portrait appearance and crop await the real asset. No publishing or merge.
+
+
+### Nick portrait supplied and inserted (2026-11-03)
+
+User supplied Nick’s genuine 600×800 JPEG at https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg. Replaced IMG-PROVIDER-01 placeholder with the photograph, descriptive alt text, explicit intrinsic dimensions and lazy loading. Preserve native 3:4 ratio with no crop loss at 300px desktop and 220px mobile. The downloaded asset was inspected. Earlier missing-portrait notes are resolved; section 3 still awaits result approval. Locked sections and other content are unchanged.
+
+Rendering note: the supplied URL downloaded successfully, but the browser proxy blocked its image request. Responsive photo inspection therefore uses the exact downloaded JPEG served to the browser by a local request override; published HTML retains the user’s original URL.
+
+
+## Step 5 — IMG-CLINIC-01 retired from active layout (2026-11-04)
+
+User approved removing the optional Victoria entrance-photo placeholder as part of the compact contact section. IMG-CLINIC-01 is no longer rendered. Its historical prompt options remain archival and must not reactivate the slot without new approval. The contact section now uses the supplied OAP interactive map; no new AI image or image placeholder is required. Genuine clinic imagery may be considered only if later supplied and approved. Hero and Nick portrait remain unchanged.
+
+
+## Approved team heritage subsection — 2026-11-10
+
+User explicitly requested the reference subsection directly below Nick, supplying desktop/mobile team WebP URLs. Added Three Generations of Personalized Care as a full-width subsection inside #provider after Nick's grid. Consolidated the existing founding/third-generation content into its copy and moved the existing Call409-231-6980/appointment actions into the new block, avoiding duplicated heritage and CTA rows. General company support copy follows supplied reference and existing research; no tinnitus credential/outcome or Victoria assignment for every pictured person is implied. Existing section order retained. Cream panel,1px brown border,16px corners, dark navy body/brown heading; desktop text-left/photo-right; below900px stacked. Responsive picture selects supplied640×457 mobile WebP below600px and1200×857 desktop WebP otherwise; image preserves full group with natural ratio, brown frame and12px corners. Original Nick photo/caption/mobile240px4:5 crop retained. IMG-TEAM-01 is now a supplied authentic company-team asset, not an AI placeholder.
+
+Inspected supplied images and rendered1440/768/390/320px; no horizontal overflow or page errors. Desktop/mobile provider renders inspected. Form, map, phone destination, popup hooks and other sections preserved. Result awaits review; not auto-locked or published.
