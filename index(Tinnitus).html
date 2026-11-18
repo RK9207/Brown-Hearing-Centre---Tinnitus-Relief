@@ -996,19 +996,7 @@ body.dialog-open{ overflow:hidden; }
 }
 
 
-/* Mobile section navigation */
-.mobile-explore{display:none;}
-@media(max-width:1023px){
- .mobile-explore{display:block;position:relative;margin-inline:var(--gutter);border-top:1px solid rgba(255,255,255,.25);}
- .mobile-explore summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;padding:10px 0;color:#fff;font:700 1rem/1.4 var(--sans);cursor:pointer;list-style:none;}
- .mobile-explore summary::-webkit-details-marker{display:none;}
- .mobile-explore summary .icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;transition:transform .15s;}
- .mobile-explore[open] summary .icon{transform:rotate(180deg);}
- .mobile-explore__menu{position:absolute;top:100%;left:calc(-1 * var(--gutter));right:calc(-1 * var(--gutter));max-height:calc(100dvh - var(--header-h) - 16px);overflow-y:auto;overscroll-behavior:contain;background:var(--navy);box-shadow:0 12px 20px rgba(5,28,59,.2);}
- .mobile-explore__menu a{display:flex;align-items:center;min-height:48px;padding:12px var(--gutter);border-top:1px solid rgba(255,255,255,.18);color:#fff;font-weight:600;text-decoration:none;}
- .mobile-explore__menu a:hover{background:rgba(255,255,255,.1);}
- .mobile-explore :focus-visible{outline:2px solid #fff;outline-offset:-4px;}
-}
+
 
 /* Consistent trailing calendar for appointment actions */
 [data-open-appointment] .icon{width:17px;height:17px;flex-shrink:0;}
@@ -1072,6 +1060,21 @@ body.dialog-open{ overflow:hidden; }
  #provider .provider-team__photo{grid-row:2;}
  #provider .provider-team p{margin-bottom:0;}
 }
+
+/* Single-row mobile hamburger header */
+.header-menu-toggle,.mobile-section-menu{display:none;}
+@media(max-width:1023px){
+ .site-header{position:sticky;}
+ .header-menu-toggle{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;padding:10px;background:transparent;border:1px solid rgba(255,255,255,.45);border-radius:8px;color:#fff;cursor:pointer;}
+ .header-menu-toggle svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;}
+ .header-menu-toggle .menu-close-icon{display:none;}
+ .header-menu-toggle[aria-expanded="true"] .menu-open-icon{display:none;}
+ .header-menu-toggle[aria-expanded="true"] .menu-close-icon{display:block;}
+ .mobile-section-menu:not([hidden]){display:block;position:absolute;top:100%;left:0;right:0;background:var(--navy);max-height:calc(100dvh - var(--header-h) - 16px);overflow-y:auto;overscroll-behavior:contain;box-shadow:0 12px 20px rgba(5,28,59,.2);}
+ .mobile-section-menu a{display:flex;align-items:center;min-height:48px;padding:12px var(--gutter);border-top:1px solid rgba(255,255,255,.2);color:#fff;font-weight:600;text-decoration:none;}
+ .mobile-section-menu a:hover{background:rgba(255,255,255,.1);}
+ .header-menu-toggle:focus-visible,.mobile-section-menu a:focus-visible{outline:2px solid #fff;outline-offset:-4px;}
+}
 </style>
 
 </head>
@@ -1129,20 +1132,20 @@ body.dialog-open{ overflow:hidden; }
         <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
         <span class="header-schedule__text"><span>Call to Schedule</span><strong>409-231-6980</strong></span>
       </a>
-      <button type="button" class="btn btn--call btn--sm header-mobile-only" data-open-appointment><span>Request Appointment</span></button>
+      <button type="button" class="header-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-section-menu">
+        <svg class="menu-open-icon" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="menu-close-icon" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+      </button>
     </div>
   </div>
-  <details class="mobile-explore">
-    <summary>Explore This Page<svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
-    <nav class="mobile-explore__menu" aria-label="Explore this page">
+  <nav class="mobile-section-menu" id="mobile-section-menu" aria-label="Page sections" hidden>
       <a href="#help">Hearing Care</a>
       <a href="#provider">Our Specialist</a>
       <a href="#next-steps">Your Visit</a>
       <a href="#reviews">Reviews</a>
       <a href="#faqs">FAQs</a>
       <a href="#location">Location</a>
-    </nav>
-  </details>
+  </nav>
 </header>
 
 <main id="main">
@@ -1809,12 +1812,15 @@ document.querySelectorAll('[data-copyright-year]').forEach(function(el){el.textC
 </script>
 <script>
 (function(){
- var menu=document.querySelector('.mobile-explore');
- if(!menu)return;
- menu.addEventListener('click',function(e){if(e.target.closest('a'))menu.open=false;});
- document.addEventListener('click',function(e){if(!menu.contains(e.target))menu.open=false;});
- document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.open){menu.open=false;menu.querySelector('summary').focus();}});
- window.matchMedia('(min-width:1024px)').addEventListener('change',function(e){if(e.matches)menu.open=false;});
+ var button=document.querySelector('.header-menu-toggle');
+ var menu=document.getElementById('mobile-section-menu');
+ if(!button||!menu)return;
+ function closeMenu(){menu.hidden=true;button.setAttribute('aria-expanded','false');button.setAttribute('aria-label','Open menu');}
+ button.addEventListener('click',function(){var open=button.getAttribute('aria-expanded')==='true';menu.hidden=open;button.setAttribute('aria-expanded',String(!open));button.setAttribute('aria-label',open?'Open menu':'Close menu');});
+ menu.addEventListener('click',function(e){if(e.target.closest('a'))closeMenu();});
+ document.addEventListener('click',function(e){if(!menu.contains(e.target)&&!button.contains(e.target))closeMenu();});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!menu.hidden){closeMenu();button.focus();}});
+ window.matchMedia('(min-width:1024px)').addEventListener('change',function(e){if(e.matches)closeMenu();});
 })();
 </script>
 <script>
