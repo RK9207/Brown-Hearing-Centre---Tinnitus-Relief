@@ -330,3 +330,10 @@ Inspected supplied images and rendered1440/768/390/320px; no horizontal overflow
 ## Approved mobile hamburger header — 2026-11-18
 
 User requested replacing Explore This Page and the mobile header appointment/consultation action with a hamburger menu. Below1024px the logo and48px hamburger toggle share one row. A navy overlay beneath the header contains the existing six section anchors; button toggles to a close icon with updated accessible name/aria-expanded. Link selection, outside click, Escape with focus return, and desktop breakpoint close the menu. Removed the old Explore control/markup/script/styles and mobile appointment button. Existing desktop Call to Schedule/nav, page CTAs, popup and sticky Call remain. Checked320/390/768/1024/1440px for responsive visibility, anchor clearance, no overflow and keyboard/menu dismissal; inspected closed/open390px screenshots. Result awaits user review.
+
+
+## Authorized code cleanup — 2026-11-18
+
+User authorized cleanup without affecting the landing page. Removed45 unused CSS rules targeting retired hero structures, placeholders, review badges/identity styles, removed mobile appointment button and founding block; removed the superseded320px portrait override and stale HTML/CSS development comments. CSS serialized using browser CSSOM. No content, DOM elements, form iframe, integration URL, script, tracking hook or responsive behavior changed. All script blocks and markup excluding comments/styles compare identically before/after. File105621→94179bytes (10.8% reduction).
+
+Verification: deterministic full-page screenshots at320/390/600/768/1024/1200/1440px matched pixel-for-pixel with scripts paused and equivalent FAQ states, supplied images and original fonts loaded. Separate JS-enabled checks passed appointment opening/Escape, review/FAQ keyboard behavior, deferred map loading/error fallback at six widths and mobile hamburger/menu anchor behavior at five widths. Live map tile transport/form submission/analytics delivery were not tested; no leads submitted. Saved for review, no deployment/merge.
