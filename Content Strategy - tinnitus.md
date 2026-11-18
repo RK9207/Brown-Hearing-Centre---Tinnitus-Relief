@@ -146,3 +146,149 @@ Invite contact with the Victoria office about tinnitus concerns. Pair phone/requ
 Trace factual statements to the brief or research. Verify exact wording before quoting. Keep missing Step 2B research, actual ads, local capabilities, routing, reviews, local imagery and practical service details conspicuously marked until resolved. No public placeholder or invented substitute.
 
 Preserve approved section order and claims boundaries. Step 5 changes require explanation and approval. Builder selection is separate; do not begin implementation automatically.  
+
+
+
+## Step 5 — Approved Hero copy update
+
+The user approved and the first-section implementation now uses:
+
+- **H1:** Tinnitus help in Victoria, Texas
+- **Supporting copy:** Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.
+- **Actions:** Call 409-231-6980; Request an Appointment. Required mobile header label remains Book Appointment, opening the same request dialog.
+- **Proof:** 4.9/5 · 52 Google reviews, supported by S25 user screenshots; compact founding/licensing statements.
+- **Image caption:** Illustrative image.
+
+This supersedes earlier illustrative Hero wording, not the overall service claims boundary. Specific Victoria tinnitus-masking availability remains unconfirmed; the Hero no longer implies it. All later section copy is unchanged. User approval of the rendered result is pending.
+
+S25 now supports the Google rating/count and six selected reviewers; earlier missing-review statements are historical. These are patient-experience reviews, not tinnitus outcome evidence. `KEYWORD_RESEARCH - Tinnitus.md` is now available; actual campaign keywords/ad copy remain [NOT PROVIDED].
+
+
+## Step 5 — Current Hero presentation after website references
+
+The user rejected the original split-column result, canceled the provider-led direction and approved a photographic Hero aligned to supplied Brown website screenshots. Earlier visual notes are superseded by this entry.
+
+H1 remains **Tinnitus help in Victoria, Texas**. Supporting copy remains **Ringing or buzzing in your ears? Talk with our Victoria office about your concerns. A hearing evaluation can help you understand your hearing and discuss possible next steps.**
+
+Maintain dominant **Call 409-231-6980**, quieter **Request an Appointment** and required mobile header **Book Appointment**, all using the existing destinations. Hero review evidence remains **4.9/5 · 52 Google reviews** (S25). The separate supporting strip preserves founding-in-Victoria/1962, family ownership across three generations and company-level state licensing.
+
+The family photograph is illustrative, not evidence of clinical improvement, actual patients or clinic identity. Its caption is **Illustrative family scene**. No claim, offer, price, medical service, outcome or provider credential is added from the visual references. Later sections are unchanged. Result approval and locking remain pending.
+
+
+## Step 5 — Supplied Hero asset update
+
+At the user's explicit request, IMG-HERO-01 now uses https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae9e96634f57914735a517e.webp. Caption: “Illustrative image”; alt: “Illustrative lifestyle photograph.” The image could not be inspected because its host returned 403; no particular person, action or clinical result is asserted. Approved H1, supporting copy, CTA wording and all later copy are unchanged. Hero result approval remains pending.
+
+
+## Step 5 — Header wording and visible caption update
+
+User-requested navigation labels are implemented as Services, About Us, Your Visit, Reviews, FAQs and Location, pointing to the existing relevant sections. The visible “Illustrative image” caption is removed at the user's explicit request. Neutral image alt text and source provenance remain; no actual patient identity or treatment result is implied. H1, supporting copy, phone, booking/request labels and all later copy remain unchanged. Earlier visible-caption instructions are superseded.
+
+
+## Step 5 — Hero review badge count wording
+
+At the user's explicit request, the Hero badge now reads **4.9/5 · 50+ Google reviews** instead of 52. Its accessible label says “Rated 4.9 out of 5 on Google from more than 50 reviews. Read patient reviews.” S25's screenshot-backed 52-review count supports this rounded wording; the evidence record and detailed review-section count remain unchanged. No new live review check is claimed. Only the Hero badge wording changes; rating, review content, links, layout and other sections are preserved.
+
+
+## Step 5 — Current section 2 content (2026-11-03)
+
+User-approved headline: “How hearing care may help with tinnitus.” The rebuilt section explains tinnitus briefly, gives hearing evaluation the strongest emphasis, and describes masking features as a potential option with individual suitability and variable results. Visitors are asked to confirm options with Victoria; local availability is not claimed. Fitting, adjustments and follow-up are conditional on choosing hearing aids. A compact medical-scope note distinguishes a hearing evaluation from medical diagnosis. Call is primary; the secondary action requests an appointment. Repeated comparison labels, symptom pills and the long causes list were removed from this section only. No FAQ, Hero, contact route, claim or section order was changed. Section 2 awaits result approval.
+
+
+### Section 2 final copy and hierarchy refinements (2026-11-03)
+
+User authorized the recommended refinements. The evaluation benefit now explicitly links hearing loss and tinnitus without asserting causation or an outcome. Masking-feature education is condensed to one paragraph, retaining variable results, individual suitability and the request to confirm Victoria availability. The support heading is now “Fitting and follow-up.” The medical-scope note retains its wording and semantics, but uses an inline heading and body without the accent border to reduce visual competition. Existing headline/intro width freedom, inline icon headings, call-first actions and locked Hero/header are preserved. Section 2 remains pending result approval.
+
+
+## Step 5 — Provider-focused section implementation (2026-11-03)
+
+User approved a provider-focused layout with “Hearing care with roots in Victoria.” The existing #provider section remains immediately after locked #help. Nick’s introduction is shortened, his verified Hearing Instrument Specialist role is prominent, and two concise service bullets replace the training checklist. Business degrees are no longer repeated in the body; M.B.A. remains in his name. The family-owned practice’s Victoria founding in 1962 and three-generation history are consolidated into an integrated supporting note; the separate archival block is removed. Call remains primary, appointment request secondary. Section 3 is implemented pending user review; it is not locked. Hero/header/trust strip and section 2 remain locked and unchanged.
+
+Imagery: IMG-PROVIDER-01 remains a genuine-person-only slot, 3:4, 300px wide desktop and 220px mobile. The official staff page returned HTTP 403; the full portrait URL could not be retrieved or verified. A clearly marked draft placeholder remains and must be replaced with Nick’s genuine image. IMG-HERITAGE-01 is retired from the active layout; historical prompt options remain archival only. No generated or stock person substitutes for Nick.
+
+Evidence: current desktop/mobile renders inspected before editing, and rebuilt desktop1440/mobile390 renders inspected afterward without horizontal overflow. The new cream section follows the quiet white educational section. Changes are confined to section 3 markup and its style block; approved section order, other sections, contact routes and embeds remain intact. Portrait appearance and crop await the real asset. No publishing or merge.
+
+
+### Section 3 approved polish implemented (2026-11-03)
+
+User authorized the recommended final refinements. Nick’s name and role now precede his photo in the mobile reading order, followed by the shorter bio. Desktop retains the portrait on the left and identity/bio on the right; a single identity block avoids duplicate content. The heritage heading is now “Founded in Victoria in 1962,” with the third-generation detail retained in the paragraph. Service checks are filled brown circles with white ticks, scoped to this section. The supplied portrait URL, native ratio, CTA hierarchy and all locked work are preserved. Section 3 remains pending result approval.
+
+Verification: checked desktop1440/tablet1024/mobile390 and320 layouts, including name/photo/bio order, absence of horizontal overflow, and appointment-dialog open/Escape dismissal. Desktop/mobile screenshots were inspected using the exact downloaded supplied image locally; the HTML retains its remote URL. No publishing or merge.
+
+
+## Step 5 — Visit process refinement implemented, pending review (2026-11-03)
+
+User approved the refined timeline and headline “What to expect when you visit.” Retained the existing horizontal desktop timeline and vertical mobile timeline, white background, four-step sequence and #next-steps anchor. Shortened headings/copy and preserved evaluation duration, time for results/questions and recommendation to bring a family member. Results/options wording now invites visitors to ask about available Victoria options, including any masking features, rather than implying confirmed local availability. Retained conditional fitting/follow-up and individual-needs qualification. The cream CTA band has navy text, primary Call and secondary appointment-request text link. No image needed. Section4 is implemented pending explicit result approval; it is not locked.
+
+Changes are confined to section4 markup and its scoped styles. Locked Hero, hearing-care section and provider section remain unchanged; section order, embeds and phone routes preserved. Checked1440/1024/390/320px for overflow and dialog open/Escape dismissal; desktop1440 and mobile390 renders inspected. No publishing or merge. Persistent rule: no grey text on colored backgrounds.
+
+
+### Section 4 approved connected-panel visual refinement (2026-11-03)
+
+User explicitly approved the connected-panel direction. Four cream panels now form a connected horizontal sequence on desktop and a vertical sequence below1024px. Brown #784727 badges use leading-zero step numbers; desktop panels stretch to equal height with consistent heading space. All panel text is dark navy. The closing CTA band is navy with white text, a prominent white Call button and an underlined white appointment request. Preserved the current headline, support copy, all four step descriptions, preparation details, individual-needs note, contact routes and dialog trigger. No image or section-order change. Existing locked sections are untouched.
+
+Validation: rendered1440/1024/390/320px with no horizontal overflow and successful appointment-dialog open/Escape close; inspected desktop1440 and mobile390 screenshots. Section4 remains pending user result approval and is not locked. No publishing or merge.
+
+
+## Step 5 — Compact Google reviews implemented, pending result review (2026-11-04)
+
+User confirmed the desktop screenshot was zoomed out and authorized the recommended direction. Reviews #reviews retains its approved position after locked visit process. Headline is “What Victoria patients are saying.” A compact rating summary displays4.9/5 and50+ Google reviews; verified source S25 remains4.9 from52 on the supplied screenshots, with no new live-count claim. Six selected review cards remain desktop, first three mobile. Stars now precede each quote; original reviewer names and five-star ratings are preserved. Each quote is a shorter contiguous verbatim excerpt from the existing verified copy, with visible ellipses marking omissions. No rewritten quotes, invented outcomes or tinnitus-specific testimonial claims. Brown avatar initials, cream background, white cards and navy secondary text follow the established palette/no-grey rule. Primary action is See All Our Google Reviews; existing Google destination and secondary Call route are unchanged.
+
+Selection/order: Mike Keigley (time/questions), Clay (explanations/device use), James Frenzel (questions/device use), Sylvia Espinoza (patience), Pam Herrmann (kindness/knowledge), Ron Martin (professional/friendly care). All six excerpt strings were checked against their existing source text before insertion. Exact source count52 is retained in evidence documentation;50+ is a display choice consistent with Hero.
+
+Validation: rendered1440/1024/390/320px without horizontal overflow; inspected desktop1440/mobile390 screenshots. Shared Hero badge/star styles and all markup outside #reviews remain unchanged; new styles are scoped to #reviews. Original source screenshots and current desktop/mobile renders were inspected before editing. No new image or section-order change. Section5 is implemented pending explicit result approval; it is not locked. No publishing or merge.
+
+
+## Step 5 — Approved reference-based review layout implemented (2026-11-04)
+
+User supplied a preferred review-section screenshot and explicitly approved adapting it. Reviews #reviews now has a centered headline and inline Google mark/4.9/stars/50+ summary, followed by three larger white cards with thin brown borders. Featured order is Pam Herrmann, James Frenzel and Mike Keigley on both desktop and mobile. This approved reduction from six displayed reviews preserves all other reviews in source research/history; no evidence is deleted. Avatars are removed. Each card shows its verified5/5 rating, short verbatim excerpt, reviewer name and Google attribution. Native details/summary controls expand the full verified original text in place and offer Show excerpt to collapse. Ellipses indicate omitted excerpt text. Full originals were recovered from the pre-excerpt implementation commit52a212839828dc1db5160c37f37a32a2874f7bc1 and each excerpt was checked as a contiguous substring. No invented quotes, modified ratings or tinnitus-outcome claims.
+
+The all-Google-reviews link is centered beneath the cards and retains the supplied destination. A brown divider precedes centered Call-primary/appointment-request-secondary actions. All cream-background text is navy/brown; stars stay gold. Source S25 remains4.9/52 from supplied screenshots;50+ is presentation wording. Shared Hero/star definitions and all other sections/scripts are unchanged. Locked sequence/order is intact.
+
+Validation: inspected rebuilt1440px desktop and390px mobile screenshots; rendered1440/1024/390/320px without horizontal overflow. At each width verified three visible cards, keyboard Enter expansion/collapse of all three full reviews, visibility switching of excerpt/full text, and appointment-dialog opening/Escape dismissal. Local document-content rendering, no live form submission. Section5 remains pending explicit result approval, not locked. No merge or production publication.
+
+
+## Step 5 — Approved five-question FAQ rebuild implemented (2026-11-04)
+
+User explicitly approved the five-question direction and “Questions before your visit” headline. Existing #faqs remains after locked reviews and before location/contact. Retained the two-column desktop introduction/accordion and stacked mobile layout. Removed the duplicated tinnitus definition and provider introduction, whose useful information remains in locked sections. Five topics now cover hearing aids without hearing loss, what hearing evaluation reveals, temporary tinnitus, bringing a family member, and the distinction from medical diagnosis. Short answers retain individual suitability/results variation, Victoria availability qualification and medical scope. No new treatment/availability, pricing, insurance or referral claim was introduced. Sources remain S3/S10/S11 in research.
+
+Controls are filled brown circles with white plus/minus glyphs; first question is open by default. Expanded answers use cream panels with dark navy text. Existing FAQ button/aria-controls/region behavior and shared event handler are preserved. Desktop intro stays sticky; no photograph or large CTA band added. Call route unchanged. No locked section, embed or approved order was changed.
+
+Validation: inspected current desktop/mobile renders before editing and rebuilt1440/390px renders afterward. Rendered1440/1024/390/320px without horizontal overflow. At each width checked all five controls for valid aria relationships, Enter opening, Space closing, matching aria-expanded/hidden state, visible plus/minus switching and dark navy answer text on cream. Section6 is implemented pending explicit result approval, not locked. No publishing or merge.
+
+
+## Step 5 — Compact contact and user-supplied OAP Maps implementation (2026-11-04)
+
+User explicitly approved the compact contact direction, removal of the clinic-photo placeholder, and replacement of the Google Maps embed with pasted OAP Maps code (sediment file_000000006a6c82119e3f6f10285bb37b). Section7 #location retains its approved position after locked FAQs. Headline is “Contact our Victoria office.” Shortened copy, retained verified Victoria address and campaign409-231-6980 route, and made a white Call button primary with an underlined white appointment request secondary. All navy-panel text is solid white. Removed IMG-CLINIC-01; no replacement photo or invented premises. Contact and map stay side-by-side on desktop and stack contact/actions before map on mobile.
+
+The supplied MapLibre4 CSS/JS and OAP SDK replace only the Google embed. Preserved proxy https://oap-prod-maps-proxy-rakvtqapla-ue.a.run.app, center[-96.99800994417896,28.847781645088972], zoom13, cooperative gestures, navigation control, red marker, popup, OapMaps.initTracking(map), and supplied Get Location/Get Directions destinations. Map heights adapted to420px desktop/380px mobile for the approved compact layout. Directions stays inside the supplied map UI; removed the duplicate external directions button. Added a resize observer, one-time guard retained from source, and graceful missing-library/map-error status so location/directions links remain useful if map assets fail.
+
+User’s request expressly supersedes earlier instructions to preserve the Google pb embed unchanged. The Onspire appointment form/dialog, form ID, embed script and all locked sections, other scripts and footer are unchanged. Section order unchanged. Section7 is implemented pending explicit result approval; not locked. Footer remains to review.
+
+Verification: inline scripts pass node syntax checks. Existing appointment dialog/form HTML is byte-for-byte preserved; map dependencies each appear once, Google map iframe is removed, and supplied coordinates/tracking call are retained. Desktop1440/mobile390 contact renders inspected;1440/1024/390/320px checks passed for no overflow, white contact text, map/directions links and appointment-dialog opening/Escape dismissal. The supplied CSS/JS downloaded successfully and the OAP style endpoint returned HTTP200. The browser execution environment blocks external script/data transport; injecting exact downloaded SDKs produced a canvas and marker, but live tiles/load/zoom analytics could not be verified here. Graceful fallback was checked. Actual OAP map appearance and tracking consumption need confirmation in the GHL preview; no production form submission or analytics claim is made. No merge/publication.
+
+
+## Approved whole-page content polish (2026-11-04)
+
+User approved the audit refinements. Remove the duplicate standalone fitting/follow-up note and Call/request row at the end of #help; preserve the evaluation and masking explanation, scope qualifications, and availability question. Fitting/follow-up information remains in the provider and visit sections. Change the compact header action from “Book Appointment” to “Request Appointment” to match the actual request flow. Call remains the approved primary action. No new service claim is added: Victoria-specific tinnitus-masking options still need confirmation. Reviews, FAQ answers and required appointment dialog/embed text remain unchanged.
+
+
+## Approved screenshot/research audit refinements — 2026-11-05
+
+User approved the tinnitus-page audit. Clarified Hero and Nick's role copy without adding tinnitus credentials or local service claims; retained call-first priority and made Hero/contact appointment requests outlined buttons. Shortened process cards and relocated evaluation timing/family-member preparation into the supporting note. Hearing-evaluation FAQ now appears first and open, preserving IDs/answers and interactive behavior. Navigation now says Hearing Care and Our Specialist. Desktop review excerpts flex to align expansion links; original full reviews remain intact and excerpt ellipses remain explicit. Hero panel corners are12px on contained layouts; mobile stays full-width. Replaced unresolved copyright year merge field with visible2026 fallback updated by JavaScript; location-name merge field preserved.
+
+Latest HTML already removes the duplicate service fitting note/CTA that still appeared in supplied preview screenshots; import latest HTML to reconcile preview. No new office hours, free tinnitus consultation offer, or treatment availability is asserted: these require confirmation. Section order, supplied form and map integrations remain intact. Current result awaits user review; no deployment or live conversion verification.
+
+
+## Approved mobile scroll reduction — 2026-11-06
+
+User approved all proposed compact-mobile refinements and requested a narrower Nick portrait. Below600px: section padding36px; portrait240px wide with4:5 top-aligned crop and existing brown frame; founding paragraph condensed while preserving1962/Victoria/third-generation facts; four shorter process descriptions retain conditional device choice and availability qualifications. Timing/family-member/suitability guidance stays in an expandable Preparing for your visit note. Mobile process CTA band hidden; header appointment action, sticky Call and other contact routes retained. Three verified review excerpts/full-review controls retained with tighter cards/gaps. FAQs initially collapsed on mobile with interactive answers preserved. Map320px tall; directions and address retained. Body font remains16px or larger. Desktop content/layout retained via responsive variants.
+
+Measured using supplied images and original font files: at390px page8919→7628px (1291px,14.5% shorter); at320px9701→8310px (1391px,14.3% shorter). Desktop1440px remained5090px. No horizontal overflow or page errors in these renders. Browser cannot verify live map tiles/form submission; no lead submitted. Current result awaits review, no launch/merge.
+
+
+## Approved team heritage subsection — 2026-11-10
+
+User explicitly requested the reference subsection directly below Nick, supplying desktop/mobile team WebP URLs. Added Three Generations of Personalized Care as a full-width subsection inside #provider after Nick's grid. Consolidated the existing founding/third-generation content into its copy and moved the existing Call409-231-6980/appointment actions into the new block, avoiding duplicated heritage and CTA rows. General company support copy follows supplied reference and existing research; no tinnitus credential/outcome or Victoria assignment for every pictured person is implied. Existing section order retained. Cream panel,1px brown border,16px corners, dark navy body/brown heading; desktop text-left/photo-right; below900px stacked. Responsive picture selects supplied640×457 mobile WebP below600px and1200×857 desktop WebP otherwise; image preserves full group with natural ratio, brown frame and12px corners. Original Nick photo/caption/mobile240px4:5 crop retained. IMG-TEAM-01 is now a supplied authentic company-team asset, not an AI placeholder.
+
+Inspected supplied images and rendered1440/768/390/320px; no horizontal overflow or page errors. Desktop/mobile provider renders inspected. Form, map, phone destination, popup hooks and other sections preserved. Result awaits review; not auto-locked or published.
