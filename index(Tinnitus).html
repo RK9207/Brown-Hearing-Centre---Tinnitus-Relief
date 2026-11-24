@@ -648,6 +648,24 @@ body.dialog-open { overflow: hidden; }
   .mobile-section-menu a:hover { background: rgba(255, 255, 255, 0.1); }
   .header-menu-toggle:focus-visible, .mobile-section-menu a:focus-visible { outline: rgb(255, 255, 255) solid 2px; outline-offset: -4px; }
 }
+
+/* Provider profile balance and benefit hierarchy */
+#provider .provider__services{gap:18px;margin:20px 0;}
+#provider .provider__services .icon{width:28px;height:28px;margin-top:0;}
+#provider .provider__services strong{display:block;color:var(--navy);font-size:1.0625rem;font-weight:600;line-height:1.45;}
+#provider .provider__services p{margin:4px 0 0;font-size:1rem;line-height:1.6;color:var(--navy);}
+#provider .provider__license{padding-top:16px;border-top:1px solid rgba(120,71,39,.25);}
+#provider .provider__reviews{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:8px;font-size:1rem;font-weight:600;}
+@media(min-width:900px){
+ #provider .provider__grid{grid-template-columns:260px minmax(0,1fr);column-gap:48px;row-gap:20px;}
+ #provider .provider__photo img{aspect-ratio:4 / 5;object-position:center top;}
+ #provider .provider__identity h3{font-size:1.375rem;}
+ #provider .provider__identity .provider__role{font-size:.9375rem;}
+}
+@media(max-width:599px){
+ #provider .provider__services{gap:16px;margin:18px 0;}
+ #provider .provider__services strong{font-size:1rem;}
+}
 </style>
 
 </head>
@@ -794,7 +812,7 @@ body.dialog-open { overflow: hidden; }
     <div class="provider__grid">
       <div class="section-head">
         <h2 id="provider-title">Hearing care with <span class="provider__title-location">roots in Victoria</span></h2>
-        <p>Get to know your local specialist and the family-owned practice behind your care.</p>
+        <p>Personal guidance from your Victoria Hearing Instrument Specialist.</p>
       </div>
       <figure class="provider__photo">
         <img src="https://assets.cdn.filesafe.space/tiHIbXXZFe4aivLfJzFf/media/6ae4c4ac64f4028be3c5ea46.jpeg" alt="Nick Yendrey, Hearing Instrument Specialist at the Victoria office" width="600" height="800" loading="lazy" decoding="async">
@@ -804,12 +822,13 @@ body.dialog-open { overflow: hidden; }
         </figcaption>
       </figure>
       <div class="provider__bio">
-        <p>Nick helps you understand your hearing test results and explore hearing-aid options suited to your needs. If you choose hearing aids, he provides fitting and guidance on using your devices.</p>
+        <p>Nick takes time to explain your hearing results, answer questions and help you weigh your hearing-aid options.</p>
         <ul class="provider__services">
-          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing tests and guidance on whether hearing aids may help</li>
-          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Hearing-aid fitting and help using your devices</li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Understand your hearing</strong><p>Review your results and discuss whether hearing aids may help.</p></div></li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12 3 3 7-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Feel prepared to use your hearing aids</strong><p>Get practical help with fitting, using and caring for your devices.</p></div></li>
         </ul>
         <p class="provider__license">Brown Hearing Centers’ Hearing Instrument Specialists are state licensed.</p>
+        <a class="provider__reviews" href="#reviews">Read Victoria patient reviews <span aria-hidden="true">→</span></a>
       </div>
     </div>
 
