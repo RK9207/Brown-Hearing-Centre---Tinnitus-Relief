@@ -1,5 +1,7 @@
 # RESEARCH.md — WEBSITE RESEARCH & CONTENT EXTRACTION
 
+> **Step 5 evidence update — November 3, 2026:** Source S25 below records nine Google reviews and the Victoria listing's 4.9/5 rating from 52 reviews, verified against six screenshots supplied by the user in this conversation. Earlier Google-evidence `[MISSING]` entries describe the original research pass and are superseded by S25. This does not establish tinnitus outcomes, local treatment capabilities, or live current figures after the screenshot was taken.
+
 **Project:** Brown Hearing Centers — Tinnitus Relief Landing Page
 **Target location:** Victoria, Texas
 **Workflow stage:** Step 2A (research and factual extraction only)
@@ -633,3 +635,29 @@ Ordered by priority.
 - **Footer copyright:** `© current year {{location.name}} | All rights reserved.` (GHL merge field).
 - **Privacy Policy:** https://brownhearingcenters.com/privacy-policy/
 - **Google Reviews CTA:** "See All Our Google Reviews" → brief URL (place reference matches map embed).
+
+## 11. SOURCE S25 — USER-SUPPLIED GOOGLE REVIEWS SCREENSHOTS
+
+**Source type:** Six screenshots supplied by the user in this conversation on November 3, 2026. The capture date itself is not established. No independent live Google check is claimed.
+
+**Listing shown:** Brown Hearing Centers, 5606 N Navarro St #200, Victoria, TX 77904, United States. This matches the project location. All screenshots show **4.9 out of 5, from 52 reviews**.
+
+Screenshot numbers follow their order in the user's message. Reviewer names and individual stars below were read from the images; review wording must remain faithful when quoted or excerpted.
+
+| Reviewer | Stars shown | Screenshot(s) | Draft relationship |
+|---|---|---|---|
+| Vulcanlogix Wilson | 5 | 1, 3 | Not in the current six-review selection; mentions lower-cost aids, not an approved pricing claim |
+| Clay | 5 | 1 | Current selection; discusses Nick's testing, explanations and assistance |
+| Unity Godden | 5 | 2 | Not selected; calls Nick an audiologist, while the owner response calls him a Hearing Instrument Specialist. Do not adopt the incorrect provider title |
+| Ron Martin | 5 | 3 | Current selection; professional, friendly care. Preserve source spelling when quoting |
+| Mike Keigley | 5 | 4 | Current selection; comfort, time spent, questions answered |
+| Pam Herrmann | 5 | 4 | Current selection; first-time hearing-aid assistance |
+| James Frenzel | 5 | 5, 6 | Current selection; questions answered and help using devices |
+| Jeannine Atzenhoffer | 4 | 5 | Not selected; do not recast as a five-star review |
+| Sylvia Espinoza | 5 | 6 | Current selection as an excerpt; retain visible ellipses and do not turn appointment timing or hearing outcomes into clinic promises |
+
+The current draft's six selected reviewers are evidenced in this set. Exact transcription/excerpt fidelity remains a review-section implementation check; this source entry does not claim every character in the HTML was verified.
+
+**Allowed proof role:** patient experience with the Victoria office, including communication, patience and help with hearing devices. These screenshots do not establish tinnitus-specific results, a typical clinical outcome, universal provider availability, service prices or appointment turnaround.
+
+**Use:** 4.9/5 from 52 Google reviews can support the hero badge and review summary as screenshot-supported figures. Keep both displays synchronized and recheck figures before publication. Do not display screenshot-relative dates as durable calendar facts.
